@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<centers xmlns="http://www.hlbexpress.com/namespaces/HLB-dispatching-centers"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.hlbexpress.com/namespaces/HLB-dispatching-centers ../HLB-DC.xsd ">
+	<center name="Aéroport-Liège">
+		<employees>
+			<employee birthdate="1912-06-29" firstname="Royce" lastname="van Cruchten"
+				idemployee="r.van cruchten" phone="2053763828">
+				<homeaddress box="B" city="Battice" country="Belgium"
+					zip="4651" number="34" street="Rue du Paillle en queue" />
+				<role>préposé</role>
+				<unavailabilities>
+					<unavailability from="2014-07-18T17:48:27" to="2014-09-23T11:21:54"
+						reason="autres" />
+				</unavailabilities>
+			</employee>
+			<employee birthdate="1911-01-16" firstname="Clovis"
+				lastname="Charron" idemployee="c.charron" phone="1888690874">
+				<homeaddress box="E" city="Lincent" country="Belgium"
+					zip="4287" number="92" street="Rue Clement Marot" />
+				<role>coursier</role>
+				<unavailabilities>
+					<unavailability from="2014-02-18T16:48:14" to="2014-02-18T17:27:08"
+						reason="panne" />
+				</unavailabilities>
+			</employee>
+			<employee birthdate="1915-08-21" firstname="Yasar" lastname="Dodier"
+				idemployee="y.dodier" phone="559956177">
+				<homeaddress box="" city="Mouscon" country="Belgium"
+					zip="7700" number="107" street="Rue de la Boétie" />
+				<role>coursier</role>
+				<unavailabilities>
+					<unavailability from="2014-02-24T06:20:12" to="2014-10-21T04:46:07"
+						reason="autres" />
+				</unavailabilities>
+			</employee>
+			<employee birthdate="1977-01-31" firstname="Thomas"
+				lastname="de Ree" idemployee="t.de ree" phone="319875849">
+				<homeaddress box="C" city="Bree" country="Belgium" zip="3960"
+					number="71" street="Schoolstraat" />
+				<role>coursier</role>
+				<unavailabilities>
+					<unavailability from="2015-01-15T13:02:19" to="2015-09-20T04:31:28"
+						reason="congé" />
+				</unavailabilities>
+			</employee>
+			<employee birthdate="1951-12-13" firstname="Patience"
+				lastname="Audibert" idemployee="p.audibert" phone="678003484">
+				<homeaddress box="E" city="Kermt" country="Belgium" zip="3510"
+					number="5" street="Houdringe" />
+				<role>coursier</role>
+			</employee>
+			<employee birthdate="1992-08-29" firstname="Elle" lastname="Roy"
+				idemployee="e.roy" phone="50363208">
+				<homeaddress box="" city="Auvelais" country="Belgium"
+					zip="5070" number="52" street="Rue Pierre De Coubertin" />
+				<role>coursier</role>
+				<unavailabilities>
+					<unavailability from="2014-02-20T08:44:12" to="2014-02-22T09:01:24"
+						reason="assigné" assignedcenter="Aéroport-Liège" />
+				</unavailabilities>
+			</employee>
+			<employee birthdate="1944-08-24" firstname="Hugh" lastname="Pouchard"
+				idemployee="h.pouchard" phone="1858049901">
+				<homeaddress box="E" city="Weillen" country="Belgium"
+					zip="5523" number="116" street="Rue La Boétie" />
+				<role>coursier</role>
+				<unavailabilities>
+					<unavailability from="2014-02-22T18:38:54" to="2014-02-23T20:44:53"
+						reason="assigné" assignedcenter="Aéroport-Liège" />
+					<unavailability from="2014-12-28T16:04:37" to="2015-08-16T21:33:54"
+						reason="congé" />
+					<unavailability from="2014-02-18T11:32:04" to="2014-02-18T13:31:32"
+						reason="panne" />
+				</unavailabilities>
+			</employee>
+			<employee birthdate="1929-02-24" firstname="Nouria"
+				lastname="Guertin" idemployee="n.guertin" phone="1520928957">
+				<homeaddress box="" city="Binche" country="Belgium" zip="7130"
+					number="147" street="Boulevard Amiral Courbet" />
+				<role>coursier</role>
+				<unavailabilities>
+					<unavailability from="2014-02-18T08:42:36" to="2014-02-18T10:33:51"
+						reason="panne" />
+				</unavailabilities>
+			</employee>
+			<employee birthdate="1905-10-09" firstname="Chanel"
+				lastname="Deschênes" idemployee="c.deschenes" phone="1274142032">
+				<homeaddress box="" city="Vlissegem" country="Belgium"
+					zip="8421" number="141" street="DeHeining" />
+				<role>coursier</role>
+				<unavailabilities>
+					<unavailability from="2014-02-23T12:53:58" to="2014-02-25T13:00:49"
+						reason="assigné" assignedcenter="Aéroport-Liège" />
+					<unavailability from="2014-02-18T14:11:34" to="2014-02-18T17:16:56"
+						reason="panne" />
+				</unavailabilities>
+			</employee>
+			<employee birthdate="1942-02-23" firstname="Niklas"
+				lastname="van Meegen" idemployee="n.van meegen" phone="1228599449">
+				<homeaddress box="" city="Pottes" country="Belgium" zip="7760"
+					number="146" street="Boulevard Amiral Courbet" />
+				<role>coursier</role>
+				<unavailabilities>
+					<unavailability from="2014-07-10T14:00:04" to="2014-12-10T07:20:20"
+						reason="autres" />
+					<unavailability from="2014-02-18T08:51:07" to="2014-02-18T10:57:20"
+						reason="panne" />
+					<unavailability from="2014-06-12T11:42:30" to="2014-10-17T08:57:26"
+						reason="autres" />
+				</unavailabilities>
+			</employee>
+			<employee birthdate="1970-02-11" firstname="Soren" lastname="de Feijter"
+				idemployee="s.de feijter" phone="57471881">
+				<homeaddress box="" city="Leuven" country="Belgium" zip="3000"
+					number="179" street="Koninginnegracht" />
+				<role>coursier</role>
+				<unavailabilities>
+					<unavailability from="2014-02-18T11:33:55" to="2014-02-18T11:34:06"
+						reason="ciruclation" />
+				</unavailabilities>
+			</employee>
+			<employee birthdate="1925-09-01" firstname="Matthias"
+				lastname="Deschênes" idemployee="m.deschenes" phone="1981615622">
+				<homeaddress box="" city="Brielen" country="Belgium"
+					zip="8900" number="248" street="Plein" />
+				<role>coursier</role>
+				<unavailabilities>
+					<unavailability from="2014-02-18T10:02:52" to="2014-02-18T10:15:40"
+						reason="panne" />
+				</unavailabilities>
+			</employee>
+			<employee birthdate="1900-08-30" firstname="Jean" lastname="van Dam"
+				idemployee="j.van dam" phone="80743531">
+				<homeaddress box="B" city="Tildonk" country="Belgium"
+					zip="3150" number="205" street="Schoolstraat" />
+				<role>coursier</role>
+				<unavailabilities>
+					<unavailability from="2014-03-15T03:48:26" to="2014-09-16T00:30:48"
+						reason="autres" />
+					<unavailability from="2014-08-18T16:05:38" to="2014-12-03T16:02:22"
+						reason="autres" />
+				</unavailabilities>
+			</employee>
+			<employee birthdate="1907-07-28" firstname="Erik" lastname="Boisclair"
+				idemployee="e.boisclair" phone="1094509143">
+				<homeaddress box="A" city="La Panne" country="Belgium"
+					zip="8660" number="1" street="Bussenweide" />
+				<role>coursier</role>
+				<unavailabilities>
+					<unavailability from="2014-02-18T09:09:48" to="2014-02-18T17:40:56"
+						reason="panne" />
+					<unavailability from="2014-02-18T10:41:16" to="2014-02-18T15:15:05"
+						reason="panne" />
+				</unavailabilities>
+			</employee>
+		</employees>
+		<trolleys>
+			<trolley status="outgoing">
+				<dimension totalheight="0.5740908" usefulheight="0.478409"
+					usefullength="1.5670848" usefulwidth="0.8759802" volume="0.65672886" />
+			</trolley>
+			<trolley status="empty">
+				<dimension totalheight="0.55031323" usefulheight="0.45859435"
+					usefullength="1.417932" usefulwidth="1.4456507" volume="0.9400425" />
+			</trolley>
+			<trolley status="incoming">
+				<dimension totalheight="0.98663205" usefulheight="0.8221934"
+					usefullength="1.7489758" usefulwidth="0.8307171" volume="1.194568" />
+			</trolley>
+			<trolley status="empty">
+				<dimension totalheight="1.3609488" usefulheight="1.134124"
+					usefullength="1.5785325" usefulwidth="1.0707283" volume="1.9168731" />
+			</trolley>
+			<trolley status="empty">
+				<dimension totalheight="0.7557859" usefulheight="0.62982154"
+					usefullength="1.953413" usefulwidth="1.3665596" volume="1.6812805" />
+			</trolley>
+			<trolley status="outgoing">
+				<dimension totalheight="0.9634328" usefulheight="0.8028607"
+					usefullength="1.3835144" usefulwidth="1.2368875" volume="1.3738966" />
+			</trolley>
+		</trolleys>
+		<vehicles>
+			<vehicle model="renault-trafic-n14" passengernumber="1"
+				usefulweight="1053.4158">
+				<dimension totalheight="1.8570803" usefulheight="1.5475669"
+					usefullength="2.1174023" usefulwidth="1.6204917" volume="5.3100624" />
+				<employeeincharge>r.van cruchten</employeeincharge>
+			</vehicle>
+			<vehicle model="renault-trafic-n14" passengernumber="2"
+				usefulweight="703.59314">
+				<dimension totalheight="1.7092695" usefulheight="1.4243913"
+					usefullength="2.7710435" usefulwidth="1.8666238" volume="7.367658" />
+				<employeeincharge>c.charron</employeeincharge>
+			</vehicle>
+			<vehicle model="Citroën Nemo" passengernumber="1"
+				usefulweight="1020.591">
+				<dimension totalheight="2.2757902" usefulheight="1.8964919"
+					usefullength="2.7714942" usefulwidth="1.3087265" volume="6.878819" />
+				<employeeincharge>y.dodier</employeeincharge>
+			</vehicle>
+			<vehicle model="Opel Movano" passengernumber="1"
+				usefulweight="429.51883">
+				<dimension totalheight="2.150814" usefulheight="1.792345"
+					usefullength="2.4335506" usefulwidth="1.8120881" volume="7.9038982" />
+				<employeeincharge>t.de ree</employeeincharge>
+			</vehicle>
+			<vehicle model="Opel vivano" passengernumber="2"
+				usefulweight="1082.6707">
+				<dimension totalheight="1.6650658" usefulheight="1.3875548"
+					usefullength="2.561731" usefulwidth="1.1876829" volume="4.221669" />
+				<employeeincharge>p.audibert</employeeincharge>
+			</vehicle>
+			<vehicle model="Ford transit connect" passengernumber="2"
+				usefulweight="435.2412">
+				<dimension totalheight="2.0114076" usefulheight="1.676173"
+					usefullength="2.1920865" usefulwidth="1.0296993" volume="3.7834408" />
+				<employeeincharge>e.roy</employeeincharge>
+			</vehicle>
+			<vehicle model="Ford transit" passengernumber="1"
+				usefulweight="538.1818">
+				<dimension totalheight="1.7497818" usefulheight="1.4581516"
+					usefullength="2.3086514" usefulwidth="1.802408" volume="6.067561" />
+				<employeeincharge>h.pouchard</employeeincharge>
+			</vehicle>
+			<vehicle model="renault-trafic-n14" passengernumber="1"
+				usefulweight="802.632">
+				<dimension totalheight="2.1405041" usefulheight="1.7837534"
+					usefullength="2.1341946" usefulwidth="1.6016484" volume="6.0972786" />
+				<employeeincharge>n.guertin</employeeincharge>
+			</vehicle>
+			<vehicle model="Opel Movano" passengernumber="1"
+				usefulweight="951.58466">
+				<dimension totalheight="1.5936728" usefulheight="1.3280606"
+					usefullength="2.01501" usefulwidth="1.8721011" volume="5.0098467" />
+				<employeeincharge>c.deschenes</employeeincharge>
+			</vehicle>
+			<vehicle model="Opel vivano" passengernumber="1"
+				usefulweight="438.72678">
+				<dimension totalheight="1.7916129" usefulheight="1.4930108"
+					usefullength="2.1072536" usefulwidth="1.3601565" volume="4.2792597" />
+				<employeeincharge>n.van meegen</employeeincharge>
+			</vehicle>
+			<vehicle model="Ford transit connect" passengernumber="1"
+				usefulweight="1083.1042">
+				<dimension totalheight="2.485178" usefulheight="2.0709817"
+					usefullength="1.9221686" usefulwidth="1.2249205" volume="4.8761344" />
+				<employeeincharge>s.de feijter</employeeincharge>
+			</vehicle>
+			<vehicle model="Opel Movano" passengernumber="1"
+				usefulweight="1075.3352">
+				<dimension totalheight="2.3744802" usefulheight="1.9787335"
+					usefullength="2.2517157" usefulwidth="1.3608217" volume="6.063203" />
+				<employeeincharge>m.deschenes</employeeincharge>
+			</vehicle>
+			<vehicle model="Renault Master" passengernumber="2"
+				usefulweight="614.0799">
+				<dimension totalheight="2.3090644" usefulheight="1.9242203"
+					usefullength="1.9184135" usefulwidth="1.2210428" volume="4.5074186" />
+				<employeeincharge>j.van dam</employeeincharge>
+			</vehicle>
+			<vehicle model="Opel vivano" passengernumber="1"
+				usefulweight="761.7648">
+				<dimension totalheight="2.2353277" usefulheight="1.8627731"
+					usefullength="2.698915" usefulwidth="1.7774667" volume="8.936153" />
+				<employeeincharge>e.boisclair</employeeincharge>
+			</vehicle>
+		</vehicles>
+	</center>
+</centers>
+	

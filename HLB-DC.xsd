@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.hlbexpress.com/namespaces/HLB-dispatching-centers" xmlns:dc="http://www.hlbexpress.com/namespaces/HLB-dispatching-centers" elementFormDefault="qualified">
+
+   <complexType name="centersType">
+    	<sequence>
+    		<element name="center" type="dc:centerType"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="centerType">
+    	<sequence>
+            <element name="employees" type="dc:employeesType"></element>
+            <element name="trolleys" type="dc:trolleysType"></element>
+    		<element name="vehicles" type="dc:vehiclesType"></element>
+    	</sequence>
+    	<attribute name="name">
+    		<simpleType>
+    			<restriction base="string">
+    				<enumeration value="Liège"></enumeration>
+    				<enumeration value="Hasselt"></enumeration>
+    				<enumeration value="Arlon"></enumeration>
+    				<enumeration value="Namur"></enumeration>
+    				<enumeration value="Mons"></enumeration>
+    				<enumeration value="Wavre"></enumeration>
+    				<enumeration value="Louvain"></enumeration>
+    				<enumeration value="Gand"></enumeration>
+    				<enumeration value="Anvers"></enumeration>
+    				<enumeration value="Bruges"></enumeration>
+    				<enumeration value="Aéroport-Bruxelles"></enumeration>
+    				<enumeration value="Aéroport-Liège"></enumeration>
+    			</restriction>
+    		</simpleType>
+    	</attribute>
+    </complexType>
+
+    <complexType name="employeeType">
+    	<sequence>
+    		<element name="homeaddress" type="dc:addressType"></element>
+    		<element name="role">
+    			<simpleType>
+    				<restriction base="string">
+    					<enumeration value="préposé"></enumeration>
+    					<enumeration value="coursier"></enumeration>
+    				</restriction>
+    			</simpleType>
+    		</element>
+    		<element name="unavailabilities" type="dc:unavailabilitiesType" minOccurs="0"></element>
+    	</sequence>
+    	<attribute name="idemployee" type="string" use="required"></attribute>
+        <attribute name="firstname" type="string" use="required"></attribute>
+    	<attribute name="lastname" type="string" use="required"></attribute>
+    	<attribute name="birthdate" type="string" use="required"></attribute>
+    	<attribute name="phone" type="string" use="required"></attribute>
+    </complexType>
+
+    <complexType name="addressType">
+    	<attribute name="street" type="string" use="required"></attribute>
+    	<attribute name="number" type="string" use="required"></attribute>
+    	<attribute name="box" type="string" use="optional"></attribute>
+    	<attribute name="city" type="string" use="required"></attribute>
+    	<attribute name="zip" type="string" use="required"></attribute>
+    	<attribute name="country" type="string" use="required"></attribute>
+    </complexType>
+
+    <complexType name="trolleyType">
+    	<sequence>
+    		<element name="dimension" type="dc:dimension"></element>
+    	</sequence>
+    	<attribute name="status">
+            <annotation>
+            	<documentation>Statut du chariot au niveau du centre de dispatching : empty (vide), ready-deliver(contient colis à liver dans le même canton), incoming(contient colis provenant de l'extérieur du pays), outgoing (contient colis en partance à l'extérieur du pays)</documentation>
+            </annotation>
+            <simpleType>
+    			<restriction base="string">
+    				<enumeration value="empty"></enumeration>
+    				<enumeration value="ready-deliver"></enumeration>
+    				<enumeration value="incoming"></enumeration>
+    				<enumeration value="outgoing"></enumeration>
+    			</restriction>
+    		</simpleType>
+    	</attribute>
+    </complexType>
+
+    <complexType name="vehicleType">
+    	<annotation>
+    		<documentation></documentation>
+    	</annotation>
+    	<sequence>
+    		<element name="dimension" type="dc:dimension"></element>
+    		<element name="employeeincharge" type="string"></element>
+    	</sequence>
+        <attribute name="model" type="string"></attribute>
+        <attribute name="usefulweight" type="float"></attribute>
+        <attribute name="passengernumber" type="int"></attribute>
+    </complexType>
+
+    <complexType name="unavailabilityType">
+    	<attribute name="from" type="dateTime" use="required"></attribute>
+    	<attribute name="to" type="dateTime" use="required"></attribute>
+    	<attribute name="reason" use="required">
+    		<simpleType>
+    			<restriction base="string">
+    				<enumeration value="congé"></enumeration>
+    				<enumeration value="panne"></enumeration>
+    				<enumeration value="ciruclation"></enumeration>
+    				<enumeration value="assigné"></enumeration>
+    				<enumeration value="autres"></enumeration>
+    			</restriction>
+    		</simpleType>
+    	</attribute>
+    	<attribute name="assignedcenter" use="optional">
+    		<simpleType>
+    			<restriction base="string">
+    				<enumeration value="Liège"></enumeration>
+    				<enumeration value="Hasselt"></enumeration>
+    				<enumeration value="Arlon"></enumeration>
+    				<enumeration value="Namur"></enumeration>
+    				<enumeration value="Mons"></enumeration>
+    				<enumeration value="Wavre"></enumeration>
+    				<enumeration value="Louvain"></enumeration>
+    				<enumeration value="Gand"></enumeration>
+    				<enumeration value="Avers"></enumeration>
+    				<enumeration value="Bruges"></enumeration>
+    				<enumeration value="Aéroport-Liège"></enumeration>
+    				<enumeration value="Aéroport-Bruxelles"></enumeration>
+    			</restriction>
+    		</simpleType>
+    	</attribute>
+    </complexType>
+
+    <complexType name="dimension">
+    	<attribute name="volume" type="float" use="required">
+    		<annotation>
+    			<documentation>Volume en m^3</documentation>
+    		</annotation></attribute>
+    	<attribute name="usefullength" type="float" use="required">
+    		<annotation>
+    			<documentation>Longueur utile en m</documentation>
+    		</annotation>
+    	</attribute>
+    	<attribute name="usefulwidth" type="float" use="required">
+    		<annotation>
+    			<documentation>largeur utile en m</documentation>
+    		</annotation>
+    	</attribute>
+    	<attribute name="usefulheight" type="float" use="required">
+    		<annotation>
+    			<documentation>hauteur utile en m</documentation>
+    		</annotation>
+    	</attribute>
+    	<attribute name="totalheight" type="float" use="optional">
+    		<annotation>
+    			<documentation>hauteur totale en m</documentation>
+    		</annotation>
+    	</attribute>
+    </complexType>
+
+
+    <element name="centers" type="dc:centersType"></element>
+
+    <complexType name="unavailabilitiesType">
+    	<sequence>
+    		<element name="unavailability" type="dc:unavailabilityType" minOccurs="1" maxOccurs="5"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="trolleysType">
+    	<sequence>
+    		<element name="trolley" type="dc:trolleyType" minOccurs="1" maxOccurs="20"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="vehiclesType">
+    	<sequence>
+    		<element name="vehicle" type="dc:vehicleType" minOccurs="1" maxOccurs="20"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="employeesType">
+    	<sequence>
+    		<element name="employee" type="dc:employeeType" minOccurs="1" maxOccurs="20"></element>
+    	</sequence>
+    </complexType>
+</schema>

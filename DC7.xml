@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<centers xmlns="http://www.hlbexpress.com/namespaces/HLB-dispatching-centers"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.hlbexpress.com/namespaces/HLB-dispatching-centers ../HLB-DC.xsd ">
+	<center name="Louvain">
+		<employees>
+			<employee birthdate="1925-01-25" firstname="Manuela"
+				lastname="Kooper" idemployee="m.kooper" phone="487226729">
+				<homeaddress box="C" city="Gedinne" country="Belgium"
+					zip="5575" number="79" street="Rue du Général Ailleret" />
+				<role>préposé</role>
+				<unavailabilities>
+					<unavailability from="2014-02-19T14:01:20" to="2014-02-25T21:27:45"
+						reason="assigné" assignedcenter="Louvain" />
+					<unavailability from="2014-02-25T12:36:33" to="2014-02-28T05:33:55"
+						reason="assigné" assignedcenter="Louvain" />
+					<unavailability from="2014-02-18T12:35:29" to="2014-02-18T13:43:51"
+						reason="ciruclation" />
+				</unavailabilities>
+			</employee>
+			<employee birthdate="1975-12-27" firstname="Kristin"
+				lastname="Louis" idemployee="k.louis" phone="1895562817">
+				<homeaddress box="E" city="Floreffe" country="Belgium"
+					zip="5150" number="137" street="Avenue De Marlioz" />
+				<role>coursier</role>
+			</employee>
+			<employee birthdate="1937-01-22" firstname="Petra" lastname="Desruisseaux"
+				idemployee="p.desruisseaux" phone="869244254">
+				<homeaddress box="B" city="Rochefort" country="Belgium"
+					zip="5580" number="179" street="Rue de Raymond Poincaré" />
+				<role>coursier</role>
+				<unavailabilities>
+					<unavailability from="2014-02-23T01:49:11" to="2014-02-25T10:07:45"
+						reason="assigné" assignedcenter="Louvain" />
+				</unavailabilities>
+			</employee>
+			<employee birthdate="1968-05-26" firstname="Aubin" lastname="Mainville"
+				idemployee="a.mainville" phone="1294070583">
+				<homeaddress box="B" city="Alost" country="Belgium" zip="9300"
+					number="40" street="HetGeheugen" />
+				<role>coursier</role>
+				<unavailabilities>
+					<unavailability from="2014-03-21T19:53:34" to="2014-04-09T19:01:30"
+						reason="autres" />
+					<unavailability from="2014-02-18T12:13:44" to="2014-02-18T13:39:43"
+						reason="ciruclation" />
+					<unavailability from="2014-02-18T10:49:45" to="2014-02-18T12:49:14"
+						reason="panne" />
+				</unavailabilities>
+			</employee>
+			<employee birthdate="1993-05-11" firstname="Dirk" lastname="Chabot"
+				idemployee="d.chabot" phone="235783040">
+				<homeaddress box="B" city="Voeren" country="Belgium"
+					zip="3790" number="117" street="Sneeuwbal" />
+				<role>coursier</role>
+			</employee>
+			<employee birthdate="1977-05-13" firstname="Dorcas"
+				lastname="Molenkamp" idemployee="d.molenkamp" phone="38317342">
+				<homeaddress box="A" city="Sart-Saint-Laurent" country="Belgium"
+					zip="5070" number="111" street="Place Maurice-Charretier" />
+				<role>coursier</role>
+				<unavailabilities>
+					<unavailability from="2014-05-19T04:22:26" to="2014-11-30T19:11:09"
+						reason="autres" />
+				</unavailabilities>
+			</employee>
+			<employee birthdate="1922-07-25" firstname="Ruby" lastname="van Wersch"
+				idemployee="r.van wersch" phone="890130674">
+				<homeaddress box="" city="Pottes" country="Belgium" zip="7760"
+					number="195" street="Rue du Paillle en queue" />
+				<role>coursier</role>
+			</employee>
+			<employee birthdate="1902-09-18" firstname="Nouria"
+				lastname="Laisné" idemployee="n.laisne" phone="1714345126">
+				<homeaddress box="" city="Kermt" country="Belgium" zip="3510"
+					number="184" street="Lindenlaan" />
+				<role>coursier</role>
+				<unavailabilities>
+					<unavailability from="2015-04-22T12:19:15" to="2015-05-19T19:08:44"
+						reason="congé" />
+					<unavailability from="2014-02-18T09:32:45" to="2014-02-18T14:36:36"
+						reason="panne" />
+				</unavailabilities>
+			</employee>
+			<employee birthdate="1941-01-18" firstname="Rogier"
+				lastname="De La Vergne" idemployee="r.de la vergne" phone="468043303">
+				<homeaddress box="" city="Oostnieuwkerke" country="Belgium"
+					zip="8840" number="146" street="DeHeining" />
+				<role>coursier</role>
+				<unavailabilities>
+					<unavailability from="2014-02-25T20:05:07" to="2014-02-27T23:27:15"
+						reason="assigné" assignedcenter="Louvain" />
+					<unavailability from="2014-02-19T06:35:55" to="2014-02-24T13:23:21"
+						reason="assigné" assignedcenter="Louvain" />
+					<unavailability from="2014-02-19T12:36:20" to="2014-02-20T13:32:42"
+						reason="assigné" assignedcenter="Louvain" />
+				</unavailabilities>
+			</employee>
+			<employee birthdate="1908-06-20" firstname="Tanja" lastname="Hartemink"
+				idemployee="t.hartemink" phone="308527630">
+				<homeaddress box="D" city="La Panne" country="Belgium"
+					zip="8660" number="175" street="Tuinwegje" />
+				<role>coursier</role>
+			</employee>
+			<employee birthdate="1956-06-22" firstname="Ramon" lastname="Couet"
+				idemployee="r.couet" phone="1105177100">
+				<homeaddress box="" city="Saint-Marc" country="Belgium"
+					zip="5003" number="173" street="Rue du Faubourg National" />
+				<role>coursier</role>
+			</employee>
+			<employee birthdate="1942-08-17" firstname="Edgar" lastname="Pranger"
+				idemployee="e.pranger" phone="66275614">
+				<homeaddress box="" city="Binche" country="Belgium" zip="7130"
+					number="38" street="Boulevard de Prague" />
+				<role>coursier</role>
+				<unavailabilities>
+					<unavailability from="2014-09-13T01:57:39" to="2014-12-17T21:41:05"
+						reason="congé" />
+				</unavailabilities>
+			</employee>
+			<employee birthdate="1955-10-16" firstname="Niklas"
+				lastname="Poldervaart" idemployee="n.poldervaart" phone="906317671">
+				<homeaddress box="D" city="Liège" country="Belgium" zip="4000"
+					number="143" street="Place de Miremont" />
+				<role>coursier</role>
+				<unavailabilities>
+					<unavailability from="2014-02-18T11:48:16" to="2014-02-18T12:12:31"
+						reason="ciruclation" />
+				</unavailabilities>
+			</employee>
+			<employee birthdate="1930-06-08" firstname="Thorsten"
+				lastname="Salois" idemployee="t.salois" phone="2094018172">
+				<homeaddress box="D" city="Ottergem" country="Belgium"
+					zip="9420" number="44" street="Watersnipstraat" />
+				<role>coursier</role>
+				<unavailabilities>
+					<unavailability from="2014-02-18T10:13:56" to="2014-02-18T12:05:55"
+						reason="panne" />
+				</unavailabilities>
+			</employee>
+		</employees>
+		<trolleys>
+			<trolley status="empty">
+				<dimension totalheight="1.3066039" usefulheight="1.0888366"
+					usefullength="1.8743653" usefulwidth="1.6644535" volume="3.396946" />
+			</trolley>
+			<trolley status="ready-deliver">
+				<dimension totalheight="0.82885474" usefulheight="0.6907123"
+					usefullength="1.219639" usefulwidth="0.9251662" volume="0.7793781" />
+			</trolley>
+			<trolley status="outgoing">
+				<dimension totalheight="1.3298876" usefulheight="1.1082397"
+					usefullength="1.3867787" usefulwidth="1.4305315" volume="2.1985598" />
+			</trolley>
+		</trolleys>
+		<vehicles>
+			<vehicle model="Ford transit" passengernumber="2"
+				usefulweight="427.55133">
+				<dimension totalheight="2.1841674" usefulheight="1.8201395"
+					usefullength="2.607791" usefulwidth="1.7266381" volume="8.195562" />
+				<employeeincharge>m.kooper</employeeincharge>
+			</vehicle>
+			<vehicle model="Opel vivano" passengernumber="1"
+				usefulweight="646.4323">
+				<dimension totalheight="1.7999585" usefulheight="1.4999654"
+					usefullength="2.3530107" usefulwidth="1.4720868" volume="5.1956344" />
+				<employeeincharge>k.louis</employeeincharge>
+			</vehicle>
+			<vehicle model="Opel vivano" passengernumber="2"
+				usefulweight="781.84216">
+				<dimension totalheight="2.2088518" usefulheight="1.8407098"
+					usefullength="2.8041902" usefulwidth="1.3433325" volume="6.93388" />
+				<employeeincharge>p.desruisseaux</employeeincharge>
+			</vehicle>
+			<vehicle model="renault-trafic-n34" passengernumber="1"
+				usefulweight="763.189">
+				<dimension totalheight="1.6808114" usefulheight="1.4006761"
+					usefullength="2.0606236" usefulwidth="1.0774584" volume="3.109832" />
+				<employeeincharge>a.mainville</employeeincharge>
+			</vehicle>
+			<vehicle model="Renault Master" passengernumber="2"
+				usefulweight="550.89746">
+				<dimension totalheight="1.806454" usefulheight="1.5053782"
+					usefullength="2.3213623" usefulwidth="1.3430493" volume="4.6933236" />
+				<employeeincharge>d.chabot</employeeincharge>
+			</vehicle>
+			<vehicle model="Opel Movano" passengernumber="1"
+				usefulweight="575.99286">
+				<dimension totalheight="1.8907375" usefulheight="1.5756146"
+					usefullength="2.7138717" usefulwidth="1.2769039" volume="5.460061" />
+				<employeeincharge>d.molenkamp</employeeincharge>
+			</vehicle>
+			<vehicle model="Ford transit" passengernumber="2"
+				usefulweight="672.61774">
+				<dimension totalheight="2.1854162" usefulheight="1.8211802"
+					usefullength="2.3328228" usefulwidth="1.3384206" volume="5.686268" />
+				<employeeincharge>r.van wersch</employeeincharge>
+			</vehicle>
+			<vehicle model="Opel Movano" passengernumber="1"
+				usefulweight="1051.8489">
+				<dimension totalheight="2.4737077" usefulheight="2.061423"
+					usefullength="2.549221" usefulwidth="1.4110119" volume="7.4149003" />
+				<employeeincharge>n.laisne</employeeincharge>
+			</vehicle>
+			<vehicle model="Renault Master" passengernumber="2"
+				usefulweight="419.28314">
+				<dimension totalheight="2.3363183" usefulheight="1.9469318"
+					usefullength="2.3369312" usefulwidth="1.7355447" volume="7.8964605" />
+				<employeeincharge>r.de la vergne</employeeincharge>
+			</vehicle>
+			<vehicle model="Renault Master" passengernumber="2"
+				usefulweight="726.3823">
+				<dimension totalheight="1.6366773" usefulheight="1.3638977"
+					usefullength="2.4185672" usefulwidth="1.0958922" volume="3.6149957" />
+				<employeeincharge>t.hartemink</employeeincharge>
+			</vehicle>
+			<vehicle model="renault-trafic-n34" passengernumber="1"
+				usefulweight="412.9781">
+				<dimension totalheight="2.4345076" usefulheight="2.0287564"
+					usefullength="1.9210052" usefulwidth="1.6714478" volume="6.5140524" />
+				<employeeincharge>r.couet</employeeincharge>
+			</vehicle>
+			<vehicle model="renault-trafic-n34" passengernumber="2"
+				usefulweight="759.9146">
+				<dimension totalheight="1.974843" usefulheight="1.6457025"
+					usefullength="1.9161463" usefulwidth="1.4380258" volume="4.5346804" />
+				<employeeincharge>e.pranger</employeeincharge>
+			</vehicle>
+			<vehicle model="renault-trafic-n34" passengernumber="1"
+				usefulweight="1049.1827">
+				<dimension totalheight="1.9380739" usefulheight="1.6150615"
+					usefullength="2.4140334" usefulwidth="1.535343" volume="5.986015" />
+				<employeeincharge>n.poldervaart</employeeincharge>
+			</vehicle>
+			<vehicle model="Citroën Nemo" passengernumber="2"
+				usefulweight="708.30304">
+				<dimension totalheight="2.1990206" usefulheight="1.8325171"
+					usefullength="1.9242064" usefulwidth="1.9550493" volume="6.8937798" />
+				<employeeincharge>t.salois</employeeincharge>
+			</vehicle>
+		</vehicles>
+	</center>
+</centers>

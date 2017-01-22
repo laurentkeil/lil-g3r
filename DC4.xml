@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<centers xmlns="http://www.hlbexpress.com/namespaces/HLB-dispatching-centers"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.hlbexpress.com/namespaces/HLB-dispatching-centers ../HLB-DC.xsd ">
+	<center name="Namur">
+		<employees>
+			<employee birthdate="1959-03-28" firstname="Soren" lastname="Blokzijl"
+				idemployee="s.blokzijl" phone="950336650">
+				<homeaddress box="" city="Saint-Marc" country="Belgium"
+					zip="5003" number="205" street="Rue de la Hulotais" />
+				<role>préposé</role>
+			</employee>
+			<employee birthdate="1986-07-14" firstname="Stéphanie"
+				lastname="Aartman" idemployee="s.aartman" phone="437132905">
+				<homeaddress box="" city="Binche" country="Belgium" zip="7130"
+					number="162" street="Rue de Strasbourg" />
+				<role>coursier</role>
+				<unavailabilities>
+					<unavailability from="2014-06-17T04:24:16" to="2014-12-31T08:57:35"
+						reason="autres" />
+					<unavailability from="2014-02-18T11:45:38" to="2014-02-18T12:50:46"
+						reason="ciruclation" />
+					<unavailability from="2014-12-16T23:40:14" to="2015-06-26T13:30:40"
+						reason="congé" />
+				</unavailabilities>
+			</employee>
+			<employee birthdate="1948-12-04" firstname="Archaimbau"
+				lastname="Mainville" idemployee="a.mainville" phone="186760504">
+				<homeaddress box="" city="Maurage" country="Belgium"
+					zip="7110" number="103" street="Rue de la Mare aux Carats" />
+				<role>coursier</role>
+				<unavailabilities>
+					<unavailability from="2014-02-18T12:23:18" to="2014-02-18T13:45:03"
+						reason="ciruclation" />
+				</unavailabilities>
+			</employee>
+			<employee birthdate="1938-12-29" firstname="Jane" lastname="Bordeaux"
+				idemployee="j.bordeaux" phone="6913858">
+				<homeaddress box="C" city="Rochehaut" country="Belgium"
+					zip="6830" number="70" street="Chemin Des Bateliers" />
+				<role>coursier</role>
+				<unavailabilities>
+					<unavailability from="2014-02-22T22:41:02" to="2014-02-23T14:05:59"
+						reason="assigné" assignedcenter="Namur" />
+					<unavailability from="2014-09-27T02:45:50" to="2014-12-14T23:32:33"
+						reason="autres" />
+					<unavailability from="2014-08-01T08:03:18" to="2014-09-11T23:42:10"
+						reason="congé" />
+				</unavailabilities>
+			</employee>
+			<employee birthdate="1943-12-27" firstname="Maximilian"
+				lastname="Pouchard" idemployee="m.pouchard" phone="916509986">
+				<homeaddress box="" city="Nevele" country="Belgium" zip="9850"
+					number="187" street="Vleugelboot" />
+				<role>coursier</role>
+			</employee>
+			<employee birthdate="1942-01-30" firstname="Bouwina"
+				lastname="Hulleman" idemployee="b.hulleman" phone="685603072">
+				<homeaddress box="A" city="Seraing" country="Belgium"
+					zip="4100" number="89" street="Avenue Millies Lacroix" />
+				<role>coursier</role>
+				<unavailabilities>
+					<unavailability from="2014-02-24T13:24:03" to="2014-02-26T16:52:04"
+						reason="assigné" assignedcenter="Namur" />
+				</unavailabilities>
+			</employee>
+			<employee birthdate="1909-05-12" firstname="Sven" lastname="Weijman"
+				idemployee="s.weijman" phone="592297630">
+				<homeaddress box="E" city="Gesves" country="Belgium"
+					zip="5340" number="187" street="Rue du Général Ailleret" />
+				<role>coursier</role>
+				<unavailabilities>
+					<unavailability from="2014-10-16T22:33:00" to="2015-01-11T10:57:06"
+						reason="autres" />
+				</unavailabilities>
+			</employee>
+			<employee birthdate="1909-06-20" firstname="David" lastname="Bril"
+				idemployee="d.bril" phone="833324491">
+				<homeaddress box="A" city="Sart-Saint-Laurent" country="Belgium"
+					zip="5070" number="181" street="Rue Michel Ange" />
+				<role>coursier</role>
+				<unavailabilities>
+					<unavailability from="2014-02-18T11:50:44" to="2014-02-18T12:04:10"
+						reason="ciruclation" />
+					<unavailability from="2014-11-09T14:51:39" to="2014-11-11T20:17:16"
+						reason="autres" />
+					<unavailability from="2014-11-24T18:56:36" to="2014-12-06T08:31:58"
+						reason="autres" />
+				</unavailabilities>
+			</employee>
+		</employees>
+		<trolleys>
+			<trolley status="ready-deliver">
+				<dimension totalheight="0.59839314" usefulheight="0.49866095"
+					usefullength="1.5285515" usefulwidth="1.2932314" volume="0.98573834" />
+			</trolley>
+			<trolley status="empty">
+				<dimension totalheight="1.0652537" usefulheight="0.88771147"
+					usefullength="1.5399952" usefulwidth="1.1152517" volume="1.5246286" />
+			</trolley>
+			<trolley status="outgoing">
+				<dimension totalheight="0.771537" usefulheight="0.6429475"
+					usefullength="1.7779176" usefulwidth="1.6134905" volume="1.8443933" />
+			</trolley>
+			<trolley status="incoming">
+				<dimension totalheight="1.3089006" usefulheight="1.0907505"
+					usefullength="1.8651612" usefulwidth="0.88951457" volume="1.8096511" />
+			</trolley>
+			<trolley status="ready-deliver">
+				<dimension totalheight="0.8076433" usefulheight="0.6730361"
+					usefullength="1.4118285" usefulwidth="0.8960113" volume="0.8514003" />
+			</trolley>
+			<trolley status="outgoing">
+				<dimension totalheight="0.5748053" usefulheight="0.47900444"
+					usefullength="2.001648" usefulwidth="0.82118785" volume="0.7873535" />
+			</trolley>
+			<trolley status="incoming">
+				<dimension totalheight="0.7279702" usefulheight="0.6066418"
+					usefullength="1.3219512" usefulwidth="1.1160431" volume="0.8950117" />
+			</trolley>
+			<trolley status="empty">
+				<dimension totalheight="0.9266727" usefulheight="0.7722272"
+					usefullength="1.2363828" usefulwidth="1.2339976" volume="1.178182" />
+			</trolley>
+			<trolley status="incoming">
+				<dimension totalheight="0.8838856" usefulheight="0.7365714"
+					usefullength="1.8562223" usefulwidth="1.372009" volume="1.8758659" />
+			</trolley>
+		</trolleys>
+		<vehicles>
+			<vehicle model="renault-trafic-n14" passengernumber="1"
+				usefulweight="837.43567">
+				<dimension totalheight="1.8184814" usefulheight="1.5154012"
+					usefullength="2.0523682" usefulwidth="1.3209904" volume="4.1084933" />
+				<employeeincharge>s.blokzijl</employeeincharge>
+			</vehicle>
+			<vehicle model="Ford transit" passengernumber="2"
+				usefulweight="844.0333">
+				<dimension totalheight="1.906753" usefulheight="1.5889608"
+					usefullength="2.1028843" usefulwidth="1.4498372" volume="4.8444867" />
+				<employeeincharge>s.aartman</employeeincharge>
+			</vehicle>
+			<vehicle model="Renault Master" passengernumber="1"
+				usefulweight="1034.3687">
+				<dimension totalheight="2.1963491" usefulheight="1.8302909"
+					usefullength="2.4378357" usefulwidth="1.8459402" volume="8.23649" />
+				<employeeincharge>a.mainville</employeeincharge>
+			</vehicle>
+			<vehicle model="Citroën Nemo" passengernumber="2"
+				usefulweight="648.87396">
+				<dimension totalheight="2.2357059" usefulheight="1.8630883"
+					usefullength="1.9345669" usefulwidth="1.294033" volume="4.664043" />
+				<employeeincharge>j.bordeaux</employeeincharge>
+			</vehicle>
+			<vehicle model="Ford transit" passengernumber="1"
+				usefulweight="724.216">
+				<dimension totalheight="1.8724126" usefulheight="1.5603437"
+					usefullength="1.9906994" usefulwidth="1.1863228" volume="3.6849267" />
+				<employeeincharge>m.pouchard</employeeincharge>
+			</vehicle>
+			<vehicle model="Ford transit" passengernumber="2"
+				usefulweight="431.6723">
+				<dimension totalheight="1.582777" usefulheight="1.3189808"
+					usefullength="2.4121022" usefulwidth="1.5235267" volume="4.8471255" />
+				<employeeincharge>b.hulleman</employeeincharge>
+			</vehicle>
+			<vehicle model="Renault Master" passengernumber="1"
+				usefulweight="538.40076">
+				<dimension totalheight="1.557632" usefulheight="1.2980267"
+					usefullength="2.2514238" usefulwidth="1.7967858" volume="5.2509413" />
+				<employeeincharge>s.weijman</employeeincharge>
+			</vehicle>
+			<vehicle model="Ford transit" passengernumber="2"
+				usefulweight="923.76514">
+				<dimension totalheight="1.7326269" usefulheight="1.4438558"
+					usefullength="2.0677636" usefulwidth="1.7901495" volume="5.344585" />
+				<employeeincharge>d.bril</employeeincharge>
+			</vehicle>
+		</vehicles>
+	</center>
+</centers>

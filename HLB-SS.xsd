@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.hlbexpress.com/namespaces/HLB-head-office" xmlns:ss="http://www.hlbexpress.com/namespaces/HLB-head-office" elementFormDefault="qualified">
+
+    <complexType name="addressType">
+    	<attribute name="street" type="string" use="required"></attribute>
+    	<attribute name="number" type="string" use="required"></attribute>
+    	<attribute name="box" type="string" use="optional"></attribute>
+    	<attribute name="city" type="string" use="required"></attribute>
+    	<attribute name="zip" type="string" use="required"></attribute>
+    	<attribute name="country" type="string" use="required"></attribute>
+    </complexType>
+	
+
+    <complexType name="clientType">
+    	<annotation>
+    		<documentation></documentation>
+    	</annotation>
+    	<sequence minOccurs="1">
+            <element name="address" type="ss:addressType"></element>
+            <element name="account" type="ss:accountType"></element>
+    		<element name="profile" type="ss:profileType"></element>
+    		<element name="pickups" type="ss:pickupsType" minOccurs="0"
+    			maxOccurs="1">
+    			<annotation>
+    				<documentation>
+    					Les demandes de pickup du client.
+    				</documentation>
+    			</annotation>
+    		</element>
+    	</sequence>
+    	
+    	<attribute name="lastname" type="string" use="required"></attribute>
+    	<attribute name="firstname" type="string" use="required"></attribute>
+        <attribute name="birthdate" type="date" use="required"></attribute>
+    	<attribute name="phone" type="string" use="required"></attribute>
+    </complexType>
+
+
+    <element name="clients" type="ss:clientsType"></element>
+
+    <complexType name="clientsType">
+    	<sequence minOccurs="1" maxOccurs="unbounded">
+    		<element name="client" type="ss:clientType"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="pickupsType">
+    	<sequence>
+    		<element name="pickup" type="ss:pickupType" maxOccurs="unbounded"></element>
+    	</sequence>
+    </complexType>
+    
+    <complexType name="pickupType">
+    	<sequence>
+    		<element name="pickupaddress" type="ss:addressType">
+    			<annotation>
+    				<documentation>Adresse de collecte.</documentation>
+    			</annotation>
+    		</element>
+    		<element name="billingaddress" type="ss:addressType"
+    			minOccurs="0">
+    			<annotation>
+    				<documentation>Addresse de facturation : facultative. Si elle n'est pas spécifiée ici, elle est par défaut assimilée à l'adresse de pickup.
+    				</documentation>
+    			</annotation>
+    		</element>
+    		<element name="deliveryaddress" type="ss:addressType">
+    			<annotation>
+    				<documentation>Adresse de livraison.</documentation>
+    			</annotation>
+
+    		</element>
+    		<element name="pickupcenter">
+                <annotation>
+                	<documentation>Centre de collecte</documentation>
+                </annotation>
+                <simpleType>
+    				<restriction base="string">
+    					<enumeration value="Liège"></enumeration>
+    					<enumeration value="Hasselt"></enumeration>
+    					<enumeration value="Arlon"></enumeration>
+    					<enumeration value="Namur"></enumeration>
+    					<enumeration value="Mons"></enumeration>
+    					<enumeration value="Wavre"></enumeration>
+    					<enumeration value="Louvain"></enumeration>
+    					<enumeration value="Gand"></enumeration>
+    					<enumeration value="Anvers"></enumeration>
+    					<enumeration value="Bruges"></enumeration>
+    					<enumeration value="Aéroport-Bruxelles"></enumeration>
+    					<enumeration value="Aéroport-Liège"></enumeration>
+    				</restriction>
+    			</simpleType>
+    		</element>
+    		<element name="deliverycenter">
+                <annotation>
+                	<documentation>Centre de livraison</documentation>
+                </annotation>
+                <simpleType>
+    				<restriction base="string">
+    					<enumeration value="Liège"></enumeration>
+    					<enumeration value="Hasselt"></enumeration>
+    					<enumeration value="Arlon"></enumeration>
+    					<enumeration value="Namur"></enumeration>
+    					<enumeration value="Mons"></enumeration>
+    					<enumeration value="Wavre"></enumeration>
+    					<enumeration value="Louvain"></enumeration>
+    					<enumeration value="Gand"></enumeration>
+    					<enumeration value="Anvers"></enumeration>
+    					<enumeration value="Bruges"></enumeration>
+    					<enumeration value="Aéroport-Bruxelles"></enumeration>
+    					<enumeration value="Aéroport-Liège"></enumeration>
+    				</restriction>
+    			</simpleType>
+    		</element>
+    		<element name="receiver" type="ss:receiverType">
+    			<annotation>
+    				<documentation>Informations sur le destinataire</documentation>
+    			</annotation></element>
+    		<element name="insurance" type="ss:insuranceType">
+    			<annotation>
+    				<documentation>Informations sur l'assurance choisie pour la demande de pickup</documentation>
+    			</annotation></element>
+    		<element name="receipt" type="boolean">
+    			<annotation>
+    				<documentation>Reçu : true or false</documentation>
+    			</annotation></element>
+    		<element name="declareddimension" type="ss:dimension">
+    			<annotation>
+    				<documentation>Dimension déclarée par le client
+    				</documentation>
+    			</annotation>
+    		</element>
+    		<element name="reviseddimension" type="ss:dimension">
+    			<annotation>
+    				<documentation>La dimension révisée au niveau du centre de tri
+    				</documentation>
+    			</annotation>
+    		</element>
+    		<element name="chargedamount" type="float">
+    			<annotation>
+    				<documentation>
+    					Montant de la commande
+    				</documentation>
+    			</annotation>
+    		</element>
+    		<element name="extraamount" type="float" minOccurs="0">
+    			<annotation>
+    				<documentation>Montant du surplus</documentation>
+    			</annotation>
+    		</element>
+    		<element name="extranotification" type="dateTime"
+    			minOccurs="0">
+    			<annotation>
+    				<documentation>
+    					Date d'envoi de la facture du surplus.
+    				</documentation>
+    			</annotation>
+    		</element>
+    		<element name="litige" type="ss:litigeType" minOccurs="0"
+    			maxOccurs="1">
+                <annotation>
+                	<documentation>Litige</documentation>
+                </annotation>
+    		</element>
+    		<element name="deliveryproblem"
+    			type="ss:deliveryproblemType" minOccurs="0">
+                <annotation>
+                	<documentation>Problèmes déclarés par les employés des centres de dispatching lors de la manipulation du colis et remontés au niveau du siège social </documentation>
+                </annotation>
+    		</element>
+    	</sequence>
+    	<attribute name="requestdate" type="dateTime" use="required">
+    		<annotation>
+    			<documentation>Date de passage de la demande de pick-up</documentation>
+    		</annotation></attribute>
+    </complexType>
+
+    <complexType name="profileType">
+    	<attribute name="type" use="required">
+    		<simpleType>
+    			<restriction base="string">
+    				<enumeration value="basic"></enumeration>
+    				<enumeration value="advanced"></enumeration>
+    				<enumeration value="premium"></enumeration>
+    			</restriction>
+    		</simpleType>
+    	</attribute>
+    	<attribute name="sentparcels" type="int" use="required"></attribute>
+    	<attribute name="payementdefaults" type="int" use="required">
+    		<annotation>
+    			<documentation>Nombre de défauts de paiements</documentation>
+    		</annotation></attribute>
+    	<attribute name="wronglitiges" type="int" use="required">
+    		<annotation>
+    			<documentation>Nombre de litige à tort</documentation>
+    		</annotation></attribute>
+    	<attribute name="revenue" type="float" use="required">
+    		<annotation>
+    			<documentation>CA d'affaire généré par le client</documentation>
+    		</annotation></attribute>
+    </complexType>
+
+
+
+    <complexType name="dimension">
+    	<attribute name="length" type="int" use="required"></attribute>
+    	<attribute name="width" type="int" use="required"></attribute>
+    	<attribute name="height" type="int" use="required"></attribute>
+    	<attribute name="weight" type="int" use="required"></attribute>
+    </complexType>
+
+    <complexType name="insuranceType">
+    	<attribute name="type" use="required">
+    		<simpleType>
+    			<restriction base="string">
+    				<enumeration value="forfait"></enumeration>
+    				<enumeration value="montant"></enumeration>
+    			</restriction>
+    		</simpleType>
+    	</attribute>
+    	<attribute name="amount" type="float" use="required"></attribute>
+    </complexType>
+
+
+
+    <complexType name="litigeType">
+    	<sequence>
+    		<element name="reason">
+    			<annotation>
+    				<documentation>
+    					La cause du litige : - "loss" - "deterioration"
+    				</documentation>
+    			</annotation>
+    			<simpleType>
+    				<restriction base="string">
+    					<enumeration value="loss"></enumeration>
+    					<enumeration value="deterioration"></enumeration>
+    					<enumeration value="other"></enumeration>
+    				</restriction>
+    			</simpleType>
+    		</element>
+    		<element name="description" type="string"></element>
+            <element name="status">
+    			<annotation>
+    				<documentation>
+    					Le statut de la négociation : - "open" -
+    					"in-negociation" - "closed"
+    				</documentation>
+    			</annotation>
+    			<simpleType>
+    				<restriction base="string">
+    					<enumeration value="open"></enumeration>
+    					<enumeration value="in-negociation"></enumeration>
+    					<enumeration value="closed"></enumeration>
+    				</restriction>
+    			</simpleType>
+    		</element>
+            <element name="employeeincharge" type="string">
+    			<annotation>
+    				<documentation>L'identifiant de l'employé qui prend le litige en charge. 
+    				</documentation>
+    			</annotation>
+    		</element>
+            <element name="result">
+    			<annotation>
+    				<documentation>
+    					Le résultat de la négociation : - "wrong" :
+    					désigne que le client a introduit un litige à
+    					tort - "justified" : indique qu'il s'agit d'un
+    					litige justifié
+    				</documentation>
+    			</annotation>
+    			<simpleType>
+    				<restriction base="string">
+    					<enumeration value="wrong"></enumeration>
+    					<enumeration value="justified"></enumeration>
+    				</restriction>
+    			</simpleType>
+    		</element>
+    	</sequence>
+    	<attribute name="date" type="dateTime" use="required"></attribute>
+    </complexType>
+
+    
+    <attribute name="NewAttribute" type="string"></attribute>
+
+
+    <complexType name="accountType">
+    	<attribute name="email" type="string" use="required">
+    		<annotation>
+    			<documentation>e-mail du client</documentation>
+    		</annotation></attribute>
+    	<attribute name="password" type="string" use="required">
+    		<annotation>
+    			<documentation>Mot de passe du compte</documentation>
+    		</annotation></attribute>
+    	<attribute name="registrationdate" type="dateTime" use="required">
+    		<annotation>
+    			<documentation>Date de l'ouverture du compte</documentation>
+    		</annotation></attribute>
+    	<attribute name="activated" type="boolean" use="required">
+    		<annotation>
+    			<documentation>Variable indiquant si le compte est actif ou pas. </documentation>
+    		</annotation></attribute>
+    	<attribute name="lastconnexion" type="dateTime" use="optional">
+    		<annotation>
+    			<documentation>(facultative) Date de la dernière connexion du client. Vide, si il ne s'est jamais connecté.</documentation>
+    		</annotation></attribute>
+    </complexType>
+
+    <complexType name="receiverType">
+        <attribute name="lastname" type="string"></attribute>
+        <attribute name="firstname" type="string"></attribute>
+    	<attribute name="phone" type="string"></attribute>
+    </complexType>
+
+    <complexType name="problemType"></complexType>
+
+    <complexType name="deliveryproblemType">
+    	<sequence>
+    		<element name="description" type="string"></element>
+    		<element name="status">
+    			<simpleType>
+    				<restriction base="string">
+    					<enumeration value="open"></enumeration>
+    					<enumeration value="abandoned"></enumeration>
+    					<enumeration value="transformedtolitige"></enumeration>
+    				</restriction>
+    			</simpleType>
+    		</element>
+    		<element name="coursier" type="string">
+    			<annotation>
+    				<documentation>L'identifiant du coursier ayant déclaré le problème</documentation>
+    			</annotation></element>
+    	</sequence>
+    	<attribute name="date" type="dateTime" use="required"></attribute>
+    </complexType>
+
+</schema>

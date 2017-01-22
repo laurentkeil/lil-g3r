@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ss:clients xmlns:ss="http://www.hlbexpress.com/namespaces/HLB-head-office" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.hlbexpress.com/namespaces/HLB-head-office HLB-SS.xsd ">
+  
+  <ss:client birthdate="2001-01-01" firstname="Jean-Marie" lastname="Noël" phone="0502020202">
+    <ss:address box="" city="Namur" country="Belgique" number="12" street="rue du caca" zip="5000"/>
+    <ss:account activated="true" email="jmnoel3@hotmail.com" lastconnexion="2001-12-31T12:00:00" password="romain" registrationdate="2001-12-31T12:00:00"/>
+    <ss:profile payementdefaults="1" revenue="15.0" sentparcels="0" type="basic" wronglitiges="0"/>
+    <ss:pickups>
+      <ss:pickup requestdate="2001-12-31T12:00:00">
+        <ss:pickupaddress box="" city="Namur" country="Belgique" number="23" street="rue du pipi" zip="5000"/>
+        <ss:billingaddress box="" city="Liège" country="Belgique" number="5" street="b" zip="4000"/>
+        <ss:deliveryaddress box="" city="Liège" country="Belgique" number="78" street="a" zip="4000"/>
+        <ss:pickupcenter>Liège</ss:pickupcenter>
+        <ss:deliverycenter>Liège</ss:deliverycenter>
+        <ss:receiver firstname="Mireille" lastname="Mari" phone="0265659832"/>
+        <ss:insurance amount="5.0" type="forfait"/>
+        <ss:receipt>true</ss:receipt>
+        <ss:declareddimension height="10" length="10" weight="4" width="10"/>
+        <ss:reviseddimension height="0" length="0" weight="6" width="0"/>
+        <ss:chargedamount>15.0</ss:chargedamount>
+        <ss:extraamount>4.0</ss:extraamount>
+        <ss:extranotification>2001-12-31T12:00:00</ss:extranotification>
+        <ss:litige date="2001-12-31T12:00:00">
+          <ss:reason>loss</ss:reason>
+          <ss:description>parcel lost</ss:description>
+          <ss:status>open</ss:status>
+          <ss:employeeincharge>jvanderose</ss:employeeincharge>
+          <ss:result>wrong</ss:result>
+        </ss:litige>
+        <ss:deliveryproblem date="2001-12-31T12:00:00">
+          <ss:description>parcel not found</ss:description>
+          <ss:status>transformedtolitige</ss:status>
+          <ss:coursier>jjeanbaptiste</ss:coursier>
+        </ss:deliveryproblem>
+      </ss:pickup>
+    </ss:pickups>
+  </ss:client>
+  
+  <ss:client birthdate="2001-01-01" firstname="Marc-Emmanuel" lastname="Moncul" phone="0283687769">
+    <ss:address box="" city="Namur" country="Belgique" number="10" street="Rue Bruno" zip="5000"/>
+    <ss:account activated="true" email="Lol23@hotmail.com" password="JFZHE88JF66gf" registrationdate="2001-12-31T12:00:00"/>
+    <ss:profile payementdefaults="0" revenue="0.0" sentparcels="0" type="basic" wronglitiges="0"/>
+  </ss:client>
+  
+</ss:clients>

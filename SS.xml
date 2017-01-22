@@ -1,0 +1,3314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clients xmlns="http://www.hlbexpress.com/namespaces/HLB-head-office"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.hlbexpress.com/namespaces/HLB-head-office ../HLB-SS.xsd ">
+	<client firstname="Michelle" lastname="de Ree" birthdate="1946-12-06"
+		phone="0485 14 77 52">
+		<address street="Camminghastraat" number="48" box="B" city="Menen"
+			zip="8930" country="Belgium" />
+		<account email="de.mic@courriel.fr.nf" password="ixoozFh"
+			registrationdate="2009-10-20T00:30:36" activated="true"
+			lastconnexion="2012-09-23T15:20:36" />
+		<profile sentparcels="10" wronglitiges="0" revenue="867.9338"
+			payementdefaults="0" type="advanced" />
+		<pickups>
+			<pickup requestdate="2013-12-13T00:37:35">
+				<pickupaddress street="Camminghastraat" number="48"
+					box="B" city="Menen" zip="8930" country="Belgium" />
+				<billingaddress street="Camminghastraat" number="48"
+					box="B" city="Menen" zip="8930" country="Belgium" />
+				<deliveryaddress street="ReindervanOostenswijk"
+					number="25" box="" city="Goeferdinge" zip="9500" country="Belgium" />
+				<pickupcenter>Bruges</pickupcenter>
+				<deliverycenter>Gand</deliverycenter>
+				<receiver firstname="Sven" lastname="Vermeij" phone="0495 63 13 76" />
+				<insurance amount="58.00343" type="forfait" />
+				<receipt>true</receipt>
+				<declareddimension height="17" length="49" width="83"
+					weight="7" />
+				<reviseddimension height="17" length="49" width="83"
+					weight="7" />
+				<chargedamount>58.00343</chargedamount>
+				<litige date="2012-04-13T00:37:35">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>closed</status>
+					<employeeincharge>mike.de weert</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2010-04-24T10:23:04">
+				<pickupaddress street="Camminghastraat" number="48"
+					box="B" city="Menen" zip="8930" country="Belgium" />
+				<billingaddress street="Camminghastraat" number="48"
+					box="B" city="Menen" zip="8930" country="Belgium" />
+				<deliveryaddress street="Rue de la Mare aux Carats"
+					number="127" box="" city="Lasne" zip="1380" country="Belgium" />
+				<pickupcenter>Bruges</pickupcenter>
+				<deliverycenter>Wavre</deliverycenter>
+				<receiver firstname="Siegfried" lastname="van Stratum"
+					phone="0487 76 14 24" />
+				<insurance amount="66.15518" type="forfait" />
+				<receipt>false</receipt>
+				<declareddimension height="72" length="24" width="92"
+					weight="1" />
+				<reviseddimension height="72" length="24" width="92"
+					weight="1" />
+				<chargedamount>66.15518</chargedamount>
+				<litige date="2010-04-24T10:23:04">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>closed</status>
+					<employeeincharge>vignette.engberts</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2014-01-18T10:04:51">
+				<pickupaddress street="Camminghastraat" number="48"
+					box="B" city="Menen" zip="8930" country="Belgium" />
+				<billingaddress street="Camminghastraat" number="48"
+					box="B" city="Menen" zip="8930" country="Belgium" />
+				<deliveryaddress street="Koningsveld" number="146"
+					box="" city="Courtrai" zip="8500" country="Belgium" />
+				<pickupcenter>Bruges</pickupcenter>
+				<deliverycenter>Bruges</deliverycenter>
+				<receiver firstname="Maximilian" lastname="Lepage" phone="0498 60 09 03" />
+				<insurance amount="121.33819" type="forfait" />
+				<receipt>false</receipt>
+				<declareddimension height="22" length="108" width="39"
+					weight="2" />
+				<reviseddimension height="22" length="108" width="39"
+					weight="2" />
+				<chargedamount>121.33819</chargedamount>
+				<litige date="2014-01-18T10:04:51">
+					<reason>deterioration</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>hortense.mulder</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2013-02-05T05:40:26">
+				<pickupaddress street="Camminghastraat" number="48"
+					box="B" city="Menen" zip="8930" country="Belgium" />
+				<billingaddress street="Camminghastraat" number="48"
+					box="B" city="Menen" zip="8930" country="Belgium" />
+				<deliveryaddress street="Clematisweg" number="107"
+					box="" city="Tongres" zip="3700" country="Belgium" />
+				<pickupcenter>Bruges</pickupcenter>
+				<deliverycenter>Hasselt</deliverycenter>
+				<receiver firstname="Jean" lastname="Williams" phone="0491 63 69 02" />
+				<insurance amount="56.73175" type="forfait" />
+				<receipt>false</receipt>
+				<declareddimension height="21" length="16" width="14"
+					weight="1" />
+				<reviseddimension height="41" length="63" width="81"
+					weight="1" />
+				<chargedamount>56.73175</chargedamount>
+				<extraamount>23.621342</extraamount>
+				<extranotification>0113-02-06T17:56:38</extranotification>
+				<litige date="2013-02-05T05:40:26">
+					<reason>deterioration</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>henderika.bordeaux</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2010-04-20T15:09:43">
+				<pickupaddress street="Camminghastraat" number="48"
+					box="B" city="Menen" zip="8930" country="Belgium" />
+				<billingaddress street="Camminghastraat" number="48"
+					box="B" city="Menen" zip="8930" country="Belgium" />
+				<deliveryaddress street="Oranjelaan" number="211"
+					box="D" city="Noorderwijk" zip="2200" country="Belgium" />
+				<pickupcenter>Bruges</pickupcenter>
+				<deliverycenter>Anvers</deliverycenter>
+				<receiver firstname="Petra" lastname="Allard" phone="0481 69 69 48" />
+				<insurance amount="120.85374" type="montant" />
+				<receipt>false</receipt>
+				<declareddimension height="35" length="94" width="72"
+					weight="6" />
+				<reviseddimension height="78" length="107" width="85"
+					weight="9" />
+				<chargedamount>120.85374</chargedamount>
+				<extraamount>21.5301</extraamount>
+				<extranotification>0110-04-15T01:53:55</extranotification>
+				<litige date="2010-04-20T15:09:43">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>cendrillon.richer</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2012-03-18T17:57:24">
+				<pickupaddress street="Camminghastraat" number="48"
+					box="B" city="Menen" zip="8930" country="Belgium" />
+				<billingaddress street="Camminghastraat" number="48"
+					box="B" city="Menen" zip="8930" country="Belgium" />
+				<deliveryaddress street="Rue du Paillle en queue"
+					number="11" box="" city="Haut-Fays" zip="6929" country="Belgium" />
+				<pickupcenter>Bruges</pickupcenter>
+				<deliverycenter>Arlon</deliverycenter>
+				<receiver firstname="Steventje" lastname="van Beem" phone="0488 74 17 37" />
+				<insurance amount="56.702244" type="montant" />
+				<receipt>true</receipt>
+				<declareddimension height="29" length="59" width="11"
+					weight="8" />
+				<reviseddimension height="52" length="107" width="30"
+					weight="11" />
+				<chargedamount>56.702244</chargedamount>
+				<extraamount>10.67229</extraamount>
+				<extranotification>0112-03-20T03:45:08</extranotification>
+				<litige date="2012-03-18T17:57:24">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>christophe.courtemanche</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2011-06-01T13:23:31">
+				<pickupaddress street="Camminghastraat" number="48"
+					box="B" city="Menen" zip="8930" country="Belgium" />
+				<billingaddress street="Camminghastraat" number="48"
+					box="B" city="Menen" zip="8930" country="Belgium" />
+				<deliveryaddress street="DeVleugel" number="157"
+					box="" city="Leuven" zip="3000" country="Belgium" />
+				<pickupcenter>Bruges</pickupcenter>
+				<deliverycenter>Louvain</deliverycenter>
+				<receiver firstname="Vignette" lastname="Aartman" phone="0498 72 37 67" />
+				<insurance amount="113.800476" type="montant" />
+				<receipt>false</receipt>
+				<declareddimension height="72" length="77" width="97"
+					weight="7" />
+				<reviseddimension height="100" length="110" width="193"
+					weight="11" />
+				<chargedamount>113.800476</chargedamount>
+				<extraamount>17.549437</extraamount>
+				<extranotification>0111-06-28T17:27:26</extranotification>
+				<litige date="2011-06-01T13:23:31">
+					<reason>deterioration</reason>
+					<description>Un litige</description>
+					<status>in-negociation</status>
+					<employeeincharge>chiara.avare</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2010-11-18T13:31:18">
+				<pickupaddress street="Camminghastraat" number="48"
+					box="B" city="Menen" zip="8930" country="Belgium" />
+				<billingaddress street="Camminghastraat" number="48"
+					box="B" city="Menen" zip="8930" country="Belgium" />
+				<deliveryaddress street="Tubbergenbrink" number="176"
+					box="E" city="Linter" zip="3350" country="Belgium" />
+				<pickupcenter>Bruges</pickupcenter>
+				<deliverycenter>Louvain</deliverycenter>
+				<receiver firstname="Vignette" lastname="Brisette" phone="0479 73 47 77" />
+				<insurance amount="122.046814" type="forfait" />
+				<receipt>false</receipt>
+				<declareddimension height="28" length="40" width="104"
+					weight="7" />
+				<reviseddimension height="68" length="51" width="183"
+					weight="8" />
+				<chargedamount>122.046814</chargedamount>
+				<extraamount>23.18793</extraamount>
+				<extranotification>0110-11-11T18:06:47</extranotification>
+				<litige date="2010-11-18T13:31:18">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>reinhard.garcia</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2010-01-23T11:08:01">
+				<pickupaddress street="Camminghastraat" number="48"
+					box="B" city="Menen" zip="8930" country="Belgium" />
+				<billingaddress street="Camminghastraat" number="48"
+					box="B" city="Menen" zip="8930" country="Belgium" />
+				<deliveryaddress street="Rue Victor Hugo" number="181"
+					box="" city="Fosses-la-Ville" zip="5070" country="Belgium" />
+				<pickupcenter>Bruges</pickupcenter>
+				<deliverycenter>Namur</deliverycenter>
+				<receiver firstname="Saville" lastname="Martel" phone="0495 63 13 76" />
+				<insurance amount="107.69457" type="forfait" />
+				<receipt>false</receipt>
+				<declareddimension height="32" length="29" width="77"
+					weight="3" />
+				<reviseddimension height="80" length="29" width="129"
+					weight="5" />
+				<chargedamount>107.69457</chargedamount>
+				<extraamount>14.694151</extraamount>
+				<extranotification>0110-01-25T10:37:16</extranotification>
+				<litige date="2010-01-23T11:08:01">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>in-negociation</status>
+					<employeeincharge>rene.lafreniere</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2013-04-20T06:27:16">
+				<pickupaddress street="Camminghastraat" number="48"
+					box="B" city="Menen" zip="8930" country="Belgium" />
+				<billingaddress street="Camminghastraat" number="48"
+					box="B" city="Menen" zip="8930" country="Belgium" />
+				<deliveryaddress street="Rue des Lacs" number="36"
+					box="" city="Libramont" zip="6800" country="Belgium" />
+				<pickupcenter>Bruges</pickupcenter>
+				<deliverycenter>Arlon</deliverycenter>
+				<receiver firstname="Katharina" lastname="Chnadonnet"
+					phone="0474 47 55 25" />
+				<insurance amount="44.607445" type="montant" />
+				<receipt>false</receipt>
+				<declareddimension height="108" length="42" width="31"
+					weight="1" />
+				<reviseddimension height="147" length="58" width="49"
+					weight="2" />
+				<chargedamount>44.607445</chargedamount>
+				<extraamount>13.372988</extraamount>
+				<extranotification>0113-04-12T08:42:27</extranotification>
+				<litige date="2013-04-20T06:27:16">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>brooklyn.lamare</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+		</pickups>
+	</client>
+	<client firstname="Henderika" lastname="Beauchamp" birthdate="1991-01-02"
+		phone="0491 84 00 82">
+		<address street="DeVleugel" number="194" box="C" city="Brielen"
+			zip="8900" country="Belgium" />
+		<account email="bea_henderika2@yopmail.net" password="h6QY52L"
+			registrationdate="2013-06-05T03:26:45" activated="true"
+			lastconnexion="2013-12-15T15:38:11" />
+		<profile sentparcels="0" revenue="0.0" payementdefaults="2"
+			type="basic" wronglitiges="0" />
+	</client>
+	<client firstname="Stefanie" lastname="Courtemanche" birthdate="1989-11-19"
+		phone="0498 60 09 03">
+		<address street="Oranjelaan" number="129" box="E" city="Genk"
+			zip="3600" country="Belgium" />
+		<account email="co-ste@yopmail.net" password="XAAhF92"
+			registrationdate="2009-08-16T22:18:14" activated="false"
+			lastconnexion="2009-08-16T22:18:14" />
+		<profile sentparcels="0" revenue="0.0" payementdefaults="0"
+			type="basic" wronglitiges="0" />
+	</client>
+
+	<client firstname="Elizaveta" lastname="Dennis" birthdate="1947-08-18"
+		phone="0498 54 12 12">
+		<address street="Plein" number="241" box="" city="Tildonk"
+			zip="3150" country="Belgium" />
+		<account email="den.eli@courriel.fr.nf" password="bQ0eKTK"
+			registrationdate="2010-03-30T04:03:50" activated="true"
+			lastconnexion="2013-11-03T07:10:40" />
+		<profile sentparcels="3" wronglitiges="0" revenue="318.40402"
+			payementdefaults="2" type="advanced" />
+		<pickups>
+			<pickup requestdate="2014-02-02T11:48:36">
+				<pickupaddress street="Plein" number="241" box=""
+					city="Tildonk" zip="3150" country="Belgium" />
+				<billingaddress street="Plein" number="241" box=""
+					city="Tildonk" zip="3150" country="Belgium" />
+				<deliveryaddress street="GerardTerborgstraat"
+					number="201" box="" city="Hasselt" zip="3500" country="Belgium" />
+				<pickupcenter>Louvain</pickupcenter>
+				<deliverycenter>Hasselt</deliverycenter>
+				<receiver firstname="Laurence" lastname="Pranger" phone="0474 47 55 25" />
+				<insurance amount="141.52481" type="forfait" />
+				<receipt>true</receipt>
+				<declareddimension height="101" length="108"
+					width="17" weight="7" />
+				<reviseddimension height="101" length="108" width="17"
+					weight="7" />
+				<chargedamount>141.52481</chargedamount>
+				<litige date="2014-02-02T11:48:36">
+					<reason>deterioration</reason>
+					<description>Un litige</description>
+					<status>in-negociation</status>
+					<employeeincharge>petra.melanson</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2013-09-15T01:05:31">
+				<pickupaddress street="Plein" number="241" box=""
+					city="Tildonk" zip="3150" country="Belgium" />
+				<billingaddress street="Plein" number="241" box=""
+					city="Tildonk" zip="3150" country="Belgium" />
+				<deliveryaddress street="Avenue De Marlioz" number="137"
+					box="C" city="Tourinnes-Saint-Lambert" zip="1457" country="Belgium" />
+				<pickupcenter>Louvain</pickupcenter>
+				<deliverycenter>Wavre</deliverycenter>
+				<receiver firstname="Mohsin" lastname="Desnoyers" phone="0488 62 76 14" />
+				<insurance amount="93.48419" type="forfait" />
+				<receipt>false</receipt>
+				<declareddimension height="46" length="35" width="99"
+					weight="7" />
+				<reviseddimension height="89" length="36" width="103"
+					weight="11" />
+				<chargedamount>93.48419</chargedamount>
+				<extraamount>7.658883</extraamount>
+				<extranotification>0113-09-22T16:03:02</extranotification>
+				<litige date="2013-09-15T01:05:31">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>geraldo.manten</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2012-01-04T19:08:51">
+				<pickupaddress street="Plein" number="241" box=""
+					city="Tildonk" zip="3150" country="Belgium" />
+				<billingaddress street="Plein" number="241" box=""
+					city="Tildonk" zip="3150" country="Belgium" />
+				<deliveryaddress street="ReindervanOostenswijk"
+					number="227" box="" city="Deinze" zip="9800" country="Belgium" />
+				<pickupcenter>Louvain</pickupcenter>
+				<deliverycenter>Gand</deliverycenter>
+				<receiver firstname="Sammy-Jo" lastname="Chassé" phone="0471 17 45 70" />
+				<insurance amount="83.39503" type="montant" />
+				<receipt>true</receipt>
+				<declareddimension height="98" length="15" width="88"
+					weight="7" />
+				<reviseddimension height="98" length="15" width="88"
+					weight="7" />
+				<chargedamount>83.39503</chargedamount>
+				<litige date="2012-01-04T19:08:51">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>in-negociation</status>
+					<employeeincharge>timothee.klerk</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+		</pickups>
+	</client>
+	<client firstname="Reinhard" lastname="Gulikers" birthdate="1925-09-07"
+		phone="0489 16 37 45">
+		<address street="Lindenlaan" number="112" box="D" city="Klemskerke"
+			zip="8420" country="Belgium" />
+		<account email="gu_rei@yopmail.com" password="PPvnwu0"
+			registrationdate="2013-12-10T00:13:39" activated="true"
+			lastconnexion="2013-12-23T00:32:11" />
+		<profile sentparcels="11" wronglitiges="0" revenue="841.6182"
+			payementdefaults="2" type="advanced" />
+		<pickups>
+			<pickup requestdate="2014-01-11T22:19:55">
+				<pickupaddress street="Lindenlaan" number="112" box="D"
+					city="Klemskerke" zip="8420" country="Belgium" />
+				<billingaddress street="Lindenlaan" number="112" box="D"
+					city="Klemskerke" zip="8420" country="Belgium" />
+				<deliveryaddress street="KoninginJulianastraat"
+					number="126" box="A" city="Rumsdorp" zip="3400" country="Belgium" />
+				<pickupcenter>Bruges</pickupcenter>
+				<deliverycenter>Louvain</deliverycenter>
+				<receiver firstname="Jens" lastname="Hulleman" phone="0486 17 70 63" />
+				<insurance amount="58.705624" type="montant" />
+				<receipt>false</receipt>
+				<declareddimension height="24" length="17" width="17"
+					weight="7" />
+				<reviseddimension height="24" length="17" width="17"
+					weight="7" />
+				<chargedamount>58.705624</chargedamount>
+				<litige date="2014-01-11T22:19:55">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>in-negociation</status>
+					<employeeincharge>kian.jongkind</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2013-12-27T01:59:03">
+				<pickupaddress street="Lindenlaan" number="112" box="D"
+					city="Klemskerke" zip="8420" country="Belgium" />
+				<billingaddress street="Lindenlaan" number="112" box="D"
+					city="Klemskerke" zip="8420" country="Belgium" />
+				<deliveryaddress street="DeWan" number="180" box=""
+					city="Hoelbeek" zip="3746" country="Belgium" />
+				<pickupcenter>Bruges</pickupcenter>
+				<deliverycenter>Hasselt</deliverycenter>
+				<receiver firstname="Thierry" lastname="Rivard" phone="0473 21 54 24" />
+				<insurance amount="76.22103" type="forfait" />
+				<receipt>false</receipt>
+				<declareddimension height="83" length="58" width="90"
+					weight="2" />
+				<reviseddimension height="92" length="81" width="109"
+					weight="5" />
+				<chargedamount>76.22103</chargedamount>
+				<extraamount>13.785459</extraamount>
+				<extranotification>0113-12-16T03:01:31</extranotification>
+				<litige date="2013-12-27T01:59:03">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>rogier.grimard</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2014-01-08T11:05:33">
+				<pickupaddress street="Lindenlaan" number="112" box="D"
+					city="Klemskerke" zip="8420" country="Belgium" />
+				<billingaddress street="Lindenlaan" number="112" box="D"
+					city="Klemskerke" zip="8420" country="Belgium" />
+				<deliveryaddress street="Houdringe" number="210"
+					box="" city="Kermt" zip="3510" country="Belgium" />
+				<pickupcenter>Bruges</pickupcenter>
+				<deliverycenter>Hasselt</deliverycenter>
+				<receiver firstname="Liane" lastname="Swinkels" phone="0495 75 88 75" />
+				<insurance amount="83.9117" type="montant" />
+				<receipt>false</receipt>
+				<declareddimension height="95" length="94" width="91"
+					weight="1" />
+				<reviseddimension height="98" length="113" width="116"
+					weight="2" />
+				<chargedamount>83.9117</chargedamount>
+				<extraamount>22.586674</extraamount>
+				<extranotification>0114-01-26T02:17:02</extranotification>
+				<litige date="2014-01-08T11:05:33">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>galatee.avare</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2014-01-01T21:24:00">
+				<pickupaddress street="Lindenlaan" number="112" box="D"
+					city="Klemskerke" zip="8420" country="Belgium" />
+				<billingaddress street="Lindenlaan" number="112" box="D"
+					city="Klemskerke" zip="8420" country="Belgium" />
+				<deliveryaddress street="Rue de Strasbourg" number="180"
+					box="D" city="Auvelais" zip="5070" country="Belgium" />
+				<pickupcenter>Bruges</pickupcenter>
+				<deliverycenter>Namur</deliverycenter>
+				<receiver firstname="Robert" lastname="Des Meaux" phone="0497 93 69 00" />
+				<insurance amount="42.003113" type="forfait" />
+				<receipt>true</receipt>
+				<declareddimension height="100" length="106"
+					width="95" weight="1" />
+				<reviseddimension height="115" length="124" width="158"
+					weight="3" />
+				<chargedamount>42.003113</chargedamount>
+				<extraamount>8.486401</extraamount>
+				<extranotification>0114-01-04T05:11:04</extranotification>
+				<litige date="2014-01-01T21:24:00">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>in-negociation</status>
+					<employeeincharge>niklas.boisclair</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2014-01-28T02:46:44">
+				<pickupaddress street="Lindenlaan" number="112" box="D"
+					city="Klemskerke" zip="8420" country="Belgium" />
+				<billingaddress street="Lindenlaan" number="112" box="D"
+					city="Klemskerke" zip="8420" country="Belgium" />
+				<deliveryaddress street="Patijnstraat" number="93"
+					box="" city="Poperinge" zip="8970" country="Belgium" />
+				<pickupcenter>Bruges</pickupcenter>
+				<deliverycenter>Bruges</deliverycenter>
+				<receiver firstname="Julia" lastname="Adriaanse" phone="0497 29 51 77" />
+				<insurance amount="99.86838" type="forfait" />
+				<receipt>true</receipt>
+				<declareddimension height="99" length="29" width="91"
+					weight="3" />
+				<reviseddimension height="131" length="48" width="137"
+					weight="6" />
+				<chargedamount>99.86838</chargedamount>
+				<extraamount>0.73040843</extraamount>
+				<extranotification>0114-01-31T16:00:12</extranotification>
+				<litige date="2014-01-28T02:46:44">
+					<reason>deterioration</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>tonnis.beaudoin</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2013-12-17T15:07:56">
+				<pickupaddress street="Lindenlaan" number="112" box="D"
+					city="Klemskerke" zip="8420" country="Belgium" />
+				<billingaddress street="Lindenlaan" number="112" box="D"
+					city="Klemskerke" zip="8420" country="Belgium" />
+				<deliveryaddress street="Blokmakersstraat" number="36"
+					box="" city="Westmalle" zip="2390" country="Belgium" />
+				<pickupcenter>Bruges</pickupcenter>
+				<deliverycenter>Anvers</deliverycenter>
+				<receiver firstname="Niklas" lastname="Bourgeois" phone="0499 59 20 60" />
+				<insurance amount="91.35231" type="forfait" />
+				<receipt>true</receipt>
+				<declareddimension height="47" length="83" width="30"
+					weight="6" />
+				<reviseddimension height="80" length="129" width="119"
+					weight="9" />
+				<chargedamount>91.35231</chargedamount>
+				<extraamount>1.107738</extraamount>
+				<extranotification>0113-12-14T18:09:57</extranotification>
+				<litige date="2013-12-17T15:07:56">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>closed</status>
+					<employeeincharge>cerise.paalman</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2014-01-06T16:58:26">
+				<pickupaddress street="Lindenlaan" number="112" box="D"
+					city="Klemskerke" zip="8420" country="Belgium" />
+				<billingaddress street="Lindenlaan" number="112" box="D"
+					city="Klemskerke" zip="8420" country="Belgium" />
+				<deliveryaddress street="Rue Marie de Médicis"
+					number="199" box="" city="Terwagne" zip="4560" country="Belgium" />
+				<pickupcenter>Bruges</pickupcenter>
+				<deliverycenter>Liège</deliverycenter>
+				<receiver firstname="Raven" lastname="Chaloux" phone="0497 29 32 53" />
+				<insurance amount="90.30354" type="forfait" />
+				<receipt>true</receipt>
+				<declareddimension height="106" length="60" width="108"
+					weight="9" />
+				<reviseddimension height="106" length="60" width="108"
+					weight="9" />
+				<chargedamount>90.30354</chargedamount>
+				<litige date="2014-01-06T16:58:26">
+					<reason>deterioration</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>paul.ter brugge</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2014-02-02T16:48:16">
+				<pickupaddress street="Lindenlaan" number="112" box="D"
+					city="Klemskerke" zip="8420" country="Belgium" />
+				<billingaddress street="Lindenlaan" number="112" box="D"
+					city="Klemskerke" zip="8420" country="Belgium" />
+				<deliveryaddress street="Rue des Soeurs" number="166"
+					box="A" city="Sint-Stevens-Woluwe" zip="1932" country="Belgium" />
+				<pickupcenter>Bruges</pickupcenter>
+				<deliverycenter>Wavre</deliverycenter>
+				<receiver firstname="Melanie" lastname="Grivois" phone="0473 19 62 65" />
+				<insurance amount="119.58107" type="montant" />
+				<receipt>false</receipt>
+				<declareddimension height="34" length="69" width="101"
+					weight="8" />
+				<reviseddimension height="59" length="80" width="149"
+					weight="10" />
+				<chargedamount>119.58107</chargedamount>
+				<extraamount>6.2982683</extraamount>
+				<extranotification>0114-02-12T22:20:10</extranotification>
+				<litige date="2014-02-02T16:48:16">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>closed</status>
+					<employeeincharge>laurence.mailly</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2014-01-14T10:24:59">
+				<pickupaddress street="Lindenlaan" number="112" box="D"
+					city="Klemskerke" zip="8420" country="Belgium" />
+				<billingaddress street="Lindenlaan" number="112" box="D"
+					city="Klemskerke" zip="8420" country="Belgium" />
+				<deliveryaddress street="Tollenslaan" number="161"
+					box="" city="Leuven" zip="3000" country="Belgium" />
+				<pickupcenter>Bruges</pickupcenter>
+				<deliverycenter>Louvain</deliverycenter>
+				<receiver firstname="Benjamin" lastname="Briard" phone="0499 19 74 04" />
+				<insurance amount="82.476006" type="montant" />
+				<receipt>true</receipt>
+				<declareddimension height="52" length="102" width="21"
+					weight="7" />
+				<reviseddimension height="52" length="102" width="21"
+					weight="7" />
+				<chargedamount>82.476006</chargedamount>
+				<litige date="2014-01-14T10:24:59">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>nadeche.couet</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2014-02-07T18:07:52">
+				<pickupaddress street="Lindenlaan" number="112" box="D"
+					city="Klemskerke" zip="8420" country="Belgium" />
+				<billingaddress street="Lindenlaan" number="112" box="D"
+					city="Klemskerke" zip="8420" country="Belgium" />
+				<deliveryaddress street="Place de Miremont" number="166"
+					box="D" city="Charleroi" zip="6000" country="Belgium" />
+				<pickupcenter>Bruges</pickupcenter>
+				<deliverycenter>Mons</deliverycenter>
+				<receiver firstname="Alphonse" lastname="Pelser" phone="0487 97 21 62" />
+				<insurance amount="26.13363" type="forfait" />
+				<receipt>true</receipt>
+				<declareddimension height="22" length="87" width="10"
+					weight="1" />
+				<reviseddimension height="30" length="94" width="67"
+					weight="5" />
+				<chargedamount>26.13363</chargedamount>
+				<extraamount>18.25394</extraamount>
+				<extranotification>0114-02-19T22:23:43</extranotification>
+				<litige date="2014-02-07T18:07:52">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>closed</status>
+					<employeeincharge>joah.de koster</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2014-01-21T16:44:35">
+				<pickupaddress street="Lindenlaan" number="112" box="D"
+					city="Klemskerke" zip="8420" country="Belgium" />
+				<billingaddress street="Lindenlaan" number="112" box="D"
+					city="Klemskerke" zip="8420" country="Belgium" />
+				<deliveryaddress street="Boulevard Aristide Briand"
+					number="175" box="" city="Hacquegnies" zip="7911" country="Belgium" />
+				<pickupcenter>Bruges</pickupcenter>
+				<deliverycenter>Mons</deliverycenter>
+				<receiver firstname="Scoville" lastname="van Cruchten"
+					phone="0488 74 17 37" />
+				<insurance amount="71.06189" type="montant" />
+				<receipt>true</receipt>
+				<declareddimension height="80" length="79" width="82"
+					weight="3" />
+				<reviseddimension height="86" length="102" width="106"
+					weight="3" />
+				<chargedamount>71.06189</chargedamount>
+				<extraamount>4.0657244</extraamount>
+				<extranotification>0114-01-06T01:07:25</extranotification>
+				<litige date="2014-01-21T16:44:35">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>brigitte.salmons</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+		</pickups>
+	</client>
+	<client firstname="Ted" lastname="Klerk" birthdate="1937-05-27"
+		phone="0472 67 46 75">
+		<address street="Rue des six frèresRuellan" number="211" box="B"
+			city="Naomé" zip="5555" country="Belgium" />
+		<account email="kl.ted@cool.fr.nf" password="Vfwhncj"
+			registrationdate="2010-07-10T19:52:56" activated="true"
+			lastconnexion="2010-11-05T09:14:53" />
+		<profile sentparcels="11" wronglitiges="0" revenue="10154.971"
+			payementdefaults="2" type="advanced" />
+		<pickups>
+			<pickup requestdate="2014-01-18T10:04:51">
+				<pickupaddress street="Rue des six frèresRuellan"
+					number="211" box="B" city="Naomé" zip="5555" country="Belgium" />
+				<billingaddress street="Rue des six frèresRuellan"
+					number="211" box="B" city="Naomé" zip="5555" country="Belgium" />
+				<deliveryaddress street="Rue Marie de Médicis"
+					number="98" box="B" city="Sint-Stevens-Woluwe" zip="1932" country="Belgium" />
+				<pickupcenter>Namur</pickupcenter>
+				<deliverycenter>Wavre</deliverycenter>
+				<receiver firstname="Jens" lastname="Dag" phone="0496 23 10 62" />
+				<insurance amount="186.25679" type="montant" />
+				<receipt>false</receipt>
+				<declareddimension height="44" length="97" width="69"
+					weight="5" />
+				<reviseddimension height="55" length="100" width="149"
+					weight="5" />
+				<chargedamount>186.25679</chargedamount>
+				<extraamount>24.80431</extraamount>
+				<extranotification>0111-04-06T15:13:47</extranotification>
+				<litige date="2014-01-18T11:04:51">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>hila.dandonneau</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2014-01-18T08:04:51">
+				<pickupaddress street="Rue des six frèresRuellan"
+					number="211" box="B" city="Naomé" zip="5555" country="Belgium" />
+				<billingaddress street="Rue des six frèresRuellan"
+					number="211" box="B" city="Naomé" zip="5555" country="Belgium" />
+				<deliveryaddress street="Rue de Groussay" number="192"
+					box="B" city="Pottes" zip="7760" country="Belgium" />
+				<pickupcenter>Namur</pickupcenter>
+				<deliverycenter>Mons</deliverycenter>
+				<receiver firstname="Susanne" lastname="Beauchamps" phone="0481 30 54 03" />
+				<insurance amount="1473.7172" type="forfait" />
+				<receipt>true</receipt>
+				<declareddimension height="60" length="81" width="36"
+					weight="6" />
+				<reviseddimension height="93" length="90" width="131"
+					weight="7" />
+				<chargedamount>1473.7172</chargedamount>
+				<extraamount>15.653742</extraamount>
+				<extranotification>0112-06-25T16:12:35</extranotification>
+				<litige date="2014-01-18T12:04:51">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>in-negociation</status>
+					<employeeincharge>steventje.racicot</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2013-04-26T13:02:08">
+				<pickupaddress street="Rue des six frèresRuellan"
+					number="211" box="B" city="Naomé" zip="5555" country="Belgium" />
+				<billingaddress street="Rue des six frèresRuellan"
+					number="211" box="B" city="Naomé" zip="5555" country="Belgium" />
+				<deliveryaddress street="Schorpioenstraat" number="41"
+					box="D" city="Courtrai" zip="8500" country="Belgium" />
+				<pickupcenter>Namur</pickupcenter>
+				<deliverycenter>Bruges</deliverycenter>
+				<receiver firstname="Chiara" lastname="Lampron" phone="0490 80 85 19" />
+				<insurance amount="612.03735" type="montant" />
+				<receipt>true</receipt>
+				<declareddimension height="102" length="107"
+					width="95" weight="1" />
+				<reviseddimension height="142" length="142" width="103"
+					weight="2" />
+				<chargedamount>612.03735</chargedamount>
+				<extraamount>24.119751</extraamount>
+				<extranotification>0113-04-28T07:26:32</extranotification>
+				<litige date="2013-04-26T13:02:08">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>in-negociation</status>
+					<employeeincharge>kadriye.lamare</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2011-07-26T06:53:03">
+				<pickupaddress street="Rue des six frèresRuellan"
+					number="211" box="B" city="Naomé" zip="5555" country="Belgium" />
+				<billingaddress street="Rue des six frèresRuellan"
+					number="211" box="B" city="Naomé" zip="5555" country="Belgium" />
+				<deliveryaddress street="Rue Léon Dierx" number="168"
+					box="B" city="Isières" zip="7822" country="Belgium" />
+				<pickupcenter>Namur</pickupcenter>
+				<deliverycenter>Mons</deliverycenter>
+				<receiver firstname="Thierry" lastname="Bussink" phone="0475 97 66 97" />
+				<insurance amount="1292.3015" type="montant" />
+				<receipt>true</receipt>
+				<declareddimension height="87" length="30" width="27"
+					weight="1" />
+				<reviseddimension height="87" length="30" width="27"
+					weight="1" />
+				<chargedamount>1292.3015</chargedamount>
+				<litige date="2011-07-26T06:53:03">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>closed</status>
+					<employeeincharge>michael.klerk</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2013-05-03T02:23:48">
+				<pickupaddress street="Rue des six frèresRuellan"
+					number="211" box="B" city="Naomé" zip="5555" country="Belgium" />
+				<billingaddress street="Rue des six frèresRuellan"
+					number="211" box="B" city="Naomé" zip="5555" country="Belgium" />
+				<deliveryaddress street="Schoolstraat" number="119"
+					box="D" city="Pittem" zip="8740" country="Belgium" />
+				<pickupcenter>Namur</pickupcenter>
+				<deliverycenter>Bruges</deliverycenter>
+				<receiver firstname="Manuela" lastname="Parrot" phone="0482 88 74 31" />
+				<insurance amount="1671.4669" type="forfait" />
+				<receipt>true</receipt>
+				<declareddimension height="11" length="99" width="77"
+					weight="8" />
+				<reviseddimension height="11" length="99" width="77"
+					weight="8" />
+				<chargedamount>1671.4669</chargedamount>
+				<litige date="2013-05-03T02:23:48">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>in-negociation</status>
+					<employeeincharge>elles.voss</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2010-10-24T16:16:41">
+				<pickupaddress street="Rue des six frèresRuellan"
+					number="211" box="B" city="Naomé" zip="5555" country="Belgium" />
+				<billingaddress street="Rue des six frèresRuellan"
+					number="211" box="B" city="Naomé" zip="5555" country="Belgium" />
+				<deliveryaddress street="Avenue Millies Lacroix"
+					number="112" box="" city="Saint-Hubert" zip="6870" country="Belgium" />
+				<pickupcenter>Namur</pickupcenter>
+				<deliverycenter>Arlon</deliverycenter>
+				<receiver firstname="Ines" lastname="Allard" phone="0483 87 45 53" />
+				<insurance amount="797.76306" type="montant" />
+				<receipt>false</receipt>
+				<declareddimension height="82" length="46" width="53"
+					weight="6" />
+				<reviseddimension height="116" length="62" width="102"
+					weight="8" />
+				<chargedamount>797.76306</chargedamount>
+				<extraamount>21.966795</extraamount>
+				<extranotification>0110-10-03T09:52:06</extranotification>
+				<litige date="2010-10-24T16:16:41">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>lea.desnoyers</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2012-01-09T11:21:58">
+				<pickupaddress street="Rue des six frèresRuellan"
+					number="211" box="B" city="Naomé" zip="5555" country="Belgium" />
+				<billingaddress street="Rue des six frèresRuellan"
+					number="211" box="B" city="Naomé" zip="5555" country="Belgium" />
+				<deliveryaddress street="Bregeleane" number="6" box=""
+					city="Bassevelde" zip="9968" country="Belgium" />
+				<pickupcenter>Namur</pickupcenter>
+				<deliverycenter>Gand</deliverycenter>
+				<receiver firstname="Scoville" lastname="Bisaillon" phone="0489 97 63 79" />
+				<insurance amount="496.08118" type="montant" />
+				<receipt>true</receipt>
+				<declareddimension height="23" length="72" width="31"
+					weight="5" />
+				<reviseddimension height="23" length="72" width="31"
+					weight="5" />
+				<chargedamount>496.08118</chargedamount>
+				<litige date="2012-01-09T11:21:58">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>telford.van nieuwenhoven</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2013-02-12T05:09:38">
+				<pickupaddress street="Rue des six frèresRuellan"
+					number="211" box="B" city="Naomé" zip="5555" country="Belgium" />
+				<billingaddress street="Rue des six frèresRuellan"
+					number="211" box="B" city="Naomé" zip="5555" country="Belgium" />
+				<deliveryaddress street="Gargouille" number="108"
+					box="A" city="Piringen" zip="3700" country="Belgium" />
+				<pickupcenter>Namur</pickupcenter>
+				<deliverycenter>Hasselt</deliverycenter>
+				<receiver firstname="Henderika" lastname="Hoekzema" phone="0485 91 42 41" />
+				<insurance amount="1018.9064" type="montant" />
+				<receipt>false</receipt>
+				<declareddimension height="90" length="97" width="70"
+					weight="1" />
+				<reviseddimension height="110" length="106" width="83"
+					weight="1" />
+				<chargedamount>1018.9064</chargedamount>
+				<extraamount>2.9726725</extraamount>
+				<extranotification>0113-02-21T23:26:30</extranotification>
+				<litige date="2013-02-12T05:09:38">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>in-negociation</status>
+					<employeeincharge>koop.mailly</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2010-12-29T22:12:35">
+				<pickupaddress street="Rue des six frèresRuellan"
+					number="211" box="B" city="Naomé" zip="5555" country="Belgium" />
+				<billingaddress street="Rue des six frèresRuellan"
+					number="211" box="B" city="Naomé" zip="5555" country="Belgium" />
+				<deliveryaddress street="Rue Léon Dierx" number="225"
+					box="E" city="Saint-Hubert" zip="6870" country="Belgium" />
+				<pickupcenter>Namur</pickupcenter>
+				<deliverycenter>Arlon</deliverycenter>
+				<receiver firstname="Jonas" lastname="van der Vegte" phone="0498 16 80 56" />
+				<insurance amount="1856.3456" type="montant" />
+				<receipt>false</receipt>
+				<declareddimension height="70" length="91" width="62"
+					weight="6" />
+				<reviseddimension height="110" length="124" width="121"
+					weight="8" />
+				<chargedamount>1856.3456</chargedamount>
+				<extraamount>5.0154285</extraamount>
+				<extranotification>0110-12-21T23:36:42</extranotification>
+				<litige date="2010-12-29T22:12:35">
+					<reason>deterioration</reason>
+					<description>Un litige</description>
+					<status>in-negociation</status>
+					<employeeincharge>detlef.steins</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2012-06-06T08:38:46">
+				<pickupaddress street="Rue des six frèresRuellan"
+					number="211" box="B" city="Naomé" zip="5555" country="Belgium" />
+				<billingaddress street="Rue des six frèresRuellan"
+					number="211" box="B" city="Naomé" zip="5555" country="Belgium" />
+				<deliveryaddress street="Chemin Du Lavarin Sud"
+					number="208" box="" city="Gesves" zip="5340" country="Belgium" />
+				<pickupcenter>Namur</pickupcenter>
+				<deliverycenter>Namur</deliverycenter>
+				<receiver firstname="Marciano" lastname="Vlaar" phone="0482 88 74 31" />
+				<insurance amount="417.58093" type="forfait" />
+				<receipt>true</receipt>
+				<declareddimension height="98" length="12" width="78"
+					weight="2" />
+				<reviseddimension height="113" length="33" width="172"
+					weight="2" />
+				<chargedamount>417.58093</chargedamount>
+				<extraamount>22.824236</extraamount>
+				<extranotification>0112-06-29T17:51:27</extranotification>
+				<litige date="2012-06-06T08:38:46">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>closed</status>
+					<employeeincharge>agnes.glimmerveen</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2012-08-05T15:15:37">
+				<pickupaddress street="Rue des six frèresRuellan"
+					number="211" box="B" city="Naomé" zip="5555" country="Belgium" />
+				<billingaddress street="Rue des six frèresRuellan"
+					number="211" box="B" city="Naomé" zip="5555" country="Belgium" />
+				<deliveryaddress street="Rue des Lacs" number="31"
+					box="A" city="Bonsin" zip="5377" country="Belgium" />
+				<pickupcenter>Namur</pickupcenter>
+				<deliverycenter>Namur</deliverycenter>
+				<receiver firstname="Parfait" lastname="Paffen" phone="0478 73 92 05" />
+				<insurance amount="332.51373" type="forfait" />
+				<receipt>false</receipt>
+				<declareddimension height="81" length="20" width="19"
+					weight="7" />
+				<reviseddimension height="107" length="46" width="84"
+					weight="9" />
+				<chargedamount>332.51373</chargedamount>
+				<extraamount>16.963295</extraamount>
+				<extranotification>0112-08-21T16:16:09</extranotification>
+				<litige date="2012-08-05T15:15:37">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>closed</status>
+					<employeeincharge>catrinus.sabourin</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+		</pickups>
+	</client>
+	<client firstname="Stephanie" lastname="Lambert" birthdate="1915-04-18"
+		phone="0476 76 25 46">
+		<address street="Bregeleane" number="80" box="A" city="Genk"
+			zip="3600" country="Belgium" />
+		<account email="lambert_ste@yopmail.com" password="ztsYW1S"
+			registrationdate="2007-05-10T09:29:12" activated="true"
+			lastconnexion="2009-07-10T08:55:06" />
+		<profile sentparcels="11" wronglitiges="0" revenue="745.5453"
+			payementdefaults="0" type="advanced" />
+		<pickups>
+			<pickup requestdate="2008-10-11T09:29:08">
+				<pickupaddress street="Bregeleane" number="80" box="A"
+					city="Genk" zip="3600" country="Belgium" />
+				<billingaddress street="Bregeleane" number="80" box="A"
+					city="Genk" zip="3600" country="Belgium" />
+				<deliveryaddress street="Rue de Raymond Poincaré"
+					number="156" box="A" city="Eghezée" zip="5310" country="Belgium" />
+				<pickupcenter>Hasselt</pickupcenter>
+				<deliverycenter>Namur</deliverycenter>
+				<receiver firstname="Ralf" lastname="Briard" phone="0496 60 81 67" />
+				<insurance amount="37.536983" type="montant" />
+				<receipt>true</receipt>
+				<declareddimension height="76" length="23" width="100"
+					weight="3" />
+				<reviseddimension height="94" length="37" width="199"
+					weight="7" />
+				<chargedamount>37.536983</chargedamount>
+				<extraamount>19.004707</extraamount>
+				<extranotification>0108-10-14T20:41:32</extranotification>
+				<litige date="2008-10-11T09:29:08">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>scoville.pelser</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2008-06-13T10:14:49">
+				<pickupaddress street="Bregeleane" number="80" box="A"
+					city="Genk" zip="3600" country="Belgium" />
+				<billingaddress street="Bregeleane" number="80" box="A"
+					city="Genk" zip="3600" country="Belgium" />
+				<deliveryaddress street="Mastbos" number="89" box=""
+					city="Bree" zip="3960" country="Belgium" />
+				<pickupcenter>Hasselt</pickupcenter>
+				<deliverycenter>Hasselt</deliverycenter>
+				<receiver firstname="Mylène" lastname="Grivois" phone="0488 74 17 37" />
+				<insurance amount="93.96057" type="montant" />
+				<receipt>true</receipt>
+				<declareddimension height="92" length="79" width="49"
+					weight="9" />
+				<reviseddimension height="107" length="112" width="99"
+					weight="13" />
+				<chargedamount>93.96057</chargedamount>
+				<extraamount>0.6328976</extraamount>
+				<extranotification>0108-06-21T17:26:06</extranotification>
+				<litige date="2008-06-13T10:14:49">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>closed</status>
+					<employeeincharge>karin.boileau</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2008-04-20T15:04:41">
+				<pickupaddress street="Bregeleane" number="80" box="A"
+					city="Genk" zip="3600" country="Belgium" />
+				<billingaddress street="Bregeleane" number="80" box="A"
+					city="Genk" zip="3600" country="Belgium" />
+				<deliveryaddress street="Rue du Président Roosevelt"
+					number="138" box="D" city="Jodoigne" zip="1370" country="Belgium" />
+				<pickupcenter>Hasselt</pickupcenter>
+				<deliverycenter>Wavre</deliverycenter>
+				<receiver firstname="Robert" lastname="Grivois" phone="0494 52 18 18" />
+				<insurance amount="63.57174" type="forfait" />
+				<receipt>false</receipt>
+				<declareddimension height="96" length="95" width="85"
+					weight="8" />
+				<reviseddimension height="96" length="95" width="85"
+					weight="8" />
+				<chargedamount>63.57174</chargedamount>
+				<litige date="2008-04-20T15:04:41">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>closed</status>
+					<employeeincharge>klaudia.de feijter</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2013-08-15T14:31:00">
+				<pickupaddress street="Bregeleane" number="80" box="A"
+					city="Genk" zip="3600" country="Belgium" />
+				<billingaddress street="Bregeleane" number="80" box="A"
+					city="Genk" zip="3600" country="Belgium" />
+				<deliveryaddress street="Avenue De Marlioz" number="95"
+					box="" city="Binche" zip="7130" country="Belgium" />
+				<pickupcenter>Hasselt</pickupcenter>
+				<deliverycenter>Mons</deliverycenter>
+				<receiver firstname="Bowy" lastname="Terol" phone="0496 44 38 56" />
+				<insurance amount="63.005318" type="forfait" />
+				<receipt>true</receipt>
+				<declareddimension height="61" length="64" width="93"
+					weight="6" />
+				<reviseddimension height="61" length="64" width="93"
+					weight="6" />
+				<chargedamount>63.005318</chargedamount>
+				<litige date="2013-08-15T14:31:00">
+					<reason>deterioration</reason>
+					<description>Un litige</description>
+					<status>closed</status>
+					<employeeincharge>steffen.etoile</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2009-02-05T15:02:33">
+				<pickupaddress street="Bregeleane" number="80" box="A"
+					city="Genk" zip="3600" country="Belgium" />
+				<billingaddress street="Bregeleane" number="80" box="A"
+					city="Genk" zip="3600" country="Belgium" />
+				<deliveryaddress street="Boulevard Albin Durand"
+					number="202" box="" city="Salles" zip="6460" country="Belgium" />
+				<pickupcenter>Hasselt</pickupcenter>
+				<deliverycenter>Mons</deliverycenter>
+				<receiver firstname="Tessel" lastname="Hogeweg" phone="0497 55 49 38" />
+				<insurance amount="65.370384" type="montant" />
+				<receipt>true</receipt>
+				<declareddimension height="17" length="83" width="83"
+					weight="2" />
+				<reviseddimension height="17" length="83" width="83"
+					weight="2" />
+				<chargedamount>65.370384</chargedamount>
+				<litige date="2009-02-05T15:02:33">
+					<reason>deterioration</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>parfait.lamarre</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2007-07-25T22:55:33">
+				<pickupaddress street="Bregeleane" number="80" box="A"
+					city="Genk" zip="3600" country="Belgium" />
+				<billingaddress street="Bregeleane" number="80" box="A"
+					city="Genk" zip="3600" country="Belgium" />
+				<deliveryaddress street=" Quai des Belges" number="39"
+					box="" city="Fernelmont" zip="5380" country="Belgium" />
+				<pickupcenter>Hasselt</pickupcenter>
+				<deliverycenter>Namur</deliverycenter>
+				<receiver firstname="Tessel" lastname="Sarrazin" phone="0482 73 38 76" />
+				<insurance amount="93.49173" type="forfait" />
+				<receipt>false</receipt>
+				<declareddimension height="64" length="32" width="103"
+					weight="2" />
+				<reviseddimension height="72" length="51" width="123"
+					weight="5" />
+				<chargedamount>93.49173</chargedamount>
+				<extraamount>25.488459</extraamount>
+				<extranotification>0107-07-21T20:21:24</extranotification>
+				<litige date="2007-07-25T22:55:33">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>closed</status>
+					<employeeincharge>niklas.collin</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2007-08-05T19:06:25">
+				<pickupaddress street="Bregeleane" number="80" box="A"
+					city="Genk" zip="3600" country="Belgium" />
+				<billingaddress street="Bregeleane" number="80" box="A"
+					city="Genk" zip="3600" country="Belgium" />
+				<deliveryaddress street="Cours Marechal-Joffre"
+					number="25" box="B" city="Fernelmont" zip="5380" country="Belgium" />
+				<pickupcenter>Hasselt</pickupcenter>
+				<deliverycenter>Namur</deliverycenter>
+				<receiver firstname="Abdinasir" lastname="Richer" phone="0494 90 55 48" />
+				<insurance amount="76.43325" type="forfait" />
+				<receipt>true</receipt>
+				<declareddimension height="86" length="31" width="83"
+					weight="6" />
+				<reviseddimension height="86" length="31" width="83"
+					weight="6" />
+				<chargedamount>76.43325</chargedamount>
+				<litige date="2007-08-05T19:06:25">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>in-negociation</status>
+					<employeeincharge>jennifer.brokken</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2009-11-12T13:33:36">
+				<pickupaddress street="Bregeleane" number="80" box="A"
+					city="Genk" zip="3600" country="Belgium" />
+				<billingaddress street="Bregeleane" number="80" box="A"
+					city="Genk" zip="3600" country="Belgium" />
+				<deliveryaddress street="Rue Ernest Renan" number="186"
+					box="A" city="Weillen" zip="5523" country="Belgium" />
+				<pickupcenter>Hasselt</pickupcenter>
+				<deliverycenter>Namur</deliverycenter>
+				<receiver firstname="Mandy" lastname="Vestjens" phone="0488 90 64 44" />
+				<insurance amount="58.58798" type="forfait" />
+				<receipt>false</receipt>
+				<declareddimension height="69" length="43" width="91"
+					weight="7" />
+				<reviseddimension height="69" length="43" width="91"
+					weight="7" />
+				<chargedamount>58.58798</chargedamount>
+				<litige date="2009-11-12T13:33:36">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>closed</status>
+					<employeeincharge>jens.bankers</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2007-10-06T05:35:09">
+				<pickupaddress street="Bregeleane" number="80" box="A"
+					city="Genk" zip="3600" country="Belgium" />
+				<billingaddress street="Bregeleane" number="80" box="A"
+					city="Genk" zip="3600" country="Belgium" />
+				<deliveryaddress street="Lindenlaan" number="10"
+					box="" city="Goeferdinge" zip="9500" country="Belgium" />
+				<pickupcenter>Hasselt</pickupcenter>
+				<deliverycenter>Gand</deliverycenter>
+				<receiver firstname="Chiara" lastname="Guertin" phone="0476 76 25 46" />
+				<insurance amount="128.4505" type="montant" />
+				<receipt>false</receipt>
+				<declareddimension height="30" length="108" width="54"
+					weight="6" />
+				<reviseddimension height="30" length="108" width="54"
+					weight="6" />
+				<chargedamount>128.4505</chargedamount>
+				<litige date="2007-10-06T05:35:09">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>closed</status>
+					<employeeincharge>cerise.louis</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2012-10-14T04:09:10">
+				<pickupaddress street="Bregeleane" number="80" box="A"
+					city="Genk" zip="3600" country="Belgium" />
+				<billingaddress street="Bregeleane" number="80" box="A"
+					city="Genk" zip="3600" country="Belgium" />
+				<deliveryaddress street="Rue Frédéric Chopin"
+					number="178" box="B" city="Villers-Saint-Siméon" zip="4453"
+					country="Belgium" />
+				<pickupcenter>Hasselt</pickupcenter>
+				<deliverycenter>Liège</deliverycenter>
+				<receiver firstname="Dieter" lastname="Fontaine" phone="0483 32 65 72" />
+				<insurance amount="18.359375" type="forfait" />
+				<receipt>true</receipt>
+				<declareddimension height="64" length="62" width="75"
+					weight="1" />
+				<reviseddimension height="64" length="62" width="75"
+					weight="1" />
+				<chargedamount>18.359375</chargedamount>
+				<litige date="2012-10-14T04:09:10">
+					<reason>deterioration</reason>
+					<description>Un litige</description>
+					<status>closed</status>
+					<employeeincharge>quincy.baron</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2008-04-18T09:59:10">
+				<pickupaddress street="Bregeleane" number="80" box="A"
+					city="Genk" zip="3600" country="Belgium" />
+				<billingaddress street="Bregeleane" number="80" box="A"
+					city="Genk" zip="3600" country="Belgium" />
+				<deliveryaddress street="Boulevard Aristide Briand"
+					number="68" box="" city="Tourinnes-Saint-Lambert" zip="1457"
+					country="Belgium" />
+				<pickupcenter>Hasselt</pickupcenter>
+				<deliverycenter>Wavre</deliverycenter>
+				<receiver firstname="Manuela" lastname="Chassé" phone="0496 44 38 56" />
+				<insurance amount="46.777466" type="forfait" />
+				<receipt>false</receipt>
+				<declareddimension height="34" length="41" width="62"
+					weight="7" />
+				<reviseddimension height="40" length="48" width="62"
+					weight="7" />
+				<chargedamount>46.777466</chargedamount>
+				<extraamount>23.449726</extraamount>
+				<extranotification>0108-04-23T20:31:08</extranotification>
+				<litige date="2008-04-18T09:59:10">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>closed</status>
+					<employeeincharge>nadeche.van schijndel</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+		</pickups>
+	</client>
+	<client firstname="Tido" lastname="Busson" birthdate="1951-06-11"
+		phone="0473 39 23 18">
+		<address street="Rue Nationale" number="246" box="" city="Mouscon"
+			zip="7700" country="Belgium" />
+		<account email="busson-tido@monmail.fr.nf" password="GAGF3tv"
+			registrationdate="2010-09-06T06:58:18" activated="true"
+			lastconnexion="2011-11-06T18:14:34" />
+		<profile sentparcels="9" wronglitiges="0" revenue="770.09534"
+			payementdefaults="2" type="advanced" />
+		<pickups>
+			<pickup requestdate="2013-10-27T12:17:46">
+				<pickupaddress street="Rue Nationale" number="246"
+					box="" city="Mouscon" zip="7700" country="Belgium" />
+				<billingaddress street="Rue Nationale" number="246"
+					box="" city="Mouscon" zip="7700" country="Belgium" />
+				<deliveryaddress street="Rue de Groussay" number="0"
+					box="C" city="Rochefort" zip="5580" country="Belgium" />
+				<pickupcenter>Mons</pickupcenter>
+				<deliverycenter>Namur</deliverycenter>
+				<receiver firstname="Nouria" lastname="Beaulac" phone="0472 29 53 44" />
+				<insurance amount="43.88987" type="forfait" />
+				<receipt>false</receipt>
+				<declareddimension height="92" length="17" width="26"
+					weight="9" />
+				<reviseddimension height="92" length="17" width="26"
+					weight="9" />
+				<chargedamount>43.88987</chargedamount>
+				<litige date="2013-10-27T12:17:46">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>in-negociation</status>
+					<employeeincharge>benjamin.swets</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2012-12-27T00:14:53">
+				<pickupaddress street="Rue Nationale" number="246"
+					box="" city="Mouscon" zip="7700" country="Belgium" />
+				<billingaddress street="Rue Nationale" number="246"
+					box="" city="Mouscon" zip="7700" country="Belgium" />
+				<deliveryaddress street="ReindervanOostenswijk"
+					number="57" box="" city="Tildonk" zip="3150" country="Belgium" />
+				<pickupcenter>Mons</pickupcenter>
+				<deliverycenter>Louvain</deliverycenter>
+				<receiver firstname="Hilletje" lastname="Blokzijl" phone="0470 95 98 75" />
+				<insurance amount="58.166805" type="montant" />
+				<receipt>true</receipt>
+				<declareddimension height="42" length="61" width="50"
+					weight="1" />
+				<reviseddimension height="42" length="61" width="50"
+					weight="1" />
+				<chargedamount>58.166805</chargedamount>
+				<litige date="2012-12-27T00:14:53">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>in-negociation</status>
+					<employeeincharge>lisa.lapresse</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2011-08-10T20:16:17">
+				<pickupaddress street="Rue Nationale" number="246"
+					box="" city="Mouscon" zip="7700" country="Belgium" />
+				<billingaddress street="Rue Nationale" number="246"
+					box="" city="Mouscon" zip="7700" country="Belgium" />
+				<deliveryaddress street="Rue du Faubourg National"
+					number="140" box="B" city="Tintigny" zip="6730" country="Belgium" />
+				<pickupcenter>Mons</pickupcenter>
+				<deliverycenter>Arlon</deliverycenter>
+				<receiver firstname="Wieteke" lastname="Louineaux" phone="0480 83 85 06" />
+				<insurance amount="103.765396" type="montant" />
+				<receipt>true</receipt>
+				<declareddimension height="28" length="22" width="62"
+					weight="9" />
+				<reviseddimension height="28" length="22" width="62"
+					weight="9" />
+				<chargedamount>103.765396</chargedamount>
+				<litige date="2011-08-10T20:16:17">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>karine.chastain</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2013-09-20T15:27:52">
+				<pickupaddress street="Rue Nationale" number="246"
+					box="" city="Mouscon" zip="7700" country="Belgium" />
+				<billingaddress street="Rue Nationale" number="246"
+					box="" city="Mouscon" zip="7700" country="Belgium" />
+				<deliveryaddress street="Boulevard Albin Durand"
+					number="100" box="E" city="Robelmont" zip="6769" country="Belgium" />
+				<pickupcenter>Mons</pickupcenter>
+				<deliverycenter>Arlon</deliverycenter>
+				<receiver firstname="Kerem" lastname="van der Vegte" phone="0493 25 37 94" />
+				<insurance amount="100.496826" type="forfait" />
+				<receipt>false</receipt>
+				<declareddimension height="57" length="63" width="48"
+					weight="2" />
+				<reviseddimension height="57" length="63" width="48"
+					weight="2" />
+				<chargedamount>100.496826</chargedamount>
+				<litige date="2013-09-20T15:27:52">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>closed</status>
+					<employeeincharge>royce.van der vegte</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2013-11-24T13:50:03">
+				<pickupaddress street="Rue Nationale" number="246"
+					box="" city="Mouscon" zip="7700" country="Belgium" />
+				<billingaddress street="Rue Nationale" number="246"
+					box="" city="Mouscon" zip="7700" country="Belgium" />
+				<deliveryaddress street="Boulevard Aristide Briand"
+					number="206" box="" city="Saint-Hubert" zip="6870" country="Belgium" />
+				<pickupcenter>Mons</pickupcenter>
+				<deliverycenter>Arlon</deliverycenter>
+				<receiver firstname="Jessika" lastname="Takens" phone="0489 97 63 79" />
+				<insurance amount="125.53035" type="forfait" />
+				<receipt>false</receipt>
+				<declareddimension height="61" length="40" width="102"
+					weight="6" />
+				<reviseddimension height="94" length="67" width="187"
+					weight="6" />
+				<chargedamount>125.53035</chargedamount>
+				<extraamount>4.7151413</extraamount>
+				<extranotification>0113-11-19T01:36:49</extranotification>
+				<litige date="2013-11-24T13:50:03">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>brigitte.laux</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2012-02-02T10:23:57">
+				<pickupaddress street="Rue Nationale" number="246"
+					box="" city="Mouscon" zip="7700" country="Belgium" />
+				<billingaddress street="Rue Nationale" number="246"
+					box="" city="Mouscon" zip="7700" country="Belgium" />
+				<deliveryaddress street="Chemin Des Bateliers"
+					number="142" box="" city="Sint-Ulriks-Kapelle" zip="1700" country="Belgium" />
+				<pickupcenter>Mons</pickupcenter>
+				<deliverycenter>Wavre</deliverycenter>
+				<receiver firstname="Jens" lastname="Cliche" phone="0496 44 38 56" />
+				<insurance amount="106.237366" type="forfait" />
+				<receipt>true</receipt>
+				<declareddimension height="86" length="31" width="69"
+					weight="8" />
+				<reviseddimension height="121" length="65" width="127"
+					weight="8" />
+				<chargedamount>106.237366</chargedamount>
+				<extraamount>11.503223</extraamount>
+				<extranotification>0112-02-26T01:55:16</extranotification>
+				<litige date="2012-02-02T10:23:57">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>closed</status>
+					<employeeincharge>rogier.goor</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2013-08-11T16:52:42">
+				<pickupaddress street="Rue Nationale" number="246"
+					box="" city="Mouscon" zip="7700" country="Belgium" />
+				<billingaddress street="Rue Nationale" number="246"
+					box="" city="Mouscon" zip="7700" country="Belgium" />
+				<deliveryaddress street="Julianapark" number="70"
+					box="" city="Vlissegem" zip="8421" country="Belgium" />
+				<pickupcenter>Mons</pickupcenter>
+				<deliverycenter>Bruges</deliverycenter>
+				<receiver firstname="Franziska" lastname="Lafrenière"
+					phone="0478 62 74 69" />
+				<insurance amount="121.21646" type="montant" />
+				<receipt>false</receipt>
+				<declareddimension height="91" length="42" width="95"
+					weight="9" />
+				<reviseddimension height="106" length="73" width="100"
+					weight="10" />
+				<chargedamount>121.21646</chargedamount>
+				<extraamount>22.145927</extraamount>
+				<extranotification>0113-08-30T07:04:13</extranotification>
+				<litige date="2013-08-11T16:52:42">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>in-negociation</status>
+					<employeeincharge>doreen.takens</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2010-09-23T21:34:34">
+				<pickupaddress street="Rue Nationale" number="246"
+					box="" city="Mouscon" zip="7700" country="Belgium" />
+				<billingaddress street="Rue Nationale" number="246"
+					box="" city="Mouscon" zip="7700" country="Belgium" />
+				<deliveryaddress street="Avenue Voltaire" number="99"
+					box="A" city="Amay" zip="4540" country="Belgium" />
+				<pickupcenter>Mons</pickupcenter>
+				<deliverycenter>Liège</deliverycenter>
+				<receiver firstname="Charline" lastname="Vachon" phone="0491 31 99 27" />
+				<insurance amount="93.24589" type="forfait" />
+				<receipt>true</receipt>
+				<declareddimension height="40" length="39" width="88"
+					weight="1" />
+				<reviseddimension height="40" length="39" width="88"
+					weight="1" />
+				<chargedamount>93.24589</chargedamount>
+				<litige date="2010-09-23T21:34:34">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>laurence.desnoyer</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2011-03-11T00:33:50">
+				<pickupaddress street="Rue Nationale" number="246"
+					box="" city="Mouscon" zip="7700" country="Belgium" />
+				<billingaddress street="Rue Nationale" number="246"
+					box="" city="Mouscon" zip="7700" country="Belgium" />
+				<deliveryaddress street="Tollenslaan" number="32"
+					box="B" city="Sint-Michiels" zip="8200" country="Belgium" />
+				<pickupcenter>Mons</pickupcenter>
+				<deliverycenter>Bruges</deliverycenter>
+				<receiver firstname="Royce" lastname="Labonté" phone="0477 57 86 43" />
+				<insurance amount="17.546309" type="montant" />
+				<receipt>false</receipt>
+				<declareddimension height="10" length="78" width="34"
+					weight="5" />
+				<reviseddimension height="13" length="125" width="62"
+					weight="6" />
+				<chargedamount>17.546309</chargedamount>
+				<extraamount>22.44779</extraamount>
+				<extranotification>0111-03-15T10:23:33</extranotification>
+				<litige date="2011-03-11T00:33:50">
+					<reason>deterioration</reason>
+					<description>Un litige</description>
+					<status>closed</status>
+					<employeeincharge>joah.sacre</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+		</pickups>
+	</client>
+	<client firstname="Galatee" lastname="Sharma" birthdate="1932-01-25"
+		phone="0499 44 12 64">
+		<address street="Rue des Lacs" number="162" box="" city="Maurage"
+			zip="7110" country="Belgium" />
+		<account email="sh.galatee@courriel.fr.nf" password="iyNPV7Q"
+			registrationdate="2011-01-26T02:42:33" activated="true"
+			lastconnexion="2011-11-24T13:12:33" />
+		<profile sentparcels="2" wronglitiges="0" revenue="84.54092"
+			payementdefaults="2" type="basic" />
+		<pickups>
+			<pickup requestdate="2014-01-18T10:04:51">
+				<pickupaddress street="Rue des Lacs" number="162" box=""
+					city="Maurage" zip="7110" country="Belgium" />
+				<billingaddress street="Rue des Lacs" number="162"
+					box="" city="Maurage" zip="7110" country="Belgium" />
+				<deliveryaddress street="Avenue Millies Lacroix"
+					number="220" box="" city="Terwagne" zip="4560" country="Belgium" />
+				<pickupcenter>Mons</pickupcenter>
+				<deliverycenter>Liège</deliverycenter>
+				<receiver firstname="Curtis" lastname="Swets" phone="0475 11 60 08" />
+				<insurance amount="44.539898" type="forfait" />
+				<receipt>false</receipt>
+				<declareddimension height="68" length="45" width="79"
+					weight="6" />
+				<reviseddimension height="68" length="45" width="79"
+					weight="6" />
+				<chargedamount>44.539898</chargedamount>
+				<litige date="2012-06-26T13:09:04">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>in-negociation</status>
+					<employeeincharge>elizaveta.bonenfant</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2011-08-01T04:01:17">
+				<pickupaddress street="Rue des Lacs" number="162" box=""
+					city="Maurage" zip="7110" country="Belgium" />
+				<billingaddress street="Rue des Lacs" number="162"
+					box="" city="Maurage" zip="7110" country="Belgium" />
+				<deliveryaddress street="Rue de l'Aigle" number="56"
+					box="E" city="Sélange" zip="6781" country="Belgium" />
+				<pickupcenter>Mons</pickupcenter>
+				<deliverycenter>Arlon</deliverycenter>
+				<receiver firstname="Christine" lastname="Bril" phone="0479 44 09 54" />
+				<insurance amount="40.00102" type="montant" />
+				<receipt>true</receipt>
+				<declareddimension height="41" length="66" width="75"
+					weight="8" />
+				<reviseddimension height="41" length="66" width="75"
+					weight="8" />
+				<chargedamount>40.00102</chargedamount>
+				<litige date="2011-08-01T04:01:17">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>in-negociation</status>
+					<employeeincharge>maria.de la rie</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+		</pickups>
+	</client>
+	<client firstname="Richard" lastname="Lapresse" birthdate="1931-11-07"
+		phone="0498 60 09 03">
+		<address street="Rue Frédéric Chopin" number="138" box=""
+			city="Halle" zip="1500" country="Belgium" />
+		<account email="l-richard@yopmail.fr" password="2FsVJqi"
+			registrationdate="2011-12-23T11:46:10" activated="true"
+			lastconnexion="2012-10-07T08:16:34" />
+		<profile sentparcels="10" wronglitiges="0" revenue="7263.0938"
+			payementdefaults="0" type="premium" />
+		<pickups>
+			<pickup requestdate="2014-01-18T10:04:51">
+				<pickupaddress street="Rue Frédéric Chopin" number="138"
+					box="" city="Halle" zip="1500" country="Belgium" />
+				<billingaddress street="Rue Frédéric Chopin" number="138"
+					box="" city="Halle" zip="1500" country="Belgium" />
+				<deliveryaddress street="GroteAbeele" number="50"
+					box="B" city="Neerpelt" zip="3910" country="Belgium" />
+				<pickupcenter>Wavre</pickupcenter>
+				<deliverycenter>Hasselt</deliverycenter>
+				<receiver firstname="Paul" lastname="Berendse" phone="0493 17 55 99" />
+				<insurance amount="280.099" type="forfait" />
+				<receipt>true</receipt>
+				<declareddimension height="36" length="50" width="95"
+					weight="2" />
+				<reviseddimension height="36" length="50" width="95"
+					weight="2" />
+				<chargedamount>280.099</chargedamount>
+				<litige date="2013-02-18T06:48:55">
+					<reason>deterioration</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>mylene.dennis</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2013-10-23T04:48:14">
+				<pickupaddress street="Rue Frédéric Chopin" number="138"
+					box="" city="Halle" zip="1500" country="Belgium" />
+				<billingaddress street="Rue Frédéric Chopin" number="138"
+					box="" city="Halle" zip="1500" country="Belgium" />
+				<deliveryaddress street="Tollenslaan" number="49"
+					box="" city="Kermt" zip="3510" country="Belgium" />
+				<pickupcenter>Wavre</pickupcenter>
+				<deliverycenter>Hasselt</deliverycenter>
+				<receiver firstname="Parfait" lastname="van Maris" phone="0489 97 30 46" />
+				<insurance amount="1298.8218" type="forfait" />
+				<receipt>true</receipt>
+				<declareddimension height="17" length="37" width="13"
+					weight="8" />
+				<reviseddimension height="35" length="52" width="72"
+					weight="9" />
+				<chargedamount>1298.8218</chargedamount>
+				<extraamount>1.5766418</extraamount>
+				<extranotification>0113-10-07T14:05:12</extranotification>
+				<litige date="2013-10-23T04:48:14">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>closed</status>
+					<employeeincharge>cerise.dodier</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2013-02-20T08:13:55">
+				<pickupaddress street="Rue Frédéric Chopin" number="138"
+					box="" city="Halle" zip="1500" country="Belgium" />
+				<billingaddress street="Rue Frédéric Chopin" number="138"
+					box="" city="Halle" zip="1500" country="Belgium" />
+				<deliveryaddress street="Rue du Palais" number="123"
+					box="E" city="Mons" zip="7000" country="Belgium" />
+				<pickupcenter>Wavre</pickupcenter>
+				<deliverycenter>Mons</deliverycenter>
+				<receiver firstname="Luc" lastname="Poppen" phone="0490 36 62 30" />
+				<insurance amount="154.23007" type="forfait" />
+				<receipt>true</receipt>
+				<declareddimension height="70" length="78" width="14"
+					weight="5" />
+				<reviseddimension height="108" length="121" width="25"
+					weight="7" />
+				<chargedamount>154.23007</chargedamount>
+				<extraamount>28.866665</extraamount>
+				<extranotification>0113-02-12T06:01:23</extranotification>
+				<litige date="2013-02-20T08:13:55">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>ines.faure</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2012-06-22T12:58:29">
+				<pickupaddress street="Rue Frédéric Chopin" number="138"
+					box="" city="Halle" zip="1500" country="Belgium" />
+				<billingaddress street="Rue Frédéric Chopin" number="138"
+					box="" city="Halle" zip="1500" country="Belgium" />
+				<deliveryaddress street="Rue de Groussay" number="21"
+					box="" city="Hannêche" zip="4210" country="Belgium" />
+				<pickupcenter>Wavre</pickupcenter>
+				<deliverycenter>Liège</deliverycenter>
+				<receiver firstname="Faycal" lastname="Sauriol" phone="0484 12 45 11" />
+				<insurance amount="105.74855" type="forfait" />
+				<receipt>false</receipt>
+				<declareddimension height="74" length="79" width="40"
+					weight="4" />
+				<reviseddimension height="74" length="79" width="40"
+					weight="4" />
+				<chargedamount>105.74855</chargedamount>
+				<litige date="2012-06-22T12:58:29">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>hortense.pappot</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2012-10-07T01:38:48">
+				<pickupaddress street="Rue Frédéric Chopin" number="138"
+					box="" city="Halle" zip="1500" country="Belgium" />
+				<billingaddress street="Rue Frédéric Chopin" number="138"
+					box="" city="Halle" zip="1500" country="Belgium" />
+				<deliveryaddress street="Wouwermanstraat" number="99"
+					box="" city="Kessel" zip="2560" country="Belgium" />
+				<pickupcenter>Wavre</pickupcenter>
+				<deliverycenter>Anvers</deliverycenter>
+				<receiver firstname="Telford" lastname="Rupert" phone="0491 84 00 82" />
+				<insurance amount="104.032295" type="montant" />
+				<receipt>false</receipt>
+				<declareddimension height="96" length="94" width="60"
+					weight="4" />
+				<reviseddimension height="141" length="137" width="106"
+					weight="4" />
+				<chargedamount>104.032295</chargedamount>
+				<extraamount>6.533943</extraamount>
+				<extranotification>0112-10-15T08:07:43</extranotification>
+				<litige date="2012-10-07T01:38:48">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>in-negociation</status>
+					<employeeincharge>julia.dorrepaal</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2013-05-25T16:38:08">
+				<pickupaddress street="Rue Frédéric Chopin" number="138"
+					box="" city="Halle" zip="1500" country="Belgium" />
+				<billingaddress street="Rue Frédéric Chopin" number="138"
+					box="" city="Halle" zip="1500" country="Belgium" />
+				<deliveryaddress street="Mastbos" number="229" box=""
+					city="Goeferdinge" zip="9500" country="Belgium" />
+				<pickupcenter>Wavre</pickupcenter>
+				<deliverycenter>Gand</deliverycenter>
+				<receiver firstname="Talbot" lastname="Verschuren" phone="0494 27 41 88" />
+				<insurance amount="604.08386" type="montant" />
+				<receipt>true</receipt>
+				<declareddimension height="50" length="87" width="36"
+					weight="6" />
+				<reviseddimension height="87" length="135" width="96"
+					weight="6" />
+				<chargedamount>604.08386</chargedamount>
+				<extraamount>19.068539</extraamount>
+				<extranotification>0113-05-08T01:56:11</extranotification>
+				<litige date="2013-05-25T16:38:08">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>maximilian.van veelen</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2014-02-04T11:21:30">
+				<pickupaddress street="Rue Frédéric Chopin" number="138"
+					box="" city="Halle" zip="1500" country="Belgium" />
+				<billingaddress street="Rue Frédéric Chopin" number="138"
+					box="" city="Halle" zip="1500" country="Belgium" />
+				<deliveryaddress street="Chemin Du Lavarin Sud"
+					number="28" box="E" city="Naomé" zip="5555" country="Belgium" />
+				<pickupcenter>Wavre</pickupcenter>
+				<deliverycenter>Namur</deliverycenter>
+				<receiver firstname="Dennis" lastname="Vachon" phone="0480 66 64 17" />
+				<insurance amount="1284.7594" type="forfait" />
+				<receipt>false</receipt>
+				<declareddimension height="55" length="100" width="94"
+					weight="8" />
+				<reviseddimension height="87" length="117" width="125"
+					weight="11" />
+				<chargedamount>1284.7594</chargedamount>
+				<extraamount>0.9228337</extraamount>
+				<extranotification>0114-02-03T18:19:41</extranotification>
+				<litige date="2014-02-04T11:21:30">
+					<reason>deterioration</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>rabiaa.pelser</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2012-09-10T06:31:52">
+				<pickupaddress street="Rue Frédéric Chopin" number="138"
+					box="" city="Halle" zip="1500" country="Belgium" />
+				<billingaddress street="Rue Frédéric Chopin" number="138"
+					box="" city="Halle" zip="1500" country="Belgium" />
+				<deliveryaddress street="Rue Porte d'Orange" number="126"
+					box="A" city="Neuville" zip="5600" country="Belgium" />
+				<pickupcenter>Wavre</pickupcenter>
+				<deliverycenter>Namur</deliverycenter>
+				<receiver firstname="Orva" lastname="Denis" phone="0488 68 47 35" />
+				<insurance amount="1185.5411" type="montant" />
+				<receipt>false</receipt>
+				<declareddimension height="47" length="61" width="52"
+					weight="2" />
+				<reviseddimension height="68" length="72" width="116"
+					weight="3" />
+				<chargedamount>1185.5411</chargedamount>
+				<extraamount>10.61714</extraamount>
+				<extranotification>0112-09-04T02:06:17</extranotification>
+				<litige date="2012-09-10T06:31:52">
+					<reason>deterioration</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>manuela.auger</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2013-11-06T04:16:01">
+				<pickupaddress street="Rue Frédéric Chopin" number="138"
+					box="" city="Halle" zip="1500" country="Belgium" />
+				<billingaddress street="Rue Frédéric Chopin" number="138"
+					box="" city="Halle" zip="1500" country="Belgium" />
+				<deliveryaddress street="Rue Porte d'Orange" number="49"
+					box="" city="Pottes" zip="7760" country="Belgium" />
+				<pickupcenter>Wavre</pickupcenter>
+				<deliverycenter>Mons</deliverycenter>
+				<receiver firstname="Dixie" lastname="Rivard" phone="0480 83 85 06" />
+				<insurance amount="1300.6675" type="montant" />
+				<receipt>false</receipt>
+				<declareddimension height="68" length="90" width="48"
+					weight="3" />
+				<reviseddimension height="81" length="108" width="58"
+					weight="7" />
+				<chargedamount>1300.6675</chargedamount>
+				<extraamount>18.905518</extraamount>
+				<extranotification>0113-11-24T00:20:52</extranotification>
+				<litige date="2013-11-06T04:16:01">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>closed</status>
+					<employeeincharge>timothee.bler</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2013-04-05T03:05:17">
+				<pickupaddress street="Rue Frédéric Chopin" number="138"
+					box="" city="Halle" zip="1500" country="Belgium" />
+				<billingaddress street="Rue Frédéric Chopin" number="138"
+					box="" city="Halle" zip="1500" country="Belgium" />
+				<deliveryaddress street="Plein" number="66" box="E"
+					city="Kessel" zip="2560" country="Belgium" />
+				<pickupcenter>Wavre</pickupcenter>
+				<deliverycenter>Anvers</deliverycenter>
+				<receiver firstname="Julia" lastname="Dupuis" phone="0484 42 42 60" />
+				<insurance amount="945.1101" type="montant" />
+				<receipt>false</receipt>
+				<declareddimension height="52" length="81" width="91"
+					weight="6" />
+				<reviseddimension height="52" length="81" width="91"
+					weight="6" />
+				<chargedamount>945.1101</chargedamount>
+				<litige date="2013-04-05T03:05:17">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>in-negociation</status>
+					<employeeincharge>steventje.van wersch</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+		</pickups>
+	</client>
+	<client firstname="Henderika" lastname="Beauchamp" birthdate="1991-01-02"
+		phone="0491 84 00 82">
+		<address street="DeVleugel" number="194" box="C" city="Brielen"
+			zip="8900" country="Belgium" />
+		<account email="bea_henderika@yopmail.net" password="h6QY52L"
+			registrationdate="2013-06-05T03:26:45" activated="true"
+			lastconnexion="2013-12-15T15:38:11" />
+		<profile sentparcels="0" revenue="0.0" payementdefaults="2"
+			type="basic" wronglitiges="0" />
+	</client>
+	<client firstname="Burnell" lastname="Lambert" birthdate="1939-02-21"
+		phone="0488 90 33 45">
+		<address street="Rue des six frèresRuellan" number="165" box="D"
+			city="Dilbeek" zip="1700" country="Belgium" />
+		<account email="l_burnell@moncourrier.fr.nf" password="H8lkEkG"
+			registrationdate="2009-07-06T11:17:13" activated="true"
+			lastconnexion="2013-06-17T10:08:58" />
+		<profile sentparcels="3" wronglitiges="0" revenue="214.99753"
+			payementdefaults="0" type="basic" />
+		<pickups>
+			<pickup requestdate="2010-10-01T03:53:25">
+				<pickupaddress street="Rue des six frèresRuellan"
+					number="165" box="D" city="Dilbeek" zip="1700" country="Belgium" />
+				<billingaddress street="Rue des six frèresRuellan"
+					number="165" box="D" city="Dilbeek" zip="1700" country="Belgium" />
+				<deliveryaddress street="Ternatestraat" number="151"
+					box="" city="Menen" zip="8930" country="Belgium" />
+				<pickupcenter>Wavre</pickupcenter>
+				<deliverycenter>Bruges</deliverycenter>
+				<receiver firstname="Jane" lastname="Collin" phone="0495 27 18 93" />
+				<insurance amount="145.12256" type="montant" />
+				<receipt>false</receipt>
+				<declareddimension height="50" length="61" width="65"
+					weight="9" />
+				<reviseddimension height="50" length="61" width="65"
+					weight="9" />
+				<chargedamount>145.12256</chargedamount>
+				<litige date="2010-10-01T03:53:25">
+					<reason>deterioration</reason>
+					<description>Un litige</description>
+					<status>closed</status>
+					<employeeincharge>vincent.arendsen</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2009-11-07T11:27:50">
+				<pickupaddress street="Rue des six frèresRuellan"
+					number="165" box="D" city="Dilbeek" zip="1700" country="Belgium" />
+				<billingaddress street="Rue des six frèresRuellan"
+					number="165" box="D" city="Dilbeek" zip="1700" country="Belgium" />
+				<deliveryaddress street="Rue de Raymond Poincaré"
+					number="39" box="" city="Tignée" zip="4630" country="Belgium" />
+				<pickupcenter>Wavre</pickupcenter>
+				<deliverycenter>Liège</deliverycenter>
+				<receiver firstname="Tim" lastname="Jetté" phone="0472 29 53 44" />
+				<insurance amount="33.58663" type="montant" />
+				<receipt>false</receipt>
+				<declareddimension height="34" length="21" width="92"
+					weight="4" />
+				<reviseddimension height="77" length="35" width="114"
+					weight="4" />
+				<chargedamount>33.58663</chargedamount>
+				<extraamount>28.11133</extraamount>
+				<extranotification>0109-11-13T16:20:41</extranotification>
+				<litige date="2009-11-07T11:27:50">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>in-negociation</status>
+					<employeeincharge>chiara.bellefeuille</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2010-05-01T16:57:44">
+				<pickupaddress street="Rue des six frèresRuellan"
+					number="165" box="D" city="Dilbeek" zip="1700" country="Belgium" />
+				<billingaddress street="Rue des six frèresRuellan"
+					number="165" box="D" city="Dilbeek" zip="1700" country="Belgium" />
+				<deliveryaddress street="Rue de Raymond Poincaré"
+					number="42" box="" city="Hannêche" zip="4210" country="Belgium" />
+				<pickupcenter>Wavre</pickupcenter>
+				<deliverycenter>Liège</deliverycenter>
+				<receiver firstname="Johanna" lastname="Sacré" phone="0470 95 98 75" />
+				<insurance amount="36.28833" type="montant" />
+				<receipt>true</receipt>
+				<declareddimension height="23" length="55" width="66"
+					weight="2" />
+				<reviseddimension height="23" length="80" width="135"
+					weight="5" />
+				<chargedamount>36.28833</chargedamount>
+				<extraamount>6.5286417</extraamount>
+				<extranotification>0110-05-07T20:34:18</extranotification>
+				<litige date="2010-05-01T16:57:44">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>herre.rupert</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+		</pickups>
+	</client>
+	<client firstname="Josse" lastname="van Maris" birthdate="1966-02-03"
+		phone="0497 77 60 98">
+		<address street="Rue Hubert de Lisle" number="67" box="D"
+			city="Limelette" zip="1342" country="Belgium" />
+		<account email="van_josse@yopmail.fr" password="d5h2Brn"
+			registrationdate="2007-02-11T20:26:51" activated="true"
+			lastconnexion="2012-03-30T10:36:47" />
+		<profile sentparcels="5" wronglitiges="0" revenue="303.69516"
+			payementdefaults="2" type="advanced" />
+		<pickups>
+			<pickup requestdate="2007-04-27T10:12:01">
+				<pickupaddress street="Rue Hubert de Lisle" number="67"
+					box="D" city="Limelette" zip="1342" country="Belgium" />
+				<billingaddress street="Rue Hubert de Lisle" number="67"
+					box="D" city="Limelette" zip="1342" country="Belgium" />
+				<deliveryaddress street="Rue de Groussay" number="6"
+					box="D" city="Sart-lez-Spa" zip="4845" country="Belgium" />
+				<pickupcenter>Wavre</pickupcenter>
+				<deliverycenter>Liège</deliverycenter>
+				<receiver firstname="Luc" lastname="Berendse" phone="0474 43 41 26" />
+				<insurance amount="123.75322" type="forfait" />
+				<receipt>false</receipt>
+				<declareddimension height="47" length="99" width="101"
+					weight="9" />
+				<reviseddimension height="47" length="99" width="101"
+					weight="9" />
+				<chargedamount>123.75322</chargedamount>
+				<litige date="2007-04-27T10:12:01">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>closed</status>
+					<employeeincharge>rogier.van de berg</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2008-05-17T19:44:51">
+				<pickupaddress street="Rue Hubert de Lisle" number="67"
+					box="D" city="Limelette" zip="1342" country="Belgium" />
+				<billingaddress street="Rue Hubert de Lisle" number="67"
+					box="D" city="Limelette" zip="1342" country="Belgium" />
+				<deliveryaddress street="Rue Frédéric Chopin"
+					number="73" box="" city="Sint-Stevens-Woluwe" zip="1932" country="Belgium" />
+				<pickupcenter>Wavre</pickupcenter>
+				<deliverycenter>Wavre</deliverycenter>
+				<receiver firstname="Hasnae" lastname="Hulleman" phone="0484 86 04 66" />
+				<insurance amount="23.579124" type="montant" />
+				<receipt>true</receipt>
+				<declareddimension height="47" length="43" width="35"
+					weight="3" />
+				<reviseddimension height="47" length="43" width="35"
+					weight="3" />
+				<chargedamount>23.579124</chargedamount>
+				<litige date="2008-05-17T19:44:51">
+					<reason>deterioration</reason>
+					<description>Un litige</description>
+					<status>in-negociation</status>
+					<employeeincharge>maximilian.lalonde</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2008-03-27T01:19:02">
+				<pickupaddress street="Rue Hubert de Lisle" number="67"
+					box="D" city="Limelette" zip="1342" country="Belgium" />
+				<billingaddress street="Rue Hubert de Lisle" number="67"
+					box="D" city="Limelette" zip="1342" country="Belgium" />
+				<deliveryaddress street="DelaReylaan" number="169"
+					box="" city="Anvers" zip="2000" country="Belgium" />
+				<pickupcenter>Wavre</pickupcenter>
+				<deliverycenter>Anvers</deliverycenter>
+				<receiver firstname="Aimée" lastname="Charron" phone="0497 77 60 98" />
+				<insurance amount="55.086273" type="forfait" />
+				<receipt>false</receipt>
+				<declareddimension height="15" length="99" width="33"
+					weight="0" />
+				<reviseddimension height="15" length="99" width="33"
+					weight="0" />
+				<chargedamount>55.086273</chargedamount>
+				<litige date="2008-03-27T01:19:02">
+					<reason>deterioration</reason>
+					<description>Un litige</description>
+					<status>in-negociation</status>
+					<employeeincharge>wieteke.grimard</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2009-02-06T06:45:45">
+				<pickupaddress street="Rue Hubert de Lisle" number="67"
+					box="D" city="Limelette" zip="1342" country="Belgium" />
+				<billingaddress street="Rue Hubert de Lisle" number="67"
+					box="D" city="Limelette" zip="1342" country="Belgium" />
+				<deliveryaddress street="Hauwert" number="123" box="C"
+					city="Hoelbeek" zip="3746" country="Belgium" />
+				<pickupcenter>Wavre</pickupcenter>
+				<deliverycenter>Hasselt</deliverycenter>
+				<receiver firstname="Anton" lastname="Heerkens" phone="0494 52 18 18" />
+				<insurance amount="20.055935" type="montant" />
+				<receipt>false</receipt>
+				<declareddimension height="10" length="24" width="19"
+					weight="5" />
+				<reviseddimension height="10" length="24" width="19"
+					weight="5" />
+				<chargedamount>20.055935</chargedamount>
+				<litige date="2009-02-06T06:45:45">
+					<reason>deterioration</reason>
+					<description>Un litige</description>
+					<status>in-negociation</status>
+					<employeeincharge>julienne.beaudouin</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2009-08-05T18:05:05">
+				<pickupaddress street="Rue Hubert de Lisle" number="67"
+					box="D" city="Limelette" zip="1342" country="Belgium" />
+				<billingaddress street="Rue Hubert de Lisle" number="67"
+					box="D" city="Limelette" zip="1342" country="Belgium" />
+				<deliveryaddress street="Chemin Du Lavarin Sud"
+					number="216" box="A" city="Ath" zip="7800" country="Belgium" />
+				<pickupcenter>Wavre</pickupcenter>
+				<deliverycenter>Mons</deliverycenter>
+				<receiver firstname="Ralf" lastname="Labonté" phone="0498 16 80 56" />
+				<insurance amount="81.22061" type="forfait" />
+				<receipt>true</receipt>
+				<declareddimension height="87" length="64" width="24"
+					weight="5" />
+				<reviseddimension height="87" length="64" width="24"
+					weight="5" />
+				<chargedamount>81.22061</chargedamount>
+				<litige date="2009-08-05T18:05:05">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>thierry.chauvin</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+		</pickups>
+	</client>
+	<client firstname="Klaudia" lastname="Duplessis" birthdate="1938-09-30"
+		phone="0496 68 48 71">
+		<address street="Prunuslaan" number="119" box="" city="Sint-Michiels"
+			zip="8200" country="Belgium" />
+		<account email="dup_kla@courriel.fr.nf" password="YuHTpMS"
+			registrationdate="2012-10-02T20:34:40" activated="true"
+			lastconnexion="2013-07-27T11:30:50" />
+		<profile sentparcels="7" wronglitiges="0" revenue="662.53906"
+			payementdefaults="0" type="advanced" />
+		<pickups>
+			<pickup requestdate="2013-12-12T00:32:47">
+				<pickupaddress street="Prunuslaan" number="119" box=""
+					city="Sint-Michiels" zip="8200" country="Belgium" />
+				<billingaddress street="Prunuslaan" number="119" box=""
+					city="Sint-Michiels" zip="8200" country="Belgium" />
+				<deliveryaddress street="Rue du Limas" number="183"
+					box="C" city="Villers-Saint-Siméon" zip="4453" country="Belgium" />
+				<pickupcenter>Bruges</pickupcenter>
+				<deliverycenter>Liège</deliverycenter>
+				<receiver firstname="Katharina" lastname="Chaloux" phone="0474 35 47 46" />
+				<insurance amount="138.34491" type="montant" />
+				<receipt>false</receipt>
+				<declareddimension height="47" length="85" width="39"
+					weight="9" />
+				<reviseddimension height="47" length="85" width="39"
+					weight="9" />
+				<chargedamount>138.34491</chargedamount>
+				<litige date="2013-12-12T00:32:47">
+					<reason>deterioration</reason>
+					<description>Un litige</description>
+					<status>closed</status>
+					<employeeincharge>mallory.rossen</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2013-12-13T14:45:28">
+				<pickupaddress street="Prunuslaan" number="119" box=""
+					city="Sint-Michiels" zip="8200" country="Belgium" />
+				<billingaddress street="Prunuslaan" number="119" box=""
+					city="Sint-Michiels" zip="8200" country="Belgium" />
+				<deliveryaddress street="Houdringe" number="176"
+					box="" city="Niewpoort" zip="8620" country="Belgium" />
+				<pickupcenter>Bruges</pickupcenter>
+				<deliverycenter>Bruges</deliverycenter>
+				<receiver firstname="Yvonne" lastname="Wierts" phone="0499 10 41 16" />
+				<insurance amount="78.99358" type="forfait" />
+				<receipt>true</receipt>
+				<declareddimension height="69" length="30" width="71"
+					weight="1" />
+				<reviseddimension height="105" length="43" width="135"
+					weight="3" />
+				<chargedamount>78.99358</chargedamount>
+				<extraamount>16.34506</extraamount>
+				<extranotification>0113-12-19T10:19:08</extranotification>
+				<litige date="2013-12-13T14:45:28">
+					<reason>deterioration</reason>
+					<description>Un litige</description>
+					<status>closed</status>
+					<employeeincharge>dominik.chasse</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2013-11-26T10:28:05">
+				<pickupaddress street="Prunuslaan" number="119" box=""
+					city="Sint-Michiels" zip="8200" country="Belgium" />
+				<billingaddress street="Prunuslaan" number="119" box=""
+					city="Sint-Michiels" zip="8200" country="Belgium" />
+				<deliveryaddress street="Chemin Du Lavarin Sud"
+					number="131" box="A" city="Bougnies" zip="7040" country="Belgium" />
+				<pickupcenter>Bruges</pickupcenter>
+				<deliverycenter>Mons</deliverycenter>
+				<receiver firstname="Anela" lastname="Bonenfant" phone="0497 33 81 64" />
+				<insurance amount="84.43877" type="montant" />
+				<receipt>true</receipt>
+				<declareddimension height="35" length="45" width="97"
+					weight="5" />
+				<reviseddimension height="35" length="45" width="97"
+					weight="5" />
+				<chargedamount>84.43877</chargedamount>
+				<litige date="2013-11-26T10:28:05">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>chanell.racicot</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2013-10-23T07:05:20">
+				<pickupaddress street="Prunuslaan" number="119" box=""
+					city="Sint-Michiels" zip="8200" country="Belgium" />
+				<billingaddress street="Prunuslaan" number="119" box=""
+					city="Sint-Michiels" zip="8200" country="Belgium" />
+				<deliveryaddress street="Rue de Groussay" number="166"
+					box="C" city="Fosses-la-Ville" zip="5070" country="Belgium" />
+				<pickupcenter>Bruges</pickupcenter>
+				<deliverycenter>Namur</deliverycenter>
+				<receiver firstname="Tanja" lastname="Thomas" phone="0471 99 05 69" />
+				<insurance amount="89.244" type="montant" />
+				<receipt>true</receipt>
+				<declareddimension height="14" length="19" width="108"
+					weight="5" />
+				<reviseddimension height="56" length="27" width="117"
+					weight="9" />
+				<chargedamount>89.244</chargedamount>
+				<extraamount>20.634045</extraamount>
+				<extranotification>0113-10-21T21:44:39</extranotification>
+				<litige date="2013-10-23T07:05:20">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>closed</status>
+					<employeeincharge>saville.bogers</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2013-06-27T05:35:55">
+				<pickupaddress street="Prunuslaan" number="119" box=""
+					city="Sint-Michiels" zip="8200" country="Belgium" />
+				<billingaddress street="Prunuslaan" number="119" box=""
+					city="Sint-Michiels" zip="8200" country="Belgium" />
+				<deliveryaddress street="Rue Ernest Renan" number="80"
+					box="" city="Bastogne" zip="6600" country="Belgium" />
+				<pickupcenter>Bruges</pickupcenter>
+				<deliverycenter>Arlon</deliverycenter>
+				<receiver firstname="Manuela" lastname="Mailly" phone="0484 86 04 66" />
+				<insurance amount="121.459114" type="montant" />
+				<receipt>true</receipt>
+				<declareddimension height="66" length="58" width="14"
+					weight="0" />
+				<reviseddimension height="66" length="58" width="14"
+					weight="0" />
+				<chargedamount>121.459114</chargedamount>
+				<litige date="2013-06-27T05:35:55">
+					<reason>deterioration</reason>
+					<description>Un litige</description>
+					<status>closed</status>
+					<employeeincharge>reinhard.avare</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2014-01-11T02:43:45">
+				<pickupaddress street="Prunuslaan" number="119" box=""
+					city="Sint-Michiels" zip="8200" country="Belgium" />
+				<billingaddress street="Prunuslaan" number="119" box=""
+					city="Sint-Michiels" zip="8200" country="Belgium" />
+				<deliveryaddress street="Rue Porte d'Orange" number="66"
+					box="" city="Dilbeek" zip="1700" country="Belgium" />
+				<pickupcenter>Bruges</pickupcenter>
+				<deliverycenter>Wavre</deliverycenter>
+				<receiver firstname="Curtis" lastname="Salois" phone="0496 96 90 99" />
+				<insurance amount="92.21927" type="montant" />
+				<receipt>true</receipt>
+				<declareddimension height="78" length="84" width="34"
+					weight="6" />
+				<reviseddimension height="78" length="84" width="34"
+					weight="6" />
+				<chargedamount>92.21927</chargedamount>
+				<litige date="2014-01-11T02:43:45">
+					<reason>deterioration</reason>
+					<description>Un litige</description>
+					<status>in-negociation</status>
+					<employeeincharge>emmanuelle.van nieuwenhoven</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2013-06-18T17:23:07">
+				<pickupaddress street="Prunuslaan" number="119" box=""
+					city="Sint-Michiels" zip="8200" country="Belgium" />
+				<billingaddress street="Prunuslaan" number="119" box=""
+					city="Sint-Michiels" zip="8200" country="Belgium" />
+				<deliveryaddress street="Rue Grande Fusterie"
+					number="120" box="D" city="Vilvoorde" zip="1800" country="Belgium" />
+				<pickupcenter>Bruges</pickupcenter>
+				<deliverycenter>Wavre</deliverycenter>
+				<receiver firstname="Villette" lastname="Bellefeuille"
+					phone="0494 27 41 88" />
+				<insurance amount="57.839325" type="montant" />
+				<receipt>true</receipt>
+				<declareddimension height="42" length="62" width="17"
+					weight="6" />
+				<reviseddimension height="86" length="81" width="30"
+					weight="10" />
+				<chargedamount>57.839325</chargedamount>
+				<extraamount>15.600602</extraamount>
+				<extranotification>0113-06-13T08:31:08</extranotification>
+				<litige date="2013-06-18T17:23:07">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>in-negociation</status>
+					<employeeincharge>anne.laux</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+		</pickups>
+	</client>
+	<client firstname="Kerem" lastname="Reinsma" birthdate="1952-02-26"
+		phone="0480 35 14 68">
+		<address street="Clematisweg" number="9" box="" city="Genk"
+			zip="3600" country="Belgium" />
+		<account email="reinsma_ker@yopmail.com" password="polomdF"
+			registrationdate="2007-08-14T02:12:53" activated="true"
+			lastconnexion="2008-04-12T14:47:50" />
+		<profile sentparcels="7" wronglitiges="0" revenue="487.7341"
+			payementdefaults="2" type="advanced" />
+		<pickups>
+			<pickup requestdate="2009-06-08T15:43:28">
+				<pickupaddress street="Clematisweg" number="9" box=""
+					city="Genk" zip="3600" country="Belgium" />
+				<billingaddress street="Clematisweg" number="9" box=""
+					city="Genk" zip="3600" country="Belgium" />
+				<deliveryaddress street="Rue Descartes" number="222"
+					box="C" city="Vaux-lez-Rosières" zip="6640" country="Belgium" />
+				<pickupcenter>Hasselt</pickupcenter>
+				<deliverycenter>Arlon</deliverycenter>
+				<receiver firstname="Lukas" lastname="Staring" phone="0494 27 41 88" />
+				<insurance amount="32.459778" type="forfait" />
+				<receipt>true</receipt>
+				<declareddimension height="91" length="18" width="41"
+					weight="3" />
+				<reviseddimension height="139" length="61" width="115"
+					weight="4" />
+				<chargedamount>32.459778</chargedamount>
+				<extraamount>1.0439551</extraamount>
+				<extranotification>0109-06-22T23:51:01</extranotification>
+				<litige date="2009-06-08T15:43:28">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>closed</status>
+					<employeeincharge>bouwina.pappot</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2012-07-03T05:33:03">
+				<pickupaddress street="Clematisweg" number="9" box=""
+					city="Genk" zip="3600" country="Belgium" />
+				<billingaddress street="Clematisweg" number="9" box=""
+					city="Genk" zip="3600" country="Belgium" />
+				<deliveryaddress street="AlbertSchweitzerlaan"
+					number="42" box="" city="Anvers" zip="2000" country="Belgium" />
+				<pickupcenter>Hasselt</pickupcenter>
+				<deliverycenter>Anvers</deliverycenter>
+				<receiver firstname="Paul" lastname="Viens" phone="0497 33 81 64" />
+				<insurance amount="117.579056" type="montant" />
+				<receipt>false</receipt>
+				<declareddimension height="14" length="25" width="48"
+					weight="8" />
+				<reviseddimension height="14" length="25" width="48"
+					weight="8" />
+				<chargedamount>117.579056</chargedamount>
+				<litige date="2012-07-03T05:33:03">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>in-negociation</status>
+					<employeeincharge>johanna.steijns</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2011-07-14T00:10:43">
+				<pickupaddress street="Clematisweg" number="9" box=""
+					city="Genk" zip="3600" country="Belgium" />
+				<billingaddress street="Clematisweg" number="9" box=""
+					city="Genk" zip="3600" country="Belgium" />
+				<deliveryaddress street="DelaReylaan" number="136"
+					box="A" city="Malines" zip="2800" country="Belgium" />
+				<pickupcenter>Hasselt</pickupcenter>
+				<deliverycenter>Anvers</deliverycenter>
+				<receiver firstname="Petra" lastname="Berkelaar" phone="0481 50 32 80" />
+				<insurance amount="46.43873" type="montant" />
+				<receipt>false</receipt>
+				<declareddimension height="19" length="59" width="75"
+					weight="4" />
+				<reviseddimension height="51" length="60" width="101"
+					weight="4" />
+				<chargedamount>46.43873</chargedamount>
+				<extraamount>3.9772706</extraamount>
+				<extranotification>0111-07-10T00:30:25</extranotification>
+				<litige date="2011-07-14T00:10:43">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>closed</status>
+					<employeeincharge>harrison.mainville</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2012-08-05T11:18:56">
+				<pickupaddress street="Clematisweg" number="9" box=""
+					city="Genk" zip="3600" country="Belgium" />
+				<billingaddress street="Clematisweg" number="9" box=""
+					city="Genk" zip="3600" country="Belgium" />
+				<deliveryaddress street="Rue Porte d'Orange" number="25"
+					box="" city="Battice" zip="4651" country="Belgium" />
+				<pickupcenter>Hasselt</pickupcenter>
+				<deliverycenter>Liège</deliverycenter>
+				<receiver firstname="Mylène" lastname="Brokken" phone="0488 34 40 77" />
+				<insurance amount="50.478455" type="forfait" />
+				<receipt>false</receipt>
+				<declareddimension height="96" length="77" width="73"
+					weight="0" />
+				<reviseddimension height="132" length="102" width="128"
+					weight="4" />
+				<chargedamount>50.478455</chargedamount>
+				<extraamount>16.094292</extraamount>
+				<extranotification>0112-08-12T05:41:57</extranotification>
+				<litige date="2012-08-05T11:18:56">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>philippine.boersma</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2011-04-07T07:20:58">
+				<pickupaddress street="Clematisweg" number="9" box=""
+					city="Genk" zip="3600" country="Belgium" />
+				<billingaddress street="Clematisweg" number="9" box=""
+					city="Genk" zip="3600" country="Belgium" />
+				<deliveryaddress street="Camminghastraat" number="94"
+					box="C" city="Brielen" zip="8900" country="Belgium" />
+				<pickupcenter>Hasselt</pickupcenter>
+				<deliverycenter>Bruges</deliverycenter>
+				<receiver firstname="Villette" lastname="Beerens" phone="0491 31 99 27" />
+				<insurance amount="44.916275" type="montant" />
+				<receipt>true</receipt>
+				<declareddimension height="98" length="10" width="62"
+					weight="4" />
+				<reviseddimension height="98" length="10" width="62"
+					weight="4" />
+				<chargedamount>44.916275</chargedamount>
+				<litige date="2011-04-07T07:20:58">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>nicolette.beaudouin</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2012-09-10T13:35:22">
+				<pickupaddress street="Clematisweg" number="9" box=""
+					city="Genk" zip="3600" country="Belgium" />
+				<billingaddress street="Clematisweg" number="9" box=""
+					city="Genk" zip="3600" country="Belgium" />
+				<deliveryaddress street="Rue Grande Fusterie"
+					number="229" box="" city="Bellecourt" zip="7170" country="Belgium" />
+				<pickupcenter>Hasselt</pickupcenter>
+				<deliverycenter>Mons</deliverycenter>
+				<receiver firstname="Klaudia" lastname="Beaudouin" phone="0494 70 92 01" />
+				<insurance amount="80.51512" type="forfait" />
+				<receipt>true</receipt>
+				<declareddimension height="84" length="16" width="100"
+					weight="4" />
+				<reviseddimension height="92" length="58" width="185"
+					weight="6" />
+				<chargedamount>80.51512</chargedamount>
+				<extraamount>5.6594377</extraamount>
+				<extranotification>0112-09-02T08:19:40</extranotification>
+				<litige date="2012-09-10T13:35:22">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>closed</status>
+					<employeeincharge>vincent.etoile</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2009-01-26T00:42:21">
+				<pickupaddress street="Clematisweg" number="9" box=""
+					city="Genk" zip="3600" country="Belgium" />
+				<billingaddress street="Clematisweg" number="9" box=""
+					city="Genk" zip="3600" country="Belgium" />
+				<deliveryaddress street="GerardTerborgstraat"
+					number="218" box="E" city="Leuven" zip="3000" country="Belgium" />
+				<pickupcenter>Hasselt</pickupcenter>
+				<deliverycenter>Louvain</deliverycenter>
+				<receiver firstname="Marian" lastname="Rottier" phone="0496 44 38 56" />
+				<insurance amount="115.34666" type="montant" />
+				<receipt>false</receipt>
+				<declareddimension height="22" length="92" width="62"
+					weight="6" />
+				<reviseddimension height="29" length="109" width="157"
+					weight="7" />
+				<chargedamount>115.34666</chargedamount>
+				<extraamount>18.689436</extraamount>
+				<extranotification>0109-01-07T00:00:56</extranotification>
+				<litige date="2009-01-26T00:42:21">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>in-negociation</status>
+					<employeeincharge>anika.dufour</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+		</pickups>
+	</client>
+	<client firstname="Lorraine" lastname="Lafrenière" birthdate="1935-07-15"
+		phone="0499 12 44 65">
+		<address street="Rue de Raymond Poincaré" number="80" box=""
+			city="Libramont" zip="6800" country="Belgium" />
+		<account email="laf_lorraine@cool.fr.nf" password="SgXXKMd"
+			registrationdate="2011-03-24T13:16:22" activated="true"
+			lastconnexion="2012-10-11T16:42:47" />
+		<profile sentparcels="2" wronglitiges="0" revenue="198.54956"
+			payementdefaults="2" type="basic" />
+		<pickups>
+			<pickup requestdate="2012-05-24T17:00:16">
+				<pickupaddress street="Rue de Raymond Poincaré"
+					number="80" box="" city="Libramont" zip="6800" country="Belgium" />
+				<billingaddress street="Rue de Raymond Poincaré"
+					number="80" box="" city="Libramont" zip="6800" country="Belgium" />
+				<deliveryaddress street="Rue du Palais" number="199"
+					box="B" city="Lasne" zip="1380" country="Belgium" />
+				<pickupcenter>Arlon</pickupcenter>
+				<deliverycenter>Wavre</deliverycenter>
+				<receiver firstname="Henderika" lastname="Vaillancour"
+					phone="0472 88 96 58" />
+				<insurance amount="99.974724" type="forfait" />
+				<receipt>false</receipt>
+				<declareddimension height="74" length="24" width="59"
+					weight="1" />
+				<reviseddimension height="113" length="60" width="142"
+					weight="1" />
+				<chargedamount>99.974724</chargedamount>
+				<extraamount>7.639818</extraamount>
+				<extranotification>0112-05-12T08:46:09</extranotification>
+				<litige date="2012-05-24T17:00:16">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>closed</status>
+					<employeeincharge>peter-paul.arsenault</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2013-07-18T11:03:45">
+				<pickupaddress street="Rue de Raymond Poincaré"
+					number="80" box="" city="Libramont" zip="6800" country="Belgium" />
+				<billingaddress street="Rue de Raymond Poincaré"
+					number="80" box="" city="Libramont" zip="6800" country="Belgium" />
+				<deliveryaddress street=" Quai des Belges" number="101"
+					box="B" city="Dilbeek" zip="1700" country="Belgium" />
+				<pickupcenter>Arlon</pickupcenter>
+				<deliverycenter>Wavre</deliverycenter>
+				<receiver firstname="Stefan" lastname="Hartsuiker" phone="0480 55 48 12" />
+				<insurance amount="98.574844" type="montant" />
+				<receipt>true</receipt>
+				<declareddimension height="77" length="92" width="101"
+					weight="0" />
+				<reviseddimension height="77" length="92" width="101"
+					weight="0" />
+				<chargedamount>98.574844</chargedamount>
+				<litige date="2013-07-18T11:03:45">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>in-negociation</status>
+					<employeeincharge>sammy-jo.beckers</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+		</pickups>
+	</client>
+	<client firstname="Agnès" lastname="Louis" birthdate="1965-03-18"
+		phone="0494 98 04 42">
+		<address street=" Quai des Belges" number="157" box="A" city="Tintigny"
+			zip="6730" country="Belgium" />
+		<account email="louis.agn@yopmail.net" password="TkxOtYy"
+			registrationdate="2008-01-19T18:40:28" activated="true"
+			lastconnexion="2012-11-22T11:26:28" />
+		<profile sentparcels="11" wronglitiges="0" revenue="788.25793"
+			payementdefaults="2" type="advanced" />
+		<pickups>
+			<pickup requestdate="2009-08-01T03:23:35">
+				<pickupaddress street=" Quai des Belges" number="157"
+					box="A" city="Tintigny" zip="6730" country="Belgium" />
+				<billingaddress street=" Quai des Belges" number="157"
+					box="A" city="Tintigny" zip="6730" country="Belgium" />
+				<deliveryaddress street="Wouwermanstraat" number="75"
+					box="" city="Sint-Denijs" zip="8554" country="Belgium" />
+				<pickupcenter>Arlon</pickupcenter>
+				<deliverycenter>Bruges</deliverycenter>
+				<receiver firstname="Barbara" lastname="Dennis" phone="0477 48 70 90" />
+				<insurance amount="87.12706" type="montant" />
+				<receipt>true</receipt>
+				<declareddimension height="79" length="95" width="47"
+					weight="6" />
+				<reviseddimension height="93" length="95" width="146"
+					weight="8" />
+				<chargedamount>87.12706</chargedamount>
+				<extraamount>20.208595</extraamount>
+				<extranotification>0109-08-31T13:09:21</extranotification>
+				<litige date="2009-08-01T03:23:35">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>closed</status>
+					<employeeincharge>anela.d'aoust</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2009-02-27T13:13:03">
+				<pickupaddress street=" Quai des Belges" number="157"
+					box="A" city="Tintigny" zip="6730" country="Belgium" />
+				<billingaddress street=" Quai des Belges" number="157"
+					box="A" city="Tintigny" zip="6730" country="Belgium" />
+				<deliveryaddress street="Rue de Raymond Poincaré"
+					number="154" box="C" city="Amay" zip="4540" country="Belgium" />
+				<pickupcenter>Arlon</pickupcenter>
+				<deliverycenter>Liège</deliverycenter>
+				<receiver firstname="Doreen" lastname="Bordeaux" phone="0480 34 93 75" />
+				<insurance amount="79.737495" type="forfait" />
+				<receipt>false</receipt>
+				<declareddimension height="24" length="106" width="28"
+					weight="9" />
+				<reviseddimension height="31" length="140" width="66"
+					weight="11" />
+				<chargedamount>79.737495</chargedamount>
+				<extraamount>3.983413</extraamount>
+				<extranotification>0109-02-23T09:26:02</extranotification>
+				<litige date="2009-02-27T13:13:03">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>archaimbau.van schijndel</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2009-08-08T00:47:52">
+				<pickupaddress street=" Quai des Belges" number="157"
+					box="A" city="Tintigny" zip="6730" country="Belgium" />
+				<billingaddress street=" Quai des Belges" number="157"
+					box="A" city="Tintigny" zip="6730" country="Belgium" />
+				<deliveryaddress street="Rue de la Boétie" number="195"
+					box="A" city="Lincent" zip="4287" country="Belgium" />
+				<pickupcenter>Arlon</pickupcenter>
+				<deliverycenter>Liège</deliverycenter>
+				<receiver firstname="Sven" lastname="Dodier" phone="0486 59 90 05" />
+				<insurance amount="75.00603" type="forfait" />
+				<receipt>false</receipt>
+				<declareddimension height="60" length="75" width="71"
+					weight="7" />
+				<reviseddimension height="60" length="75" width="71"
+					weight="7" />
+				<chargedamount>75.00603</chargedamount>
+				<litige date="2009-08-08T00:47:52">
+					<reason>deterioration</reason>
+					<description>Un litige</description>
+					<status>in-negociation</status>
+					<employeeincharge>elle.beckers</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2009-08-29T06:41:44">
+				<pickupaddress street=" Quai des Belges" number="157"
+					box="A" city="Tintigny" zip="6730" country="Belgium" />
+				<billingaddress street=" Quai des Belges" number="157"
+					box="A" city="Tintigny" zip="6730" country="Belgium" />
+				<deliveryaddress street="Rue Ernest Renan" number="192"
+					box="" city="Wavreille" zip="5580" country="Belgium" />
+				<pickupcenter>Arlon</pickupcenter>
+				<deliverycenter>Namur</deliverycenter>
+				<receiver firstname="Mayke" lastname="Schakel" phone="0473 21 54 24" />
+				<insurance amount="47.692257" type="montant" />
+				<receipt>false</receipt>
+				<declareddimension height="28" length="37" width="92"
+					weight="6" />
+				<reviseddimension height="75" length="58" width="147"
+					weight="10" />
+				<chargedamount>47.692257</chargedamount>
+				<extraamount>27.565931</extraamount>
+				<extranotification>0109-08-11T06:36:03</extranotification>
+				<litige date="2009-08-29T06:41:44">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>ines.echeverri</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2009-08-01T18:35:11">
+				<pickupaddress street=" Quai des Belges" number="157"
+					box="A" city="Tintigny" zip="6730" country="Belgium" />
+				<billingaddress street=" Quai des Belges" number="157"
+					box="A" city="Tintigny" zip="6730" country="Belgium" />
+				<deliveryaddress street="Rue de la Mare aux Carats"
+					number="41" box="" city="Loncin" zip="4431" country="Belgium" />
+				<pickupcenter>Arlon</pickupcenter>
+				<deliverycenter>Liège</deliverycenter>
+				<receiver firstname="Robert" lastname="Echeverri" phone="0479 14 49 22" />
+				<insurance amount="72.152626" type="forfait" />
+				<receipt>false</receipt>
+				<declareddimension height="103" length="20" width="91"
+					weight="3" />
+				<reviseddimension height="121" length="30" width="155"
+					weight="6" />
+				<chargedamount>72.152626</chargedamount>
+				<extraamount>28.332403</extraamount>
+				<extranotification>0109-08-31T21:32:40</extranotification>
+				<litige date="2009-08-01T18:35:11">
+					<reason>deterioration</reason>
+					<description>Un litige</description>
+					<status>closed</status>
+					<employeeincharge>raven.duplessis</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2009-06-04T06:12:00">
+				<pickupaddress street=" Quai des Belges" number="157"
+					box="A" city="Tintigny" zip="6730" country="Belgium" />
+				<billingaddress street=" Quai des Belges" number="157"
+					box="A" city="Tintigny" zip="6730" country="Belgium" />
+				<deliveryaddress street="Rue du Palais" number="88"
+					box="E" city="Villers-Notre-Dame" zip="7812" country="Belgium" />
+				<pickupcenter>Arlon</pickupcenter>
+				<deliverycenter>Mons</deliverycenter>
+				<receiver firstname="Denisa" lastname="Chabot" phone="0476 18 52 40" />
+				<insurance amount="68.07721" type="montant" />
+				<receipt>true</receipt>
+				<declareddimension height="47" length="55" width="41"
+					weight="5" />
+				<reviseddimension height="47" length="55" width="41"
+					weight="5" />
+				<chargedamount>68.07721</chargedamount>
+				<litige date="2009-06-04T06:12:00">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>royce.desnoyers</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2011-09-19T15:35:23">
+				<pickupaddress street=" Quai des Belges" number="157"
+					box="A" city="Tintigny" zip="6730" country="Belgium" />
+				<billingaddress street=" Quai des Belges" number="157"
+					box="A" city="Tintigny" zip="6730" country="Belgium" />
+				<deliveryaddress street="Chemin Du Lavarin Sud"
+					number="20" box="" city="Salles" zip="6460" country="Belgium" />
+				<pickupcenter>Arlon</pickupcenter>
+				<deliverycenter>Mons</deliverycenter>
+				<receiver firstname="Edgar" lastname="Adams" phone="0473 19 62 65" />
+				<insurance amount="133.83658" type="forfait" />
+				<receipt>false</receipt>
+				<declareddimension height="27" length="66" width="29"
+					weight="7" />
+				<reviseddimension height="27" length="66" width="29"
+					weight="7" />
+				<chargedamount>133.83658</chargedamount>
+				<litige date="2011-09-19T15:35:23">
+					<reason>deterioration</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>steffen.etoile</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2012-04-07T20:02:19">
+				<pickupaddress street=" Quai des Belges" number="157"
+					box="A" city="Tintigny" zip="6730" country="Belgium" />
+				<billingaddress street=" Quai des Belges" number="157"
+					box="A" city="Tintigny" zip="6730" country="Belgium" />
+				<deliveryaddress street="Bregeleane" number="5" box="D"
+					city="Anvers" zip="2000" country="Belgium" />
+				<pickupcenter>Arlon</pickupcenter>
+				<deliverycenter>Anvers</deliverycenter>
+				<receiver firstname="Wessel" lastname="Rupert" phone="0476 81 53 68" />
+				<insurance amount="36.603233" type="forfait" />
+				<receipt>false</receipt>
+				<declareddimension height="40" length="108" width="109"
+					weight="5" />
+				<reviseddimension height="40" length="108" width="109"
+					weight="5" />
+				<chargedamount>36.603233</chargedamount>
+				<litige date="2012-04-07T20:02:19">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>rabican.ijtsma</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2008-10-19T22:00:43">
+				<pickupaddress street=" Quai des Belges" number="157"
+					box="A" city="Tintigny" zip="6730" country="Belgium" />
+				<billingaddress street=" Quai des Belges" number="157"
+					box="A" city="Tintigny" zip="6730" country="Belgium" />
+				<deliveryaddress street="Rue de Strasbourg" number="67"
+					box="" city="Angleur" zip="4031" country="Belgium" />
+				<pickupcenter>Arlon</pickupcenter>
+				<deliverycenter>Liège</deliverycenter>
+				<receiver firstname="Sieger" lastname="ter Brugge" phone="0493 17 55 99" />
+				<insurance amount="28.372316" type="forfait" />
+				<receipt>true</receipt>
+				<declareddimension height="42" length="15" width="47"
+					weight="0" />
+				<reviseddimension height="72" length="21" width="122"
+					weight="3" />
+				<chargedamount>28.372316</chargedamount>
+				<extraamount>3.6810243</extraamount>
+				<extranotification>0108-10-01T03:32:32</extranotification>
+				<litige date="2008-10-19T22:00:43">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>in-negociation</status>
+					<employeeincharge>jens.jette</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2013-08-18T01:16:54">
+				<pickupaddress street=" Quai des Belges" number="157"
+					box="A" city="Tintigny" zip="6730" country="Belgium" />
+				<billingaddress street=" Quai des Belges" number="157"
+					box="A" city="Tintigny" zip="6730" country="Belgium" />
+				<deliveryaddress street="Rue Petite Fusterie"
+					number="128" box="C" city="Rixensart" zip="1330" country="Belgium" />
+				<pickupcenter>Arlon</pickupcenter>
+				<deliverycenter>Wavre</deliverycenter>
+				<receiver firstname="Julia" lastname="Vlaar" phone="0497 77 60 98" />
+				<insurance amount="53.85226" type="forfait" />
+				<receipt>false</receipt>
+				<declareddimension height="96" length="15" width="54"
+					weight="7" />
+				<reviseddimension height="115" length="33" width="115"
+					weight="8" />
+				<chargedamount>53.85226</chargedamount>
+				<extraamount>12.027923</extraamount>
+				<extranotification>0113-08-02T15:26:58</extranotification>
+				<litige date="2013-08-18T01:16:54">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>in-negociation</status>
+					<employeeincharge>giedo.van de berg</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2008-06-27T02:56:13">
+				<pickupaddress street=" Quai des Belges" number="157"
+					box="A" city="Tintigny" zip="6730" country="Belgium" />
+				<billingaddress street=" Quai des Belges" number="157"
+					box="A" city="Tintigny" zip="6730" country="Belgium" />
+				<deliveryaddress street="Indigostraat" number="155"
+					box="D" city="Sint-Eloois-Winkel" zip="8880" country="Belgium" />
+				<pickupcenter>Arlon</pickupcenter>
+				<deliverycenter>Bruges</deliverycenter>
+				<receiver firstname="Tanja" lastname="van Ark" phone="0486 40 29 35" />
+				<insurance amount="105.80092" type="forfait" />
+				<receipt>true</receipt>
+				<declareddimension height="73" length="82" width="83"
+					weight="5" />
+				<reviseddimension height="73" length="82" width="83"
+					weight="5" />
+				<chargedamount>105.80092</chargedamount>
+				<litige date="2008-06-27T02:56:13">
+					<reason>deterioration</reason>
+					<description>Un litige</description>
+					<status>closed</status>
+					<employeeincharge>mandy.staring</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+		</pickups>
+	</client>
+	<client firstname="Geraldo" lastname="Larocque" birthdate="1904-03-13"
+		phone="0485 81 87 44">
+		<address street="Rue du Limas" number="173" box="D" city="Dilbeek"
+			zip="1700" country="Belgium" />
+		<account email="la.ger@cool.fr.nf" password="KPYIZYe"
+			registrationdate="2012-12-21T03:59:21" activated="true"
+			lastconnexion="2013-06-21T11:29:08" />
+		<profile sentparcels="7" wronglitiges="0" revenue="567.8776"
+			payementdefaults="0" type="advanced" />
+		<pickups>
+			<pickup requestdate="2013-02-17T23:28:30">
+				<pickupaddress street="Rue du Limas" number="173" box="D"
+					city="Dilbeek" zip="1700" country="Belgium" />
+				<billingaddress street="Rue du Limas" number="173"
+					box="D" city="Dilbeek" zip="1700" country="Belgium" />
+				<deliveryaddress street="Rue Frédéric Chopin"
+					number="36" box="E" city="Tignée" zip="4630" country="Belgium" />
+				<pickupcenter>Wavre</pickupcenter>
+				<deliverycenter>Liège</deliverycenter>
+				<receiver firstname="Elles" lastname="Chabot" phone="0497 29 32 53" />
+				<insurance amount="75.14973" type="forfait" />
+				<receipt>false</receipt>
+				<declareddimension height="37" length="15" width="81"
+					weight="2" />
+				<reviseddimension height="84" length="41" width="86"
+					weight="6" />
+				<chargedamount>75.14973</chargedamount>
+				<extraamount>1.9832182</extraamount>
+				<extranotification>0113-02-23T11:34:11</extranotification>
+				<litige date="2013-02-17T23:28:30">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>in-negociation</status>
+					<employeeincharge>hugh.bonenfant</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2014-01-11T14:29:29">
+				<pickupaddress street="Rue du Limas" number="173" box="D"
+					city="Dilbeek" zip="1700" country="Belgium" />
+				<billingaddress street="Rue du Limas" number="173"
+					box="D" city="Dilbeek" zip="1700" country="Belgium" />
+				<deliveryaddress street="Oranjelaan" number="217"
+					box="A" city="Schriek" zip="2223" country="Belgium" />
+				<pickupcenter>Wavre</pickupcenter>
+				<deliverycenter>Anvers</deliverycenter>
+				<receiver firstname="Burnell" lastname="Beaudoin" phone="0485 14 77 52" />
+				<insurance amount="104.015114" type="montant" />
+				<receipt>true</receipt>
+				<declareddimension height="22" length="79" width="33"
+					weight="6" />
+				<reviseddimension height="22" length="79" width="33"
+					weight="6" />
+				<chargedamount>104.015114</chargedamount>
+				<litige date="2014-01-11T14:29:29">
+					<reason>deterioration</reason>
+					<description>Un litige</description>
+					<status>in-negociation</status>
+					<employeeincharge>jana.wolff</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2013-11-22T10:54:23">
+				<pickupaddress street="Rue du Limas" number="173" box="D"
+					city="Dilbeek" zip="1700" country="Belgium" />
+				<billingaddress street="Rue du Limas" number="173"
+					box="D" city="Dilbeek" zip="1700" country="Belgium" />
+				<deliveryaddress street="Rue du Palais" number="192"
+					box="A" city="Neuville" zip="5600" country="Belgium" />
+				<pickupcenter>Wavre</pickupcenter>
+				<deliverycenter>Namur</deliverycenter>
+				<receiver firstname="Elle" lastname="Dodier" phone="0479 73 47 77" />
+				<insurance amount="37.661026" type="montant" />
+				<receipt>false</receipt>
+				<declareddimension height="33" length="64" width="76"
+					weight="2" />
+				<reviseddimension height="33" length="104" width="132"
+					weight="2" />
+				<chargedamount>37.661026</chargedamount>
+				<extraamount>19.60027</extraamount>
+				<extranotification>0113-11-26T20:21:38</extranotification>
+				<litige date="2013-11-22T10:54:23">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>in-negociation</status>
+					<employeeincharge>dennis.zwaans</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2013-06-15T12:17:02">
+				<pickupaddress street="Rue du Limas" number="173" box="D"
+					city="Dilbeek" zip="1700" country="Belgium" />
+				<billingaddress street="Rue du Limas" number="173"
+					box="D" city="Dilbeek" zip="1700" country="Belgium" />
+				<deliveryaddress street="Houdringe" number="81" box=""
+					city="Hasselt" zip="3500" country="Belgium" />
+				<pickupcenter>Wavre</pickupcenter>
+				<deliverycenter>Hasselt</deliverycenter>
+				<receiver firstname="Ulrich" lastname="Devost" phone="0494 32 51 24" />
+				<insurance amount="74.54385" type="montant" />
+				<receipt>false</receipt>
+				<declareddimension height="29" length="49" width="59"
+					weight="5" />
+				<reviseddimension height="78" length="92" width="67"
+					weight="7" />
+				<chargedamount>74.54385</chargedamount>
+				<extraamount>25.040182</extraamount>
+				<extranotification>0113-06-09T09:14:05</extranotification>
+				<litige date="2013-06-15T12:17:02">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>alexandrin.van wijngaarden</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2013-07-05T08:22:11">
+				<pickupaddress street="Rue du Limas" number="173" box="D"
+					city="Dilbeek" zip="1700" country="Belgium" />
+				<billingaddress street="Rue du Limas" number="173"
+					box="D" city="Dilbeek" zip="1700" country="Belgium" />
+				<deliveryaddress street="Kerkweg" number="21" box=""
+					city="Bassevelde" zip="9968" country="Belgium" />
+				<pickupcenter>Wavre</pickupcenter>
+				<deliverycenter>Gand</deliverycenter>
+				<receiver firstname="Daniel" lastname="Slijpen" phone="0480 34 93 75" />
+				<insurance amount="138.83365" type="montant" />
+				<receipt>true</receipt>
+				<declareddimension height="28" length="74" width="44"
+					weight="8" />
+				<reviseddimension height="28" length="74" width="44"
+					weight="8" />
+				<chargedamount>138.83365</chargedamount>
+				<litige date="2013-07-05T08:22:11">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>closed</status>
+					<employeeincharge>hortense.adams</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2014-01-24T10:26:11">
+				<pickupaddress street="Rue du Limas" number="173" box="D"
+					city="Dilbeek" zip="1700" country="Belgium" />
+				<billingaddress street="Rue du Limas" number="173"
+					box="D" city="Dilbeek" zip="1700" country="Belgium" />
+				<deliveryaddress street="Geelbroekerweg" number="220"
+					box="" city="Menen" zip="8930" country="Belgium" />
+				<pickupcenter>Wavre</pickupcenter>
+				<deliverycenter>Bruges</deliverycenter>
+				<receiver firstname="Legget" lastname="Cuillerier" phone="0488 30 66 29" />
+				<insurance amount="65.52683" type="forfait" />
+				<receipt>true</receipt>
+				<declareddimension height="24" length="70" width="82"
+					weight="3" />
+				<reviseddimension height="24" length="70" width="82"
+					weight="3" />
+				<chargedamount>65.52683</chargedamount>
+				<litige date="2014-01-24T10:26:11">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>villette.lambert</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2013-02-17T18:46:20">
+				<pickupaddress street="Rue du Limas" number="173" box="D"
+					city="Dilbeek" zip="1700" country="Belgium" />
+				<billingaddress street="Rue du Limas" number="173"
+					box="D" city="Dilbeek" zip="1700" country="Belgium" />
+				<deliveryaddress street=" Quai des Belges" number="78"
+					box="A" city="Ath" zip="7800" country="Belgium" />
+				<pickupcenter>Wavre</pickupcenter>
+				<deliverycenter>Mons</deliverycenter>
+				<receiver firstname="Agnès" lastname="van Wersch" phone="0494 52 18 18" />
+				<insurance amount="72.147415" type="forfait" />
+				<receipt>true</receipt>
+				<declareddimension height="99" length="27" width="54"
+					weight="9" />
+				<reviseddimension height="99" length="27" width="54"
+					weight="9" />
+				<chargedamount>72.147415</chargedamount>
+				<litige date="2013-02-17T18:46:20">
+					<reason>deterioration</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>millicent.collin</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+		</pickups>
+	</client>
+	<client firstname="Lukas" lastname="Plaisance" birthdate="1901-09-27"
+		phone="0497 29 51 77">
+		<address street="DelaReylaan" number="198" box="" city="Donk"
+			zip="3540" country="Belgium" />
+		<account email="pl-lukas@courriel.fr.nf" password="YgKqGg6"
+			registrationdate="2013-09-14T17:35:18" activated="false"
+			lastconnexion="2013-09-14T17:35:18" />
+		<profile sentparcels="0" revenue="0.0" payementdefaults="0"
+			type="basic" wronglitiges="0" />
+	</client>
+	<client firstname="Tonnis" lastname="Grandbois" birthdate="1984-01-20"
+		phone="0473 21 54 24">
+		<address street="Rue Porte d'Orange" number="53" box="" city="Esneux"
+			zip="4130" country="Belgium" />
+		<account email="gr_ton@monmail.fr.nf" password="fDY26RV"
+			registrationdate="2009-10-20T21:28:19" activated="true"
+			lastconnexion="2010-07-22T04:48:27" />
+		<profile sentparcels="4" wronglitiges="0" revenue="269.87723"
+			payementdefaults="0" type="advanced" />
+		<pickups>
+			<pickup requestdate="2012-11-17T03:14:22">
+				<pickupaddress street="Rue Porte d'Orange" number="53"
+					box="" city="Esneux" zip="4130" country="Belgium" />
+				<billingaddress street="Rue Porte d'Orange" number="53"
+					box="" city="Esneux" zip="4130" country="Belgium" />
+				<deliveryaddress street="Korenbloemstraat" number="197"
+					box="" city="Bree" zip="3960" country="Belgium" />
+				<pickupcenter>Liège</pickupcenter>
+				<deliverycenter>Hasselt</deliverycenter>
+				<receiver firstname="Janina" lastname="van der Vegte"
+					phone="0494 72 13 16" />
+				<insurance amount="100.53134" type="montant" />
+				<receipt>true</receipt>
+				<declareddimension height="68" length="60" width="73"
+					weight="6" />
+				<reviseddimension height="68" length="60" width="73"
+					weight="6" />
+				<chargedamount>100.53134</chargedamount>
+				<litige date="2012-11-17T03:14:22">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>closed</status>
+					<employeeincharge>ralf.vermeij</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2013-11-21T05:41:26">
+				<pickupaddress street="Rue Porte d'Orange" number="53"
+					box="" city="Esneux" zip="4130" country="Belgium" />
+				<billingaddress street="Rue Porte d'Orange" number="53"
+					box="" city="Esneux" zip="4130" country="Belgium" />
+				<deliveryaddress street="Camminghastraat" number="55"
+					box="" city="Menen" zip="8930" country="Belgium" />
+				<pickupcenter>Liège</pickupcenter>
+				<deliverycenter>Bruges</deliverycenter>
+				<receiver firstname="Maria" lastname="Cuillerier" phone="0473 21 54 24" />
+				<insurance amount="84.53095" type="montant" />
+				<receipt>true</receipt>
+				<declareddimension height="24" length="56" width="102"
+					weight="5" />
+				<reviseddimension height="24" length="56" width="102"
+					weight="5" />
+				<chargedamount>84.53095</chargedamount>
+				<litige date="2013-11-21T05:41:26">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>closed</status>
+					<employeeincharge>maximilian.caouette</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2010-01-09T19:46:51">
+				<pickupaddress street="Rue Porte d'Orange" number="53"
+					box="" city="Esneux" zip="4130" country="Belgium" />
+				<billingaddress street="Rue Porte d'Orange" number="53"
+					box="" city="Esneux" zip="4130" country="Belgium" />
+				<deliveryaddress street="KleineBeerstraat" number="131"
+					box="" city="Klemskerke" zip="8420" country="Belgium" />
+				<pickupcenter>Liège</pickupcenter>
+				<deliverycenter>Bruges</deliverycenter>
+				<receiver firstname="Millicent" lastname="Rivard" phone="0482 61 79 22" />
+				<insurance amount="20.531176" type="montant" />
+				<receipt>true</receipt>
+				<declareddimension height="68" length="46" width="19"
+					weight="2" />
+				<reviseddimension height="87" length="94" width="28"
+					weight="6" />
+				<chargedamount>20.531176</chargedamount>
+				<extraamount>0.5059755</extraamount>
+				<extranotification>0110-01-23T01:10:10</extranotification>
+				<litige date="2010-01-09T19:46:51">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>thierry.clavet</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2010-04-13T00:26:33">
+				<pickupaddress street="Rue Porte d'Orange" number="53"
+					box="" city="Esneux" zip="4130" country="Belgium" />
+				<billingaddress street="Rue Porte d'Orange" number="53"
+					box="" city="Esneux" zip="4130" country="Belgium" />
+				<deliveryaddress street="Cours Marechal-Joffre"
+					number="108" box="" city="Wavreille" zip="5580" country="Belgium" />
+				<pickupcenter>Liège</pickupcenter>
+				<deliverycenter>Namur</deliverycenter>
+				<receiver firstname="Kian" lastname="Guertin" phone="0486 59 90 05" />
+				<insurance amount="64.28377" type="montant" />
+				<receipt>true</receipt>
+				<declareddimension height="21" length="77" width="26"
+					weight="9" />
+				<reviseddimension height="37" length="101" width="87"
+					weight="11" />
+				<chargedamount>64.28377</chargedamount>
+				<extraamount>16.157276</extraamount>
+				<extranotification>0110-04-12T03:37:15</extranotification>
+				<litige date="2010-04-13T00:26:33">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>closed</status>
+					<employeeincharge>helmer.brak</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+		</pickups>
+	</client>
+	<client firstname="Arnou" lastname="Mailly" birthdate="1915-04-18"
+		phone="0483 52 12 22">
+		<address street="Rue Victor Hugo" number="58" box="" city="Auvelais"
+			zip="5070" country="Belgium" />
+		<account email="mailly.arnou@moncourrier.fr.nf" password="Svm1HvO"
+			registrationdate="2010-05-01T09:57:28" activated="true"
+			lastconnexion="2012-11-01T21:10:51" />
+		<profile sentparcels="4" wronglitiges="0" revenue="416.12292"
+			payementdefaults="2" type="advanced" />
+		<pickups>
+			<pickup requestdate="2012-11-22T01:00:01">
+				<pickupaddress street="Rue Victor Hugo" number="58"
+					box="" city="Auvelais" zip="5070" country="Belgium" />
+				<billingaddress street="Rue Victor Hugo" number="58"
+					box="" city="Auvelais" zip="5070" country="Belgium" />
+				<deliveryaddress street="Rue Grande Fusterie"
+					number="50" box="A" city="Bonsin" zip="5377" country="Belgium" />
+				<pickupcenter>Namur</pickupcenter>
+				<deliverycenter>Namur</deliverycenter>
+				<receiver firstname="Maysa" lastname="Pranger" phone="0471 65 57 86" />
+				<insurance amount="95.73986" type="montant" />
+				<receipt>false</receipt>
+				<declareddimension height="57" length="16" width="27"
+					weight="3" />
+				<reviseddimension height="62" length="33" width="78"
+					weight="6" />
+				<chargedamount>95.73986</chargedamount>
+				<extraamount>1.8790108</extraamount>
+				<extranotification>0112-11-11T01:22:21</extranotification>
+				<litige date="2012-11-22T01:00:01">
+					<reason>other</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>brooklyn.lampron</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2011-07-09T22:36:50">
+				<pickupaddress street="Rue Victor Hugo" number="58"
+					box="" city="Auvelais" zip="5070" country="Belgium" />
+				<billingaddress street="Rue Victor Hugo" number="58"
+					box="" city="Auvelais" zip="5070" country="Belgium" />
+				<deliveryaddress street="Rue Roussy" number="196"
+					box="D" city="Amay" zip="4540" country="Belgium" />
+				<pickupcenter>Namur</pickupcenter>
+				<deliverycenter>Liège</deliverycenter>
+				<receiver firstname="Stefan" lastname="Verhees" phone="0499 12 44 65" />
+				<insurance amount="118.27625" type="montant" />
+				<receipt>true</receipt>
+				<declareddimension height="78" length="109" width="33"
+					weight="2" />
+				<reviseddimension height="118" length="149" width="52"
+					weight="4" />
+				<chargedamount>118.27625</chargedamount>
+				<extraamount>26.092129</extraamount>
+				<extranotification>0111-07-11T15:51:38</extranotification>
+				<litige date="2011-07-09T22:36:50">
+					<reason>deterioration</reason>
+					<description>Un litige</description>
+					<status>open</status>
+					<employeeincharge>manville.quenneville</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2012-03-25T16:13:14">
+				<pickupaddress street="Rue Victor Hugo" number="58"
+					box="" city="Auvelais" zip="5070" country="Belgium" />
+				<billingaddress street="Rue Victor Hugo" number="58"
+					box="" city="Auvelais" zip="5070" country="Belgium" />
+				<deliveryaddress street="Rue des six frèresRuellan"
+					number="112" box="D" city="Mont-Sainte-Geneviève" zip="6540"
+					country="Belgium" />
+				<pickupcenter>Namur</pickupcenter>
+				<deliverycenter>Mons</deliverycenter>
+				<receiver firstname="Maximilian" lastname="Vaillancour"
+					phone="0499 12 44 65" />
+				<insurance amount="120.39816" type="forfait" />
+				<receipt>true</receipt>
+				<declareddimension height="44" length="79" width="77"
+					weight="9" />
+				<reviseddimension height="49" length="114" width="141"
+					weight="9" />
+				<chargedamount>120.39816</chargedamount>
+				<extraamount>2.954895</extraamount>
+				<extranotification>0112-03-22T12:21:23</extranotification>
+				<litige date="2012-03-25T16:13:14">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>closed</status>
+					<employeeincharge>ulrike.de feijter</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+			<pickup requestdate="2012-02-27T06:57:08">
+				<pickupaddress street="Rue Victor Hugo" number="58"
+					box="" city="Auvelais" zip="5070" country="Belgium" />
+				<billingaddress street="Rue Victor Hugo" number="58"
+					box="" city="Auvelais" zip="5070" country="Belgium" />
+				<deliveryaddress street="Rue Marie de Médicis"
+					number="186" box="B" city="Sint-Stevens-Woluwe" zip="1932" country="Belgium" />
+				<pickupcenter>Namur</pickupcenter>
+				<deliverycenter>Wavre</deliverycenter>
+				<receiver firstname="Christophe" lastname="Dag" phone="0495 99 08 06" />
+				<insurance amount="81.708664" type="montant" />
+				<receipt>false</receipt>
+				<declareddimension height="44" length="94" width="64"
+					weight="1" />
+				<reviseddimension height="44" length="94" width="64"
+					weight="1" />
+				<chargedamount>81.708664</chargedamount>
+				<litige date="2012-02-27T06:57:08">
+					<reason>loss</reason>
+					<description>Un litige</description>
+					<status>in-negociation</status>
+					<employeeincharge>amir.chaloux</employeeincharge>
+					<result>justified</result>
+				</litige>
+			</pickup>
+		</pickups>
+	</client>
+</clients>

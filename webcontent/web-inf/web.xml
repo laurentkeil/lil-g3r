@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+    <display-name>LIL-G3</display-name>
+    
+    <listener>
+        <listener-class>com.mdl.config.InitialisationDaoFactory</listener-class>
+    </listener>
+    
+     <servlet>
+        <servlet-name>Notifier</servlet-name>
+        <servlet-class>com.mdl.servlets.Notifier</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Notifier</servlet-name>
+        <url-pattern>/Notifier</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Accueil</servlet-name>
+        <servlet-class>com.mdl.servlets.Accueil</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Accueil</servlet-name>
+        <url-pattern>/Accueil</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>InscriptionClient</servlet-name>
+        <servlet-class>com.mdl.servlets.InscriptionClient</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>InscriptionClient</servlet-name>
+        <url-pattern>/InscriptionClient</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ContactEntreprise</servlet-name>
+        <servlet-class>com.mdl.servlets.ContactEntreprise</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ContactEntreprise</servlet-name>
+        <url-pattern>/ContactEntreprise</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ConnexionClient</servlet-name>
+        <servlet-class>com.mdl.servlets.ConnexionClient</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ConnexionClient</servlet-name>
+        <url-pattern>/ConnexionClient</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>EspacePublic</servlet-name>
+        <servlet-class>com.mdl.servlets.EspacePublic</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>EspacePublic</servlet-name>
+        <url-pattern>/EspacePublic</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Confirmation</servlet-name>
+        <servlet-class>com.mdl.servlets.Confirmation</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Confirmation</servlet-name>
+        <url-pattern>/Confirmation</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Conditions</servlet-name>
+        <servlet-class>com.mdl.servlets.Conditions</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Conditions</servlet-name>
+        <url-pattern>/Conditions</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Tarifs</servlet-name>
+        <servlet-class>com.mdl.servlets.Tarifs</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Tarifs</servlet-name>
+        <url-pattern>/Tarifs</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>NosCentres</servlet-name>
+        <servlet-class>com.mdl.servlets.NosCentres</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>NosCentres</servlet-name>
+        <url-pattern>/NosCentres</url-pattern>
+    </servlet-mapping>
+    
+    
+     <servlet>
+        <servlet-name>MdpPerduClient</servlet-name>
+        <servlet-class>com.mdl.servlets.MdpPerduClient</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>MdpPerduClient</servlet-name>
+        <url-pattern>/MdpPerduClient</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>Reinitialisation</servlet-name>
+        <servlet-class>com.mdl.servlets.Reinitialisation</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Reinitialisation</servlet-name>
+        <url-pattern>/Reinitialisation</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    <!-- *******************************************SERVLETS DES CONNECTES******************************* -->
+    <servlet>
+        <servlet-name>EditerClient</servlet-name>
+        <servlet-class>com.mdl.servlets.EditerClient</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>EditerClient</servlet-name>
+        <url-pattern>/EditerClient</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>AccueilClient</servlet-name>
+        <servlet-class>com.mdl.servlets.AccueilClient</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>AccueilClient</servlet-name>
+        <url-pattern>/AccueilClient</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ProfilClient</servlet-name>
+        <servlet-class>com.mdl.servlets.ProfilClient</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ProfilClient</servlet-name>
+        <url-pattern>/ProfilClient</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>DeconnexionClient</servlet-name>
+        <servlet-class>com.mdl.servlets.DeconnexionClient</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>DeconnexionClient</servlet-name>
+        <url-pattern>/DeconnexionClient</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Carnet</servlet-name>
+        <servlet-class>com.mdl.servlets.Carnet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Carnet</servlet-name>
+        <url-pattern>/Carnet</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    <!--****************************************************** COMMANDE ******************************************************-->
+    
+    
+    <servlet>
+        <servlet-name>HistoriqueCommandes</servlet-name>
+        <servlet-class>com.mdl.servlets.HistoriqueCommandes</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>HistoriqueCommandes</servlet-name>
+        <url-pattern>/HistoriqueCommandes</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>CreerCommande</servlet-name>
+        <servlet-class>com.mdl.servlets.CreerCommande</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>CreerCommande</servlet-name>
+        <url-pattern>/CreerCommande</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>EnvoyerCommande</servlet-name>
+        <servlet-class>com.mdl.servlets.EnvoyerCommande</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>EnvoyerCommande</servlet-name>
+        <url-pattern>/EnvoyerCommande</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ConfirmerCommande</servlet-name>
+        <servlet-class>com.mdl.servlets.ConfirmerCommande</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ConfirmerCommande</servlet-name>
+        <url-pattern>/ConfirmerCommande</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ConsulterCommande</servlet-name>
+        <servlet-class>com.mdl.servlets.ConsulterCommande</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ConsulterCommande</servlet-name>
+        <url-pattern>/ConsulterCommande</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ListeSurfacturations</servlet-name>
+        <servlet-class>com.mdl.servlets.ListeSurfacturations</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ListeSurfacturations</servlet-name>
+        <url-pattern>/ListeSurfacturations</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>EnvoyerSurfacturation</servlet-name>
+        <servlet-class>com.mdl.servlets.EnvoyerSurfacturation</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>EnvoyerSurfacturation</servlet-name>
+        <url-pattern>/EnvoyerSurfacturation</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ConfirmationPaiementSurfacturation</servlet-name>
+        <servlet-class>com.mdl.servlets.ConfirmationPaiementSurfacturation</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ConfirmationPaiementSurfacturation</servlet-name>
+        <url-pattern>/ConfirmationPaiementSurfacturation</url-pattern>
+    </servlet-mapping>
+    
+    <!--****************************************************** COMMANDE ******************************************************-->
+    
+    <servlet>
+        <servlet-name>FormulaireClient</servlet-name>
+        <servlet-class>com.mdl.servlets.FormulaireClient</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>FormulaireClient</servlet-name>
+        <url-pattern>/FormulaireClient</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>CreationLitigeClient</servlet-name>
+        <servlet-class>com.mdl.servlets.CreationLitigeClient</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>CreationLitigeClient</servlet-name>
+        <url-pattern>/CreationLitigeClient</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ConsulterLitigeClient</servlet-name>
+        <servlet-class>com.mdl.servlets.ConsulterLitigeClient</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ConsulterLitigeClient</servlet-name>
+        <url-pattern>/ConsulterLitigeClient</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>GenerateQRCode</servlet-name>
+        <servlet-class>com.mdl.qrcode.GenerateQRCode</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GenerateQRCode</servlet-name>
+        <url-pattern>/GenerateQRCode</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>QRCodeAppel</servlet-name>
+        <servlet-class>com.mdl.qrcode.QRCodeAppel</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>QRCodeAppel</servlet-name>
+        <url-pattern>/QRCodeAppel</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>ReponseLitigeClient</servlet-name>
+        <servlet-class>com.mdl.servlets.ReponseLitigeClient</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ReponseLitigeClient</servlet-name>
+        <url-pattern>/ReponseLitige</url-pattern>
+    </servlet-mapping>
+    
+    <!--  ***************************** EMPLOYE ************************************ -->
+    
+    <servlet>
+        <servlet-name>InscriptionEmploye</servlet-name>
+        <servlet-class>com.mdl.servlets.InscriptionEmploye</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>InscriptionEmploye</servlet-name>
+        <url-pattern>/InscriptionEmploye</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>AccueilEmploye</servlet-name>
+        <servlet-class>com.mdl.servlets.AccueilEmploye</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>AccueilEmploye</servlet-name>
+        <url-pattern>/AccueilEmploye</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ConnexionEmploye</servlet-name>
+        <servlet-class>com.mdl.servlets.ConnexionEmploye</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ConnexionEmploye</servlet-name>
+        <url-pattern>/ConnexionEmploye</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>DeconnexionEmploye</servlet-name>
+        <servlet-class>com.mdl.servlets.DeconnexionEmploye</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>DeconnexionEmploye</servlet-name>
+        <url-pattern>/DeconnexionEmploye</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>ConsulterLitigesCat</servlet-name>
+        <servlet-class>com.mdl.servlets.ConsulterLitigesCat</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ConsulterLitigesCat</servlet-name>
+        <url-pattern>/ConsulterLitigesCat</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>FermetureLitige</servlet-name>
+        <servlet-class>com.mdl.servlets.FermetureLitige</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>FermetureLitige</servlet-name>
+        <url-pattern>/FermetureLitige</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ConsulterLitigeCoursier</servlet-name>
+        <servlet-class>com.mdl.servlets.ConsulterLitigeCoursier</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ConsulterLitigeCoursier</servlet-name>
+        <url-pattern>/ConsulterLitigeCoursier</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>CreationLitigeCoursier</servlet-name>
+        <servlet-class>com.mdl.servlets.CreationLitigeCoursier</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CreationLitigeCoursier</servlet-name>
+        <url-pattern>/CreationLitigeCoursier</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>SupprimerProblCoursier</servlet-name>
+        <servlet-class>com.mdl.servlets.SupprimerProblCoursier</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SupprimerProblCoursier</servlet-name>
+        <url-pattern>/SupprimerProblCoursier</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ProfilEmploye</servlet-name>
+        <servlet-class>com.mdl.servlets.ProfilEmploye</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ProfilEmploye</servlet-name>
+        <url-pattern>/ProfilEmploye</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ConsulterClientEmploye</servlet-name>
+        <servlet-class>com.mdl.servlets.ConsulterClientEmploye</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ConsulterClientEmploye</servlet-name>
+        <url-pattern>/ConsulterClientEmploye</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ConsulterCommandeEmploye</servlet-name>
+        <servlet-class>com.mdl.servlets.ConsulterCommandeEmploye</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ConsulterCommandeEmploye</servlet-name>
+        <url-pattern>/ConsulterCommandeEmploye</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>DetailCommandeEmploye</servlet-name>
+        <servlet-class>com.mdl.servlets.DetailCommandeEmploye</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DetailCommandeEmploye</servlet-name>
+        <url-pattern>/DetailCommandeEmploye</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>ClientsBloquesEmploye</servlet-name>
+        <servlet-class>com.mdl.servlets.ClientsBloquesEmploye</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ClientsBloquesEmploye</servlet-name>
+        <url-pattern>/ClientsBloquesEmploye</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ConsulterSurfacturationEmploye</servlet-name>
+        <servlet-class>com.mdl.servlets.ConsulterSurfacturationEmploye</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ConsulterSurfacturationEmploye</servlet-name>
+        <url-pattern>/ConsulterSurfacturationEmploye</url-pattern>
+    </servlet-mapping>
+    
+    
+    <filter>
+        <filter-name>RestrictionFilter</filter-name>
+        <filter-class>com.mdl.filters.RestrictionFilter</filter-class>
+	</filter>
+    <filter-mapping>
+        <filter-name>RestrictionFilter</filter-name>
+        <url-pattern>/WEB-INF/pagesJSP/*</url-pattern>
+    </filter-mapping>
+    
+    <error-page>
+        <error-code>404</error-code>
+        <location>/WEB-INF/pagesJSP/erreur.jsp</location>
+    </error-page>
+    <error-page>
+        <error-code>500</error-code>
+        <location>/WEB-INF/pagesJSP/erreur.jsp</location>
+    </error-page>
+</web-app>

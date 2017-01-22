@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dc:centers
+	xmlns:dc="http://www.hlbexpress.com/namespaces/HLB-dispatching-centers"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.hlbexpress.com/namespaces/HLB-dispatching-centers HLB-DC.xsd ">
+	<dc:center name="Liège">
+	
+		<!-- Employés du centre -->
+		<dc:employees>
+			<dc:employee birthdate="12/12/1984" firstname="Jean-baptiste"
+				lastname="Jaillet" idemployee="jjeanbaptiste" phone="0485859811">
+				<dc:homeaddress box="5" city="Liège" country="Belgique"
+					number="20" street="Rue Libotte" zip="4000" />
+				<dc:role>coursier</dc:role>
+				<dc:unavailabilities>
+					<dc:unavailability from="2014-01-14T14:00:00" to="2014-01-14T14:30:00"
+						reason="assigné" assignedcenter="Namur" />
+					<dc:unavailability from="2014-07-15T18:00:00" to="2014-07-30T18:00:00"
+						reason="congé" />
+				</dc:unavailabilities>
+			</dc:employee>
+			
+			<dc:employee birthdate="12/12/1984" firstname="Nathalie"
+				lastname="Darc" idemployee="ndarc" phone="0485859815">
+				<dc:homeaddress box="15" city="Liège" country="Belgique"
+					number="20" street="Rue du marché" zip="4000" />
+				<dc:role>coursier</dc:role>
+				<dc:unavailabilities>
+					<dc:unavailability from="2014-08-02T18:00:00" to="2014-07-30T18:00:00"
+						reason="congé" />
+				</dc:unavailabilities>
+			</dc:employee>
+			
+		</dc:employees>
+		
+		<!-- Chariots du centre -->
+		<dc:trolleys>
+			<dc:trolley status="empty">
+				<dc:dimension usefulheight="0.95" usefullength="1.2" usefulwidth="0.5" volume="0.057" />
+			</dc:trolley>
+			<dc:trolley status="ready-deliver">
+				<dc:dimension usefulheight="0.95" usefullength="1.2" usefulwidth="0.5" volume="0.057" />
+			</dc:trolley>
+		</dc:trolleys>
+		
+		<!-- Véhicules du centre -->
+		<dc:vehicles>
+			<dc:vehicle model="renault-trafic-n34" passengernumber="3" usefulweight="896">
+				<dc:dimension totalheight="1.90" usefulheight="1.26"
+					usefullength="1.65" usefulwidth="1.65" volume="5" />
+				<dc:employeeincharge>ndarc</dc:employeeincharge>
+			</dc:vehicle>
+			
+			<dc:vehicle model="renault-trafic-n14" passengernumber="3" usefulweight="1000">
+				<dc:dimension totalheight="2.33" usefulheight="1.76"
+					usefullength="2.60" usefulwidth="1.60" volume="5" />
+				<dc:employeeincharge>ndarc</dc:employeeincharge>
+			</dc:vehicle>
+		</dc:vehicles>
+	</dc:center>
+</dc:centers>

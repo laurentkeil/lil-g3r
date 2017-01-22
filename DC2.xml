@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<centers xmlns="http://www.hlbexpress.com/namespaces/HLB-dispatching-centers"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.hlbexpress.com/namespaces/HLB-dispatching-centers ../HLB-DC.xsd ">
+	<center name="Hasselt">
+		<employees>
+			<employee birthdate="1915-05-07" firstname="Romijn"
+				lastname="Dukker" idemployee="r.dukker" phone="479713620">
+				<homeaddress box="C" city="Sint-Stevens-Woluwe" country="Belgium"
+					zip="1932" number="140" street="Rue Adolphe Wurtz" />
+				<role>préposé</role>
+			</employee>
+			<employee birthdate="1962-01-08" firstname="Helmer"
+				lastname="Grivois" idemployee="h.grivois" phone="733471720">
+				<homeaddress box="B" city="Genk" country="Belgium" zip="3600"
+					number="186" street="AlbrechtRodenbachstraat" />
+				<role>coursier</role>
+				<unavailabilities>
+					<unavailability from="2014-08-06T13:14:57" to="2015-01-09T02:47:47"
+						reason="congé" />
+				</unavailabilities>
+			</employee>
+			<employee birthdate="1930-04-07" firstname="Talbot"
+				lastname="Desnoyers" idemployee="t.desnoyers" phone="1698248781">
+				<homeaddress box="C" city="Mont-Sainte-Geneviève"
+					country="Belgium" zip="6540" number="125" street="Boulevard Aristide Briand" />
+				<role>coursier</role>
+				<unavailabilities>
+					<unavailability from="2014-02-18T13:47:17" to="2014-02-18T13:51:10"
+						reason="ciruclation" />
+				</unavailabilities>
+			</employee>
+			<employee birthdate="1914-06-21" firstname="Royale"
+				lastname="Garcia" idemployee="r.garcia" phone="65525013">
+				<homeaddress box="" city="Floreffe" country="Belgium"
+					zip="5150" number="244" street="Avenue de l'Amandier" />
+				<role>coursier</role>
+				<unavailabilities>
+					<unavailability from="2014-02-20T08:44:41" to="2014-02-27T21:04:22"
+						reason="assigné" assignedcenter="Hasselt" />
+				</unavailabilities>
+			</employee>
+			<employee birthdate="1991-12-07" firstname="Lorraine"
+				lastname="Monjeau" idemployee="l.monjeau" phone="2084649081">
+				<homeaddress box="C" city="Rumsdorp" country="Belgium"
+					zip="3400" number="73" street="Corduwenerstraat" />
+				<role>coursier</role>
+			</employee>
+			<employee birthdate="1927-01-02" firstname="Ralf" lastname="Bordeaux"
+				idemployee="r.bordeaux" phone="1965535510">
+				<homeaddress box="" city="Kessel" country="Belgium" zip="2560"
+					number="225" street="JonkersvanOssstraat" />
+				<role>coursier</role>
+				<unavailabilities>
+					<unavailability from="2014-02-18T11:13:58" to="2014-02-18T11:15:06"
+						reason="ciruclation" />
+				</unavailabilities>
+			</employee>
+			<employee birthdate="1983-12-22" firstname="Katharina"
+				lastname="Des Meaux" idemployee="k.des meaux" phone="247359051">
+				<homeaddress box="" city="Vielsalm" country="Belgium"
+					zip="6690" number="26" street="Rue Gustave Eiffel" />
+				<role>coursier</role>
+				<unavailabilities>
+					<unavailability from="2014-02-18T09:31:20" to="2014-02-18T17:58:48"
+						reason="panne" />
+					<unavailability from="2014-02-18T14:56:03" to="2014-02-18T16:37:15"
+						reason="panne" />
+					<unavailability from="2015-05-20T17:48:57" to="2015-09-17T21:39:39"
+						reason="congé" />
+				</unavailabilities>
+			</employee>
+			<employee birthdate="1940-06-28" firstname="Dixie" lastname="Mailly"
+				idemployee="d.mailly" phone="1922346419">
+				<homeaddress box="B" city="Vezon" country="Belgium" zip="7538"
+					number="138" street="Avenue De Marlioz" />
+				<role>coursier</role>
+				<unavailabilities>
+					<unavailability from="2014-02-20T00:33:24" to="2014-02-28T19:13:27"
+						reason="assigné" assignedcenter="Hasselt" />
+					<unavailability from="2014-02-18T11:28:26" to="2014-02-18T12:37:34"
+						reason="ciruclation" />
+				</unavailabilities>
+			</employee>
+		</employees>
+		<trolleys>
+			<trolley status="outgoing">
+				<dimension totalheight="0.795173" usefulheight="0.66264415"
+					usefullength="1.8849692" usefulwidth="1.2447593" volume="1.5547838" />
+			</trolley>
+			<trolley status="ready-deliver">
+				<dimension totalheight="1.3415676" usefulheight="1.1179731"
+					usefullength="2.0829043" usefulwidth="1.3286222" volume="3.0938709" />
+			</trolley>
+			<trolley status="outgoing">
+				<dimension totalheight="0.992677" usefulheight="0.8272308"
+					usefullength="1.3569529" usefulwidth="1.4937904" volume="1.6767995" />
+			</trolley>
+			<trolley status="outgoing">
+				<dimension totalheight="1.1184317" usefulheight="0.9320264"
+					usefullength="1.5406798" usefulwidth="0.7942951" volume="1.1405714" />
+			</trolley>
+			<trolley status="empty">
+				<dimension totalheight="1.0625488" usefulheight="0.8854573"
+					usefullength="1.2099532" usefulwidth="0.7469387" volume="0.80024165" />
+			</trolley>
+			<trolley status="ready-deliver">
+				<dimension totalheight="1.2690649" usefulheight="1.0575541"
+					usefullength="2.102056" usefulwidth="1.1117749" volume="2.4715178" />
+			</trolley>
+			<trolley status="incoming">
+				<dimension totalheight="0.93706274" usefulheight="0.78088564"
+					usefullength="1.6131539" usefulwidth="0.89880764" volume="1.1322179" />
+			</trolley>
+			<trolley status="outgoing">
+				<dimension totalheight="0.8967879" usefulheight="0.7473232"
+					usefullength="1.200793" usefulwidth="1.4773024" volume="1.3257024" />
+			</trolley>
+		</trolleys>
+		<vehicles>
+			<vehicle model="Ford transit connect" passengernumber="1"
+				usefulweight="740.4757">
+				<dimension totalheight="1.8039412" usefulheight="1.5032843"
+					usefullength="2.8955662" usefulwidth="1.9850191" volume="8.64051" />
+				<employeeincharge>r.dukker</employeeincharge>
+			</vehicle>
+			<vehicle model="Opel Movano" passengernumber="1"
+				usefulweight="785.29785">
+				<dimension totalheight="2.3526957" usefulheight="1.9605798"
+					usefullength="2.4840696" usefulwidth="1.9179385" volume="9.3407755" />
+				<employeeincharge>h.grivois</employeeincharge>
+			</vehicle>
+			<vehicle model="renault-trafic-n14" passengernumber="2"
+				usefulweight="800.4685">
+				<dimension totalheight="2.015417" usefulheight="1.6795143"
+					usefullength="2.4103696" usefulwidth="1.1058736" volume="4.476853" />
+				<employeeincharge>t.desnoyers</employeeincharge>
+			</vehicle>
+			<vehicle model="Ford transit connect" passengernumber="1"
+				usefulweight="475.25708">
+				<dimension totalheight="2.003664" usefulheight="1.66972"
+					usefullength="2.7889774" usefulwidth="1.537612" volume="7.1603684" />
+				<employeeincharge>r.garcia</employeeincharge>
+			</vehicle>
+			<vehicle model="renault-trafic-n14" passengernumber="1"
+				usefulweight="638.09424">
+				<dimension totalheight="1.6412921" usefulheight="1.3677434"
+					usefullength="2.6373956" usefulwidth="1.3778694" volume="4.970361" />
+				<employeeincharge>l.monjeau</employeeincharge>
+			</vehicle>
+			<vehicle model="Ford transit connect" passengernumber="2"
+				usefulweight="621.3547">
+				<dimension totalheight="1.8049951" usefulheight="1.5041625"
+					usefullength="2.5656345" usefulwidth="1.0080376" volume="3.8901494" />
+				<employeeincharge>r.bordeaux</employeeincharge>
+			</vehicle>
+			<vehicle model="renault-trafic-n14" passengernumber="1"
+				usefulweight="643.754">
+				<dimension totalheight="2.0650673" usefulheight="1.7208894"
+					usefullength="2.5187387" usefulwidth="1.6256812" volume="7.0464673" />
+				<employeeincharge>k.des meaux</employeeincharge>
+			</vehicle>
+			<vehicle model="Ford transit" passengernumber="1"
+				usefulweight="520.5925">
+				<dimension totalheight="2.422518" usefulheight="2.018765"
+					usefullength="2.7375734" usefulwidth="1.5003119" volume="8.291499" />
+				<employeeincharge>d.mailly</employeeincharge>
+			</vehicle>
+		</vehicles>
+	</center>
+</centers>
